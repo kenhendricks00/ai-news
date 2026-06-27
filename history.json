@@ -1,0 +1,37 @@
+{
+  "page": "AI News Today",
+  "description": "Daily archive of curated AI news from Reddit",
+  "entries": [
+    {
+      "date": "2026-06-26",
+      "url": "https://news.ken.tools",
+      "headlines": [
+        "OpenAI previews GPT-5.6 \"Sol\" \u2014 beats Mythos 5",
+        "US Govt to individually approve who gets GPT-5.6 access",
+        "Claude Fable 5 returning after 13-day government suspension",
+        "OpenAI unveils GPT-5.6 series: Sol, Earth, and Luna",
+        "Ornith-1.0 released on Hugging Face",
+        "KREA 2: Open-Source Release",
+        "audio.cpp: 12 audio models in one C++/ggml runtime \u2014 5x faster TTS",
+        "JetSpec: Speculative Decoding with 9.64x lossless speedup",
+        "Italy's Domyn to launch open-source frontier AI model within a year",
+        "Apple to skip M6 Pro/Max, fast-track M7 for local AI",
+        "IBM announces major AI efficiency breakthrough",
+        "Yann LeCun says xAI is a failure",
+        "OpenAI considering halting their IPO",
+        "Google keeps losing top AI researchers \u2014 \"the moat was never the weights\"",
+        "Why big AI labs are hiring so many philosophers \u2014 The Economist",
+        "LTX Director 2.0 \u2014 Free open-source AI video tool for ComfyUI",
+        "RefControl \u2014 LoRA family for FLUX.2 Klein",
+        "Best Local Agents \u2014 June 2026 roundup",
+        "Japanese animator using Seedance to render anime from simple 3D models",
+        "Wan-Streamer v0.1: Real-time Interactive Foundation Models",
+        "[P] A debugger for RL reward functions that detects reward hacking",
+        "Vesuvius scroll burnt to a crisp deciphered with help of AI",
+        "Stronger AI models may mean slower releases, not faster ones",
+        "Analyzed 500+ companies' job postings \u2014 new roles emerging due to AI",
+        "If your AI automation reads emails, websites, or databases, someone can manipulate it"
+      ]
+    }
+  ]
+}
