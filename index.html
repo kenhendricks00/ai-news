@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AI News — June 26, 2026</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #000000;
+      --card: #151515;
+      --card-border: #1f1f1f;
+      --text: #e8e8e8;
+      --text-muted: #888;
+      --accent: #3898ff;
+      --tag-bg: rgba(56,152,255,0.12);
+      --green: #42c478;
+      --orange: #f59e54;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 16px 16px 48px;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 680px;
+    }
+
+    /* ─── HEADER ─── */
+    .header {
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .header h1 a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .header .meta {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .header .meta span { color: var(--accent); }
+
+    /* ─── SECTION LABEL ─── */
+    .section-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--text-muted);
+      margin: 28px 0 10px;
+      text-transform: uppercase;
+    }
+
+    /* ─── CARD ─── */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 10px;
+    }
+
+    /* Tag badge */
+    .tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent);
+      background: var(--tag-bg);
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      letter-spacing: 0.01em;
+    }
+
+    /* Headline */
+    .card h2 {
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+    .card h2 a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    /* Meta row: subreddit, score, author */
+    .card .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .card .meta .sub { color: var(--orange); font-weight: 600; }
+    .card .meta .score { color: var(--text-muted); }
+    .card .meta .score::before { content: '↑ '; }
+
+    /* Summary / body text */
+    .card .body {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 8px;
+    }
+
+    /* Why it matters */
+    .card .why {
+      font-size: 12.5px;
+      color: #ccc;
+      padding: 8px 12px;
+      background: rgba(66,196,120,0.06);
+      border-left: 3px solid var(--green);
+      border-radius: 6px;
+      margin-bottom: 8px;
+      line-height: 1.45;
+    }
+    .card .why strong { color: var(--green); }
+
+    /* Image */
+    .card .img-wrap {
+      margin: 8px -16px -16px;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      overflow: hidden;
+      background: #0a0a0a;
+    }
+    .card .img-wrap img {
+      width: 100%;
+      display: block;
+      max-height: 320px;
+      object-fit: cover;
+    }
+
+    /* Reddit permalink */
+    .card .permalink {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      margin-top: 2px;
+      opacity: 0.7;
+    }
+
+    /* ─── DIVIDER ─── */
+    .divider {
+      height: 1px;
+      background: #1a1a1a;
+      margin: 28px 0;
+    }
+
+    /* ─── FOOTER ─── */
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+      padding: 24px 0 8px;
+      border-top: 1px solid #1a1a1a;
+      margin-top: 12px;
+    }
+    .footer a { color: var(--text-muted); text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="header">
+  <h1><a href="https://reddit.com">r/Artificial</a> → AI News picks</h1>
+  <div class="meta">June 26, 2026 · 5 sections · curated daily</div>
+</div>
+
+<!-- ═══════════ TOP STORIES ═══════════ -->
+<div class="section-label">Top Stories</div>
+
+<div class="card">
+  <div class="tag">#1 · BEST FIT</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ugcoic/previewing_gpt56_sol_a_nextgeneration_model/" target="_blank">OpenAI previews GPT-5.6 "Sol" — beats Mythos 5</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">597</span><span>by 141_1337</span><span>💬 130</span></div>
+  <div class="body">OpenAI officially unveiled a preview of the GPT-5.6 series with three variants: Sol (flagship), Earth, and Luna. Early benchmarks show GPT-5.6 Sol outperforming Mythos 5. The release is staggered due to government oversight — the Trump administration asked OpenAI to slow-roll access, approving customers individually.</div>
+  <div class="why"><strong>Why it matters:</strong> First major model release under the new US government AI approval framework. Staggered access could set a precedent for all future frontier model releases.</div>
+  <a class="permalink" href="https://openai.com" target="_blank">openai.com →</a>
+</div>
+
+<div class="card">
+  <div class="tag">#2 · REGULATION</div>
+  <h2><a href="https://reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56/" target="_blank">US Govt to individually approve who gets GPT-5.6 access</a></h2>
+  <div class="meta"><span class="sub">r/LocalLLaMA</span><span class="score">1,091</span><span>by AtlanticHM</span><span>💬 554</span></div>
+  <div class="body">The US government is now requiring individual approval for GPT-5.6 access, with OpenAI approving customers one-by-one. The Trump administration asked OpenAI to stagger the release over security concerns, creating a model where the government effectively controls who gets frontier AI capabilities and when.</div>
+  <div class="why"><strong>Why it matters:</strong> Paradigm shift — frontier AI is now treated like export-controlled tech. The debate around open-weight models just became far more acute.</div>
+  <a class="permalink" href="https://reddit.com/r/LocalLLaMA/comments/1ufo0un/us_govt_to_individually_approve_who_gets_gpt_56/" target="_blank">reddit discussion →</a>
+</div>
+
+<div class="card">
+  <div class="tag">#3 · SAFETY</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1uf5pzu/claude_fable_5_may_return_today_after_13day/" target="_blank">Claude Fable 5 returning after 13-day government suspension</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span><span class="score">226</span><span>by Direct-Attention8597</span><span>💬 106</span></div>
+  <div class="body">Anthropic's Claude Fable 5 may be coming back online following a 13-day forced suspension by the US government. The model was pulled amid safety concerns under the new AI regulatory framework. OpenAI is allowed to slowly roll out GPT-5.6 while Anthropic can't release Fable 5 at all, drawing criticism about uneven enforcement.</div>
+  <div class="why"><strong>Why it matters:</strong> Asymmetric treatment of OpenAI vs Anthropic raises serious questions about regulatory fairness. Anthropic's safety-first approach ironically left them worse off.</div>
+</div>
+
+<!-- ═══════════ MODEL RELEASES & RESEARCH ═══════════ -->
+<div class="divider"></div>
+<div class="section-label">Model Releases &amp; Research</div>
+
+<div class="card">
+  <div class="tag">MODEL LAUNCH</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ugdy62/openai_is_officially_unveiling_a_preview_of_the/" target="_blank">OpenAI unveils GPT-5.6 series: Sol, Earth, and Luna</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">153</span><span>by EuSouAstrid</span><span>💬 108</span></div>
+  <div class="body">Three-model lineup: Sol (flagship reasoning), Earth (cost-efficient workhorse), Luna (specialized/smaller). Early testing suggests Sol significantly outperforms Mythos 5 on reasoning benchmarks. Available only through limited preview with government-approved access.</div>
+  <div class="why"><strong>Why it matters:</strong> Three-tier strategy similar to Anthropic's model families. Sol genuinely beating Mythos 5 suggests scaling laws are still holding.</div>
+  <a class="permalink" href="https://reddit.com/r/OpenAI/comments/1ugcstc/openai_announces_gpt56_sol/" target="_blank">r/OpenAI discussion →</a>
+</div>
+
+<div class="card">
+  <div class="tag">OPEN SOURCE</div>
+  <h2><a href="https://reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face/" target="_blank">Ornith-1.0 released on Hugging Face</a></h2>
+  <div class="meta"><span class="sub">r/LocalLLaMA</span><span class="score">328</span><span>by paf1138</span><span>💬 180</span></div>
+  <div class="body">A new open-weight model dropped on Hugging Face. The community is actively benchmarking it against other open models. Early reports suggest competitive performance in its weight class.</div>
+  <div class="why"><strong>Why it matters:</strong> As government tightens access to frontier models, the open-source ecosystem picks up pace. Every capable open model reduces dependency on government-approved API access.</div>
+</div>
+
+<div class="card">
+  <div class="tag">OPEN WEIGHTS</div>
+  <h2><a href="https://reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/" target="_blank">KREA 2: Open-Source Release</a></h2>
+  <div class="meta"><span class="sub">r/StableDiffusion</span><span class="score">670</span><span>by Angrypenguinpng</span><span>💬 92</span></div>
+  <div class="body">KREA 2 has been released as open source, bringing powerful new image generation and editing capabilities to the community. Includes model weights and inference code.</div>
+  <div class="why"><strong>Why it matters:</strong> Open-source image generation continues to advance rapidly. KREA 2's capabilities are being compared favorably to proprietary alternatives.</div>
+  <div class="img-wrap"><img src="https://i.redd.it/gsl2psyb6l9h1.png" alt="KREA 2 demo" loading="lazy"></div>
+</div>
+
+<div class="card">
+  <div class="tag">LOCAL AI</div>
+  <h2><a href="https://reddit.com/r/LocalLLaMA/comments/1ufpnm6/audiocpp_12_audio_models_qwen3tts_pockettts_vevo2/" target="_blank">audio.cpp: 12 audio models in one C++/ggml runtime — 5x faster TTS</a></h2>
+  <div class="meta"><span class="sub">r/LocalLLaMA</span><span class="score">325</span><span>by Acceptable-Cycle4645</span><span>💬 113</span></div>
+  <div class="body">A unified C++/ggml runtime supporting Qwen3-TTS, PocketTTS, VeVo2, and 9 other audio models. Achieves up to 5x faster TTS compared to Python implementations. All runs locally with minimal dependencies.</div>
+  <div class="why"><strong>Why it matters:</strong> Local TTS has been fragmented across different frameworks. audio.cpp consolidates everything into one performant runtime — huge for developers building local voice apps.</div>
+</div>
+
+<div class="card">
+  <div class="tag">RESEARCH</div>
+  <h2><a href="https://reddit.com/r/LocalLLaMA/comments/1ufntl5/research_jetspec_speculative_decoding_with/" target="_blank">JetSpec: Speculative Decoding with 9.64x lossless speedup</a></h2>
+  <div class="meta"><span class="sub">r/LocalLLaMA</span><span class="score">121</span><span>by No_Yogurtcloset_7050</span><span>💬 36</span></div>
+  <div class="body">New paper introduces JetSpec, a speculative decoding technique using parallel tree drafting that achieves up to 9.64x lossless LLM inference speedup. A significant advance in making large models practical for real-time applications.</div>
+  <div class="why"><strong>Why it matters:</strong> Speculative decoding is one of the most practical ways to speed up LLM inference without quality loss. 9.64x could make local LLM inference viable for many more use cases.</div>
+</div>
+
+<div class="card">
+  <div class="tag">EUROPE AI</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ug2y9p/italys_domyn_launch_open_source_frontier_ai/" target="_blank">Italy's Domyn to launch open-source frontier AI model within a year</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span><span class="score">—</span></div>
+  <div class="body">Italian AI startup Domyn announced plans to release an open-source frontier AI model within a year, positioning itself as a European alternative to US-dominated AI development.</div>
+  <div class="why"><strong>Why it matters:</strong> Europe is increasingly pushing for sovereign AI capabilities. If Domyn delivers, it could shift the center of gravity for open-source AI development.</div>
+  <a class="permalink" href="https://www.reuters.com/world/china/italys-domyn-launch-open-source-frontier-ai-model-within-year-ceo-says-2026-06-25/" target="_blank">Reuters →</a>
+</div>
+
+<!-- ═══════════ INDUSTRY & COMPANIES ═══════════ -->
+<div class="divider"></div>
+<div class="section-label">Industry &amp; Companies</div>
+
+<div class="card">
+  <div class="tag">HARDWARE</div>
+  <h2><a href="https://reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7/" target="_blank">Apple to skip M6 Pro/Max, fast-track M7 for local AI</a></h2>
+  <div class="meta"><span class="sub">r/LocalLLaMA</span><span class="score">492</span><span>by fallingdowndizzyvr</span><span>💬 169</span></div>
+  <div class="body">Reports indicate Apple is skipping the high-end M6 Pro and Max chips entirely, fast-tracking the M7 architecture with a focus on on-device AI performance.</div>
+  <div class="why"><strong>Why it matters:</strong> Apple is betting big on local AI. If M7 delivers a meaningful NPU uplift, it could make Apple Silicon the premier platform for running local LLMs.</div>
+</div>
+
+<div class="card">
+  <div class="tag">EFFICIENCY</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ufh4ss/w_ibm_for_this_ibm_is_back_efficiency_is_all_we/" target="_blank">IBM announces major AI efficiency breakthrough</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">958</span><span>by Independent-Wind4462</span><span>💬 104</span></div>
+  <div class="body">IBM is back with a significant efficiency breakthrough in AI compute, suggesting dramatically improved performance per watt.</div>
+  <div class="why"><strong>Why it matters:</strong> Efficiency is the next frontier. If IBM's approach is real, it could challenge Nvidia's dominance in AI hardware.</div>
+</div>
+
+<div class="card">
+  <div class="tag">HOT TAKE</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ugfgzu/yann_lecun_says_xai_is_a_failure/" target="_blank">Yann LeCun says xAI is a failure</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">597</span><span>by Formal-Assistance02</span><span>💬 171</span></div>
+  <div class="body">Meta's Chief AI Scientist Yann LeCun publicly called xAI a failure, criticizing Elon Musk's AI venture for failing to produce competitive results despite massive investment.</div>
+  <div class="why"><strong>Why it matters:</strong> LeCun's criticism carries weight as one of the field's most respected researchers. Even massive funding doesn't guarantee AI success — talent and direction matter more.</div>
+</div>
+
+<div class="card">
+  <div class="tag">IPO</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ufoobz/openai_is_considering_halting_their_ipo/" target="_blank">OpenAI considering halting their IPO</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">239</span><span>by -cadence-</span><span>💬 132</span></div>
+  <div class="body">Rumors OpenAI may halt or delay their planned IPO amid the shifting regulatory landscape and staggered release of GPT-5.6. Government oversight creates uncertainty for investors.</div>
+  <div class="why"><strong>Why it matters:</strong> An OpenAI IPO would be one of the biggest tech IPOs in history. A delay signals regulatory headwinds affecting even the most dominant AI company.</div>
+</div>
+
+<div class="card">
+  <div class="tag">TALENT</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ugbwol/google_keeps_losing_top_ai_researchers_the_moat/" target="_blank">Google keeps losing top AI researchers — "the moat was never the weights"</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span></div>
+  <div class="body">Discussion on how Google continues to hemorrhage top AI talent to startups, OpenAI, and Anthropic. The thread argues Google's real moat was its research talent, and that moat is eroding.</div>
+  <div class="why"><strong>Why it matters:</strong> Talent flow is the canary in the coal mine. Google's inability to retain researchers despite massive resources suggests structural issues.</div>
+</div>
+
+<div class="card">
+  <div class="tag">PHILOSOPHY</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ugd32y/why_big_ai_labs_are_hiring_so_many_philosophers/" target="_blank">Why big AI labs are hiring so many philosophers — The Economist</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span></div>
+  <div class="body">Major AI labs hiring philosophers to grapple with the ethical, safety, and epistemological questions that AI progress raises. "The technology presents all sorts of thorny problems — a philosopher's favourite kind."</div>
+  <div class="why"><strong>Why it matters:</strong> AI is raising questions engineering alone can't answer. Hiring philosophers signals the industry is taking alignment and ethics seriously at a fundamental level.</div>
+</div>
+
+<!-- ═══════════ TOOLS & PRACTICAL AI ═══════════ -->
+<div class="divider"></div>
+<div class="section-label">Tools &amp; Practical AI</div>
+
+<div class="card">
+  <div class="tag">VIDEO</div>
+  <h2><a href="https://reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/" target="_blank">LTX Director 2.0 — Free open-source AI video tool for ComfyUI</a></h2>
+  <div class="meta"><span class="sub">r/StableDiffusion</span><span class="score">437</span><span>by WhatDreamsCost</span><span>💬 107</span></div>
+  <div class="body">A comprehensive all-in-one open-source tool for creating AI videos directly in ComfyUI. The 2.0 update brings significant improvements to video quality and motion consistency.</div>
+  <div class="why"><strong>Why it matters:</strong> AI video generation is maturing fast, and open-source tools are making it accessible to creators without expensive subscriptions.</div>
+</div>
+
+<div class="card">
+  <div class="tag">IMAGE</div>
+  <h2><a href="https://reddit.com/r/StableDiffusion/comments/1ug5o72/refcontrol_lora_family_for_flux2_klein/" target="_blank">RefControl — LoRA family for FLUX.2 Klein</a></h2>
+  <div class="meta"><span class="sub">r/StableDiffusion</span><span class="score">292</span><span>by pavel_0869874</span><span>💬 39</span></div>
+  <div class="body">A new family of LoRA modules for FLUX.2 Klein giving users fine-grained control over reference images, styles, and composition. Enables precise image-to-image workflows.</div>
+  <div class="why"><strong>Why it matters:</strong> Fine control is what separates toy tools from professional workflows. RefControl adds a new level of precision to FLUX-based generation.</div>
+</div>
+
+<div class="card">
+  <div class="tag">AGENTS</div>
+  <h2><a href="https://reddit.com/r/LocalLLaMA/comments/1uaebfe/best_local_agents_jun_2026/" target="_blank">Best Local Agents — June 2026 roundup</a></h2>
+  <div class="meta"><span class="sub">r/LocalLLaMA</span><span class="score">165</span><span>by rm-rf-rm</span><span>💬 278</span></div>
+  <div class="body">Community roundup of the best local AI agent frameworks available in June 2026. Covers major options, their strengths and weaknesses, and recommendations for different use cases.</div>
+  <div class="why"><strong>Why it matters:</strong> The local agent ecosystem is moving fast. This community benchmark helps cut through the noise and find what actually works for self-hosted AI.</div>
+</div>
+
+<div class="card">
+  <div class="tag">CREATIVE</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ue6yoh/japanese_animator_using_seedance_to_render_anime/" target="_blank">Japanese animator using Seedance to render anime from simple 3D models</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">2,687</span><span>by PointmanW</span><span>💬 362</span></div>
+  <div class="body">A Japanese animator is using Seedance AI to render anime-quality animation from simple 3D models. Impressive results showing AI dramatically lowering the barrier to animation production.</div>
+  <div class="why"><strong>Why it matters:</strong> Concrete example of AI transforming creative workflows. If Seedance can turn basic 3D models into anime-grade output, huge implications for the animation industry.</div>
+</div>
+
+<div class="card">
+  <div class="tag">REAL-TIME</div>
+  <h2><a href="https://reddit.com/r/singularity/comments/1ug5952/wanstreamer_v01_endtoend_realtime_interactive/" target="_blank">Wan-Streamer v0.1: Real-time Interactive Foundation Models</a></h2>
+  <div class="meta"><span class="sub">r/singularity</span><span class="score">110</span><span>by GraceToSentience</span><span>💬 28</span></div>
+  <div class="body">A new end-to-end framework for real-time interactive AI models, enabling streaming inference for real-time AI character interaction and responsive AI agents.</div>
+  <div class="why"><strong>Why it matters:</strong> Real-time interactivity is the next frontier. Models that respond in real-time open up entirely new categories of applications.</div>
+</div>
+
+<div class="card">
+  <div class="tag">RL</div>
+  <h2><a href="https://reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/" target="_blank">[P] A debugger for RL reward functions that detects reward hacking</a></h2>
+  <div class="meta"><span class="sub">r/MachineLearning</span><span class="score">98</span><span>by BaniyanChor</span><span>💬 11</span></div>
+  <div class="body">New research presents a debugging tool for reinforcement learning reward functions that can detect reward hacking behaviors during training — a persistent failure mode in RL systems.</div>
+  <div class="why"><strong>Why it matters:</strong> Reward hacking is one of the hardest problems in RL. A tool that catches it during training could prevent catastrophic failures in real-world RL applications.</div>
+</div>
+
+<!-- ═══════════ AI & SOCIETY ═══════════ -->
+<div class="divider"></div>
+<div class="section-label">AI &amp; Society</div>
+
+<div class="card">
+  <div class="tag">HISTORY</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ugb14q/papyrus_scroll_burnt_to_a_crisp_during_vesuvius/" target="_blank">Vesuvius scroll burnt to a crisp deciphered with help of AI</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span></div>
+  <div class="body">AI has helped decipher a papyrus scroll carbonized during the eruption of Mount Vesuvius, recovering text thought lost forever. Continues the work of the Vesuvius Challenge.</div>
+  <div class="why"><strong>Why it matters:</strong> AI is literally recovering lost history. One of the most compelling examples of AI as a tool for human knowledge preservation and discovery.</div>
+  <a class="permalink" href="https://www.cnn.com/2026/06/26/science/papyrus-scroll-vesuvius-ai-scli-intl" target="_blank">CNN →</a>
+</div>
+
+<div class="card">
+  <div class="tag">PACE</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ughbdf/stronger_ai_models_may_mean_slower_releases_not/" target="_blank">Stronger AI models may mean slower releases, not faster ones</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span></div>
+  <div class="body">Discussion on the paradox that as AI models get more powerful, their release cadence may slow due to safety testing, regulatory review, and increasing evaluation complexity.</div>
+  <div class="why"><strong>Why it matters:</strong> Conventional wisdom says AI progress accelerates. This argues the opposite — capability increases may paradoxically lead to slower deployment as stakes get higher.</div>
+</div>
+
+<div class="card">
+  <div class="tag">LABOR</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ugkq6h/i_analyzed_500_companies_job_postings_to_see_what/" target="_blank">Analyzed 500+ companies' job postings — new roles emerging due to AI</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span></div>
+  <div class="body">Analysis of 500+ company job postings to identify new roles emerging specifically because of AI. Reveals entirely new categories of work being created alongside automation.</div>
+  <div class="why"><strong>Why it matters:</strong> The AI job displacement debate is overheated. Data-driven analysis provides a more nuanced picture of how AI is actually reshaping the labor market.</div>
+</div>
+
+<div class="card">
+  <div class="tag">SECURITY</div>
+  <h2><a href="https://reddit.com/r/artificial/comments/1ugjwwh/if_your_ai_automation_reads_emails_websites_or/" target="_blank">If your AI automation reads emails, websites, or databases, someone can manipulate it</a></h2>
+  <div class="meta"><span class="sub">r/artificial</span></div>
+  <div class="body">Warning about indirect prompt injection in AI automation pipelines. Any AI system reading untrusted content can be manipulated by hidden instructions — without the user knowing.</div>
+  <div class="why"><strong>Why it matters:</strong> As AI agents become more autonomous, prompt injection becomes a critical security concern. This is the equivalent of buffer overflows for the AI era.</div>
+</div>
+
+<div class="footer">
+  <p>🧠 r/Artificial → AI News picks</p>
+  <p style="margin-top: 4px;">June 26, 2026 · curated daily from 8 subreddits</p>
+  <p style="margin-top: 8px; font-size: 11px;">
+    <a href="https://reddit.com/r/artificial">r/artificial</a> ·
+    <a href="https://reddit.com/r/MachineLearning">r/MachineLearning</a> ·
+    <a href="https://reddit.com/r/LocalLLaMA">r/LocalLLaMA</a> ·
+    <a href="https://reddit.com/r/OpenAI">r/OpenAI</a> ·
+    <a href="https://reddit.com/r/ChatGPT">r/ChatGPT</a> ·
+    <a href="https://reddit.com/r/singularity">r/singularity</a> ·
+    <a href="https://reddit.com/r/StableDiffusion">r/StableDiffusion</a> ·
+    <a href="https://reddit.com/r/ArtificialInteligence">r/ArtificialInteligence</a>
+  </p>
+</div>
+
+</div> <!-- /container -->
+
+</body>
+</html>
