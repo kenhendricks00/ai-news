@@ -32,6 +32,36 @@
         "Analyzed 500+ companies' job postings \u2014 new roles emerging due to AI",
         "If your AI automation reads emails, websites, or databases, someone can manipulate it"
       ]
+    },
+    {
+      "date": "2026-06-27",
+      "headlines": [
+        "OpenAI announces GPT-5.6 Sol, Earth, and Luna \u2014 previewing the next-generation model series",
+        "GPT-5.6 Sol preview: benchmark gap wider than expected \u2014 beats Mythos 5 across the board",
+        "The US lifts its block on Mythos 5 \u2014 Anthropic can now deploy at scale",
+        "DeepSeek-V4-Pro-DSpark released on HuggingFace \u2014 speculative decoding for faster inference",
+        "Sam Altman unsure about GPT-5.6 release outside the US \u2014 export controls loom large",
+        "Yann LeCun says xAI is a failure \u2014 sparks debate on the future of AI companies",
+        "Google keeps losing top AI researchers \u2014 the moat was never the weights",
+        "OpenAI and Anthropic face new AI reality as companies shift from tokenmaxxing to efficiency",
+        "Nemotron-3-Super-120B-A12B \u2014 hybrid Mamba+MoE holds perfect needle retrieval to 504K tokens on 4\u00d73090",
+        "Vulkan TP support proposed for llama.cpp \u2014 making tensor parallelism viable on non-NVIDIA hardware",
+        "DeepSWE: new benchmark for how well today's frontier models can actually write code",
+        "Compiling Agentic Workflows into LLM Weights \u2014 near-frontier quality at 2 orders of magnitude less compute",
+        "KREA 2: Open-Source Release \u2014 next-gen image generation model",
+        "LTX Director 2.0 Update \u2014 free open-source all-in-one AI video tool for ComfyUI",
+        "Japanese animator using Seedance to render anime from simple 3D models",
+        "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans",
+        "Aleph Neuro achieves highest-resolution 3D brain imaging \u2014 powered by AI reconstruction",
+        "U.S. government will decide who gets to use the latest upgrade to ChatGPT",
+        "Europe's doomsday AI scenario comes alive \u2014 EU grapples with existential risk regulation",
+        "Anthropic published data: 35% of users expect AI to do MOST of their work within 1 year",
+        "96GB 5090s from Shenzhen's Huaqiangbei \u2014 the wild world of modified consumer GPUs",
+        "Vulkan makes TP viable for llama.cpp \u2014 multi-GPU on any hardware",
+        "Papyrus scroll burnt during Vesuvius eruption deciphered by AI",
+        "GNOME AI assistant adds image generation support \u2014 open-source desktop AI advances"
+      ],
+      "story_count": 24
     }
   ]
 }
