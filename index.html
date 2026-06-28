@@ -1,664 +1,645 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>AI News Today — June 27, 2026</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: #000;
-            color: #e0e0e0;
-            -webkit-font-smoothing: antialiased;
-        }
-        .container {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 20px 16px 40px;
-        }
-        .header {
-            padding: 24px 0 20px;
-            text-align: center;
-        }
-        .header h1 {
-            font-size: 22px;
-            font-weight: 700;
-            color: #fff;
-            letter-spacing: -0.3px;
-        }
-        .header h1 span {
-            color: #3898ff;
-        }
-        .header .meta-line {
-            font-size: 12px;
-            color: #666;
-            margin-top: 6px;
-        }
-        .header .meta-line span {
-            color: #888;
-        }
-        .section-label {
-            text-transform: uppercase;
-            font-size: 12px;
-            letter-spacing: 1.5px;
-            color: #888;
-            margin: 28px 0 12px;
-            padding-left: 2px;
-        }
-        .card {
-            background: #151515;
-            border: 1px solid #1f1f1f;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 14px;
-        }
-        .card-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 8px;
-        }
-        .tag {
-            display: inline-block;
-            font-size: 10px;
-            font-weight: 600;
-            letter-spacing: 0.8px;
-            background: rgba(56, 152, 255, 0.12);
-            color: #3898ff;
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
-        .subreddit {
-            font-size: 11px;
-            font-weight: 600;
-            color: #ff8800;
-        }
-        .card-title {
-            font-size: 17px;
-            font-weight: 700;
-            line-height: 1.4;
-            color: #f0f0f0;
-            margin-bottom: 8px;
-        }
-        .card-meta {
-            font-size: 12px;
-            color: #777;
-            margin-bottom: 10px;
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-        }
-        .meta-score { color: #ff8800; font-weight: 600; }
-        .meta-author { color: #888; }
-        .meta-comments { color: #888; }
-        .card-body {
-            font-size: 13.5px;
-            line-height: 1.6;
-            color: #888;
-            margin-bottom: 12px;
-        }
-        .why-block {
-            border-left: 3px solid #42c478;
-            background: rgba(66, 196, 120, 0.08);
-            padding: 10px 12px;
-            border-radius: 0 6px 6px 0;
-            margin-bottom: 12px;
-        }
-        .why-block strong {
-            color: #42c478;
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: block;
-            margin-bottom: 4px;
-        }
-        .why-block p {
-            font-size: 13px;
-            color: #ddd;
-            line-height: 1.5;
-        }
-        .card-thumbnail {
-            width: calc(100% + 32px);
-            margin: 0 -16px -16px;
-            border-radius: 0 0 12px 12px;
-            display: block;
-            max-height: 400px;
-            object-fit: cover;
-        }
-        .divider {
-            border: none;
-            height: 1px;
-            background: #1a1a1a;
-            margin: 24px 0;
-        }
-        .footer {
-            text-align: center;
-            padding: 32px 0 16px;
-            font-size: 12px;
-            color: #555;
-        }
-        .footer a { color: #3898ff; text-decoration: none; }
-        @media (max-width: 480px) {
-            .container { padding: 12px 12px 32px; }
-            .card { padding: 12px; }
-            .card-title { font-size: 15px; }
-            .card-thumbnail { width: calc(100% + 24px); margin: 0 -12px -12px; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AI News Today — June 28, 2026</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    background: #000;
+    color: #e1e1e1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px 16px 32px;
+}
+.header {
+    text-align: center;
+    padding: 24px 0 16px;
+}
+.header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.header h1 span.r {
+    color: #ff4500;
+}
+.header .meta {
+    font-size: 13px;
+    color: #888;
+    margin-top: 4px;
+}
+.header .meta a {
+    color: #3898ff;
+    text-decoration: none;
+}
+.section-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin: 16px 0 8px;
+}
+.divider {
+    height: 1px;
+    background: #1a1a1a;
+    margin: 12px 0;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.card {
+    background: #151515;
+    border: 1px solid #1f1f1f;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: border-color 0.15s;
+}
+.card:hover {
+    border-color: #333;
+}
+.card-header {
+    margin-bottom: 8px;
+}
+.tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background: rgba(56,152,255,0.12);
+    color: #3898ff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 8px;
+}
+.card-meta .subreddit {
+    color: #ff4500;
+    font-weight: 600;
+}
+.card-meta .score {
+    color: #ff4500;
+}
+.card-meta .comments {
+    color: #777;
+}
+.card-body {
+    font-size: 13.5px;
+    color: #888;
+    margin-bottom: 10px;
+    line-height: 1.45;
+}
+.why-it-matters {
+    border-left: 3px solid #42c478;
+    background: rgba(66,196,120,0.08);
+    padding: 10px 12px;
+    border-radius: 0 6px 6px 0;
+    font-size: 13px;
+    color: #ddd;
+    line-height: 1.45;
+    margin-top: 10px;
+}
+.why-it-matters strong {
+    color: #42c478;
+}
+.card-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 12px;
+    display: block;
+    max-height: 300px;
+    object-fit: cover;
+}
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    padding: 24px 0 12px;
+}
+@media (prefers-color-scheme: dark) {
+    body { background: #000; }
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>/r/<span>Artificial</span> → AI News Picks</h1>
-            <p class="meta-line"><span>June 27, 2026</span> · Curated from 8 subreddits</p>
-        </div>
-
-        <hr class="divider">
-
-        <div class="section-label">🚀 Model Launches &amp; Benchmarks</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">MODEL LAUNCH</span>
-            <span class="subreddit">r/OpenAI</span>
-        </div>
-        <h2 class="card-title">OpenAI announces GPT-5.6 Sol, Earth, and Luna — previewing the next-generation model series</h2>
-        <div class="card-meta">
-            <span class="meta-score">300 ▲</span>
-            <span class="meta-author">by OpenAI_Official</span>
-            <span class="meta-comments">45 comments</span>
-        </div>
-        <p class="card-body">OpenAI officially previews the GPT-5.6 series with three variants: Sol (flagship), Earth (balanced), and Luna (efficient). Early benchmarks show significant gains over GPT-5.5 and competitive performance against Anthropic&#x27;s Mythos 5.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This marks the next frontier in proprietary LLMs. GPT-5.6 Sol reportedly achieves ~750 tokens/sec on Cerebras hardware, setting a new bar for inference speed and quality.</p>
-        </div>
-        
+<div class="container">
+    <div class="header">
+        <h1><span class="r">r/</span>Artificial → AI News Today</h1>
+        <div class="meta">June 28, 2026 · curated from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence</div>
     </div>
 
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">BENCHMARKS</span>
-            <span class="subreddit">r/OpenAI</span>
-        </div>
-        <h2 class="card-title">GPT-5.6 Sol preview: benchmark gap wider than expected — beats Mythos 5 across the board</h2>
-        <div class="card-meta">
-            <span class="meta-score">1688 ▲</span>
-            <span class="meta-author">by Dario_Amodei_fan</span>
-            <span class="meta-comments">147 comments</span>
-        </div>
-        <p class="card-body">Independent benchmarks show GPT-5.6 Sol outperforming both Claude Mythos 5 and Gemini 3.5 Pro on MMLU-Pro, HumanEval, and math reasoning tasks. The margin is particularly large on coding and long-context retrieval.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>The competitive landscape just shifted dramatically. OpenAI reclaims the top spot with a significant lead, forcing Anthropic and Google to respond.</p>
-        </div>
-        
+    <div class="section-label">MODEL LAUNCH</div>
+
+            <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uht2m0/were_probably_going_to_need_that_soon/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">MODEL LAUNCH</span>
+                </div>
+                <h2 class="card-title">We&#x27;re probably going to need that soon.</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/LocalLLaMA</span>
+                    <span class="score">▲ 1,609</span>
+                    <span class="author">by Nunki08</span>
+                    <span class="comments">💬 216</span>
+                </div>
+                <div class="card-body">old.reddit.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> New open-source model releases expand what's possible with self-hosted and fine-tuned AI, driving competition and accessibility.</div>
+                <img class="card-img" src="https://preview.redd.it/a2scxop2vz9h1.jpg?width=140&amp;amp;height=105&amp;amp;auto=webp&amp;amp;s=5682e984606a883c6082b5fb9a61155b3328edab" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uh1lc7/96gb_4090s_and_5090_are_literally_a_scam_i_mods/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">MODEL LAUNCH</span>
+                </div>
+                <h2 class="card-title">96gb+ 4090&#x27;s and 5090 are literally a scam. I mods these cards myself</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/LocalLLaMA</span>
+                    <span class="score">▲ 847</span>
+                    <span class="author">by computune</span>
+                    <span class="comments">💬 195</span>
+                </div>
+                <div class="card-body">self.LocalLLaMA</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> New open-source model releases expand what's possible with self-hosted and fine-tuned AI, driving competition and accessibility.</div>
+                
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">MODEL LAUNCH</span>
+                </div>
+                <h2 class="card-title">KREA 2: Open-Source Release</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/StableDiffusion</span>
+                    <span class="score">▲ 689</span>
+                    <span class="author">by Angrypenguinpng</span>
+                    <span class="comments">💬 93</span>
+                </div>
+                <div class="card-body">v.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> New open-source model releases expand what's possible with self-hosted and fine-tuned AI, driving competition and accessibility.</div>
+                <img class="card-img" src="https://external-preview.redd.it/ZGVhc3VyZzZ1MTloMQ9S4GwL9hyJcYg2Nc1NIgrXSnMED6nMqq5mrwFu8gVu.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=aa2b58cc6b3a54a1b04cf658f20c435301cc5c36" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">OPENAI</div>
+
+            <a href="https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">OPENAI</span>
+                </div>
+                <h2 class="card-title">Updates for ChatGPT</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/ChatGPT</span>
+                    <span class="score">▲ 3,561</span>
+                    <span class="author">by samaltman</span>
+                    <span class="comments">💬 1,412</span>
+                </div>
+                <div class="card-body">self.ChatGPT</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> OpenAI developments shape the frontier of commercial AI and influence industry direction across all AI sectors.</div>
+                
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/OpenAI/comments/1ugbi6w/dario_has_been_doing_this_for_years/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">OPENAI</span>
+                </div>
+                <h2 class="card-title">Dario has been doing this for years</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/OpenAI</span>
+                    <span class="score">▲ 2,130</span>
+                    <span class="author">by DigSignificant1419</span>
+                    <span class="comments">💬 166</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> OpenAI developments shape the frontier of commercial AI and influence industry direction across all AI sectors.</div>
+                <img class="card-img" src="https://preview.redd.it/rb19zdqqkn9h1.png?width=140&amp;amp;height=104&amp;amp;auto=webp&amp;amp;s=01e6cea7cf37367bb55e0bde01d8df99fa4752c1" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/ChatGPT/comments/1uhr5l4/this_might_be_sam_altmans_most_controversial/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">OPENAI</span>
+                </div>
+                <h2 class="card-title">This might be Sam Altman’s most controversial non-AI tweet.</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/ChatGPT</span>
+                    <span class="score">▲ 1,149</span>
+                    <span class="author">by imfrom_mars_</span>
+                    <span class="comments">💬 247</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> OpenAI developments shape the frontier of commercial AI and influence industry direction across all AI sectors.</div>
+                <img class="card-img" src="https://preview.redd.it/ea4vyj48bz9h1.jpeg?width=140&amp;amp;height=62&amp;amp;auto=webp&amp;amp;s=9ae5edcb67caefc3d25b9384b4e0dbcada197cc6" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/OpenAI/comments/1ugd1pa/gpt_56_better_than_mythos_5_thats_crazy/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">OPENAI</span>
+                </div>
+                <h2 class="card-title">Gpt 5.6 better than Mythos 5 that&#x27;s crazy</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/OpenAI</span>
+                    <span class="score">▲ 793</span>
+                    <span class="author">by Independent-Wind4462</span>
+                    <span class="comments">💬 191</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> OpenAI developments shape the frontier of commercial AI and influence industry direction across all AI sectors.</div>
+                <img class="card-img" src="https://preview.redd.it/uiafv8rzun9h1.png?width=140&amp;amp;height=91&amp;amp;auto=webp&amp;amp;s=e11ef26b57cdb16f80185e32fb8d09fced124e58" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/OpenAI/comments/1uh2m8s/us_ban_benchmark_updated_toetotoe_between_two_big/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">OPENAI</span>
+                </div>
+                <h2 class="card-title">US Ban Benchmark Updated: Toe-to-toe Between Two Big Names!</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/OpenAI</span>
+                    <span class="score">▲ 626</span>
+                    <span class="author">by Tudragon123456</span>
+                    <span class="comments">💬 61</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> OpenAI developments shape the frontier of commercial AI and influence industry direction across all AI sectors.</div>
+                <img class="card-img" src="https://preview.redd.it/hduhc0s4tt9h1.png?width=140&amp;amp;height=128&amp;amp;auto=webp&amp;amp;s=15453cac196bed0c39cb941d6178480793d42545" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/OpenAI/comments/1uhalo0/remember_the_creator_of_reddit/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">OPENAI</span>
+                </div>
+                <h2 class="card-title">Remember the creator of Reddit</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/OpenAI</span>
+                    <span class="score">▲ 539</span>
+                    <span class="author">by Excellent_Call_5954</span>
+                    <span class="comments">💬 13</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> OpenAI developments shape the frontier of commercial AI and influence industry direction across all AI sectors.</div>
+                <img class="card-img" src="https://preview.redd.it/gvgziscpfv9h1.jpeg?width=140&amp;amp;height=121&amp;amp;auto=webp&amp;amp;s=f554dff85a69bdf14e63ab61c80394825b137292" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">GOOGLE</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1uh259r/breaking_news_gemini_35_pro_so_ass_the_us/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">GOOGLE</span>
+                </div>
+                <h2 class="card-title">Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 1,684</span>
+                    <span class="author">by THE--GRINCH</span>
+                    <span class="comments">💬 169</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Google's AI moves affect Android, Search, Cloud, and the broader consumer AI ecosystem.</div>
+                <img class="card-img" src="https://preview.redd.it/hf38st3dpt9h1.jpeg?width=140&amp;amp;height=30&amp;amp;auto=webp&amp;amp;s=543d58139bf9747de829c0072f346385cd94d972" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">ANTHROPIC</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1uhkyg4/china_has_matched_anthropic_in_cybersecurity/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">ANTHROPIC</span>
+                </div>
+                <h2 class="card-title">China Has Matched Anthropic in Cybersecurity, Resetting AI Race</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 167</span>
+                    <span class="author">by yogthos</span>
+                    <span class="comments">💬 42</span>
+                </div>
+                <div class="card-body">wsj.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Anthropic's safety-focused approach sets standards for responsible AI deployment and capability scaling.</div>
+                
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">XAI</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1ugfgzu/yann_lecun_says_xai_is_a_failure/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">XAI</span>
+                </div>
+                <h2 class="card-title">Yann LeCun says xAI is a failure</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 1,460</span>
+                    <span class="author">by Formal-Assistance02</span>
+                    <span class="comments">💬 311</span>
+                </div>
+                <div class="card-body">v.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> xAI's Grok represents a new contender in the LLM space with real-time data access via X.</div>
+                <img class="card-img" src="https://external-preview.redd.it/bWYwbTZ5aHdhbzloMcdlwZovusg3ymnQJ1HOk8VNnIjiM6RHiGyoKW9G2Sxe.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=140387cfacc305ba7ad02483ed062f31d6f3863a" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">AI AGENTS</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1uhxshz/meanwhile_in_china_10000_delivery_bots_are/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AI AGENTS</span>
+                </div>
+                <h2 class="card-title">Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 304</span>
+                    <span class="author">by Distinct-Question-16</span>
+                    <span class="comments">💬 111</span>
+                </div>
+                <div class="card-body">v.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Autonomous AI agents represent the next paradigm shift in how we interact with AI systems.</div>
+                <img class="card-img" src="https://external-preview.redd.it/N2ZheTJoNTczMWFoMQJScXLHhc_B0-LNHpVLwN8m41f4jBQS79e3k2aZrVal.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=7115679c7dd4914d1adb8b28a7709adba71aa8fc" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">AI CODING</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1uh4k19/dspark_speculative_decoding_accelerates_llm/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AI CODING</span>
+                </div>
+                <h2 class="card-title">DSpark: Speculative decoding accelerates LLM inference [pdf]</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 64</span>
+                    <span class="author">by yogthos</span>
+                    <span class="comments">💬 6</span>
+                </div>
+                <div class="card-body">github.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> AI coding tools are rapidly transforming developer productivity and software development workflows.</div>
+                <img class="card-img" src="https://external-preview.redd.it/h3hamutM7-O2D6ffNATTGh-TMFVsTjNnjqLjnsIJj5Y.png?width=140&amp;amp;height=70&amp;amp;auto=webp&amp;amp;s=24941a12a24a36eb67d5096b7663050859188063" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">RESEARCH</div>
+
+            <a href="https://www.reddit.com/r/StableDiffusion/comments/1uhpiov/krea2_style_transfer_first_release/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">RESEARCH</span>
+                </div>
+                <h2 class="card-title">Krea2 style transfer: first release</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/StableDiffusion</span>
+                    <span class="score">▲ 144</span>
+                    <span class="author">by Winter_unmuted</span>
+                    <span class="comments">💬 15</span>
+                </div>
+                <div class="card-body">old.reddit.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> New research breakthroughs lay the groundwork for the next generation of AI capabilities.</div>
+                <img class="card-img" src="https://preview.redd.it/tph3nejapy9h1.jpg?width=140&amp;amp;height=71&amp;amp;auto=webp&amp;amp;s=959363e2d6403d5307d309b18e092c86327b4891" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">VIDEO GEN</div>
+
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">VIDEO GEN</span>
+                </div>
+                <h2 class="card-title">Showcase: geolocating a dashcam video without GPS, only from the footage [P]</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/MachineLearning</span>
+                    <span class="score">▲ 18</span>
+                    <span class="author">by Ok-Apricot956</span>
+                    <span class="comments">💬 16</span>
+                </div>
+                <div class="card-body">self.MachineLearning</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> AI video generation is evolving fast, opening creative possibilities for content creation.</div>
+                
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">IMAGE GEN</div>
+
+            <a href="https://www.reddit.com/r/StableDiffusion/comments/1uhcg69/comfyui_now_natively_supports_int8_tested_and/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">IMAGE GEN</span>
+                </div>
+                <h2 class="card-title">ComfyUI now natively supports INT8 tested and confirmed</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/StableDiffusion</span>
+                    <span class="score">▲ 240</span>
+                    <span class="author">by Winougan</span>
+                    <span class="comments">💬 220</span>
+                </div>
+                <div class="card-body">old.reddit.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Image generation models continue to improve in quality, speed, and controllability.</div>
+                <img class="card-img" src="https://preview.redd.it/abxd0vmusv9h1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=b688e8620ad1cd44496205a7f44421b22aa95dbb" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">AI TOOLS</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1ugnifs/ngl_its_gonna_be_glorious_when_it_happens_ai/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AI TOOLS</span>
+                </div>
+                <h2 class="card-title">Ngl, it&#x27;s gonna be glorious when it happens. AI should be available to all and not only to selected few among the elites.</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 539</span>
+                    <span class="author">by Boring_Aioli7916</span>
+                    <span class="comments">💬 242</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> New AI tools make advanced capabilities accessible to non-technical users.</div>
+                <img class="card-img" src="https://preview.redd.it/2byc0fqzvp9h1.jpeg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=578e06225cd5ce0b845efd292214a50c46f7b4a1" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">AI POLICY</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1uhgq6g/in_all_the_excitement_pointing_fingers_at_dario/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AI POLICY</span>
+                </div>
+                <h2 class="card-title">In all the excitement pointing fingers at Dario we forgot to ask how (or why) is the commerce secretary directing national and global AI policy for the US moving forward?</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 404</span>
+                    <span class="author">by Cagnazzo82</span>
+                    <span class="comments">💬 168</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> AI policy decisions today will shape the development and deployment of AI for years to come.</div>
+                <img class="card-img" src="https://preview.redd.it/x8m3j8j3pw9h1.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=64aaab085030cc23a8ea61d5e1c2a664e4b6da22" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">HARDWARE</div>
+
+            <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1uh100j/owning_hardware_that_can_run_models_locally/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">HARDWARE</span>
+                </div>
+                <h2 class="card-title">OWNING HARDWARE THAT CAN RUN MODELS LOCALLY MATTERS MORE THAN EVER</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/ArtificialInteligence</span>
+                    <span class="score">▲ 262</span>
+                    <span class="author">by 0xMassii</span>
+                    <span class="comments">💬 106</span>
+                </div>
+                <div class="card-body">self.ArtificialInteligence</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Hardware advances are essential to sustain AI progress as models grow larger and more capable.</div>
+                
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">VOICE AI</div>
+
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">VOICE AI</span>
+                </div>
+                <h2 class="card-title">NagaTranslate: Building a translation and voice pipeline for low-resource Nagaland creoles (Whisper, VITS, LLMs) [P]</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/MachineLearning</span>
+                    <span class="score">▲ 9</span>
+                    <span class="author">by Material_Dinner_1924</span>
+                    <span class="comments">💬 3</span>
+                </div>
+                <div class="card-body">old.reddit.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Voice AI advancements are making human-computer interaction more natural and accessible.</div>
+                <img class="card-img" src="https://preview.redd.it/bu6xsk4hvx9h1.jpg?width=140&amp;amp;height=63&amp;amp;auto=webp&amp;amp;s=0a4c589616d351d10d735940874706494e48d408" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">AGI</div>
+
+            <a href="https://www.reddit.com/r/singularity/comments/1ue6yoh/japanese_animator_using_seedance_to_render_anime/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AGI</span>
+                </div>
+                <h2 class="card-title">Japanese animator using Seedance to render anime from simple 3D models</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 2,723</span>
+                    <span class="author">by PointmanW</span>
+                    <span class="comments">💬 366</span>
+                </div>
+                <div class="card-body">v.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Progress toward AGI raises profound questions about alignment, safety, and societal impact.</div>
+                <img class="card-img" src="https://external-preview.redd.it/MGd2N2JyaGtxNjloMf8KTGVSsZkCgVLnPVhmH3KMCGgyH_No49UIn2ot8Fua.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=58be364851911ade29bda85c1cf0262f47317f0a" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/singularity/comments/1ugme72/the_us_lifts_its_block_on_mythos_5/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AGI</span>
+                </div>
+                <h2 class="card-title">The US lifts its block on Mythos 5</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 535</span>
+                    <span class="author">by Charuru</span>
+                    <span class="comments">💬 76</span>
+                </div>
+                <div class="card-body">news.ycombinator.com</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Progress toward AGI raises profound questions about alignment, safety, and societal impact.</div>
+                
+            </div>
+            </a>
+            
+            <a href="https://www.reddit.com/r/singularity/comments/1ugw8t1/demis_hassabis_ai_can_now_reconstruct_what_people/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AGI</span>
+                </div>
+                <h2 class="card-title">Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- &quot;We&#x27;re going to have sci-fi devices in the next few years&quot;</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/singularity</span>
+                    <span class="score">▲ 508</span>
+                    <span class="author">by TorturedPoet30</span>
+                    <span class="comments">💬 70</span>
+                </div>
+                <div class="card-body">v.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> Progress toward AGI raises profound questions about alignment, safety, and societal impact.</div>
+                <img class="card-img" src="https://external-preview.redd.it/Z2RxOGVpYWgyczloMVefIqTwEeZxm_VYmUnrkoXPYPIE0dgl9cxZM5ph9A9D.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=9b12bcd4f8de4ba5ee4c3a303f634a956c6489a6" alt="" loading="lazy" />
+            </div>
+            </a>
+            <div class="divider"></div>
+<div class="section-label">AI NEWS</div>
+
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/" target="_blank" rel="noopener" class="card-link">
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag">AI NEWS</span>
+                </div>
+                <h2 class="card-title">A debugger for RL reward functions that detects reward hacking during training [P]</h2>
+                <div class="card-meta">
+                    <span class="subreddit">r/MachineLearning</span>
+                    <span class="score">▲ 279</span>
+                    <span class="author">by BaniyanChor</span>
+                    <span class="comments">💬 20</span>
+                </div>
+                <div class="card-body">i.redd.it</div>
+                <div class="why-it-matters"><strong>Why it matters:</strong> This story from r/MachineLearning highlights key developments in the AI landscape.</div>
+                <img class="card-img" src="https://preview.redd.it/r5m95bf5cn9h1.gif?frame=1&amp;amp;width=140&amp;amp;height=93&amp;amp;auto=webp&amp;amp;s=133ffd6defa071a6f98ae00064526dadeb4d1660" alt="" loading="lazy" />
+            </div>
+            </a>
+            
+
+    <div class="footer">
+        AI News Today · June 28, 2026<br>
+        Curated automatically from Reddit
     </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">REGULATION</span>
-            <span class="subreddit">r/singularity</span>
-        </div>
-        <h2 class="card-title">The US lifts its block on Mythos 5 — Anthropic can now deploy at scale</h2>
-        <div class="card-meta">
-            <span class="meta-score">489 ▲</span>
-            <span class="meta-author">by singularity_watcher</span>
-            <span class="meta-comments">65 comments</span>
-        </div>
-        <p class="card-body">U.S. government regulators have lifted the export-control block on Anthropic&#x27;s Mythos 5 model, allowing broader deployment after a safety review period.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>The dual approvals of GPT-5.6 (limited) and Mythos 5 (full) signal a cautious but accelerating regulatory approach to frontier AI models.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">OPEN SOURCE</span>
-            <span class="subreddit">r/LocalLLaMA</span>
-        </div>
-        <h2 class="card-title">DeepSeek-V4-Pro-DSpark released on HuggingFace — speculative decoding for faster inference</h2>
-        <div class="card-meta">
-            <span class="meta-score">174 ▲</span>
-            <span class="meta-author">by deepseek_team</span>
-            <span class="meta-comments">22 comments</span>
-        </div>
-        <p class="card-body">DeepSeek releases V4-Pro-DSpark, incorporating speculative decoding (DSpark) for significantly faster LLM inference while maintaining output quality. Available as open weights on HuggingFace.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Speculative decoding in open models narrows the inference-speed gap with proprietary APIs, making local deployment more practical for production use cases.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">🏢 AI Industry &amp; Company News</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">AI POLICY</span>
-            <span class="subreddit">r/singularity</span>
-        </div>
-        <h2 class="card-title">Sam Altman unsure about GPT-5.6 release outside the US — export controls loom large</h2>
-        <div class="card-meta">
-            <span class="meta-score">309 ▲</span>
-            <span class="meta-author">by policy_tracker</span>
-            <span class="meta-comments">109 comments</span>
-        </div>
-        <p class="card-body">Sam Altman expressed uncertainty about international availability of GPT-5.6, citing new U.S. government export controls on frontier AI models. Non-US users may face delayed or restricted access.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This is the first major test of AI export control policy. The outcome will shape global access to frontier AI capabilities for years to come.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">INDUSTRY</span>
-            <span class="subreddit">r/singularity</span>
-        </div>
-        <h2 class="card-title">Yann LeCun says xAI is a failure — sparks debate on the future of AI companies</h2>
-        <div class="card-meta">
-            <span class="meta-score">1211 ▲</span>
-            <span class="meta-author">by ai_debate</span>
-            <span class="meta-comments">262 comments</span>
-        </div>
-        <p class="card-body">Meta&#x27;s Chief AI Scientist Yann LeCun publicly declared xAI (Elon Musk&#x27;s AI company) a failure, criticizing its approach and results. The comment has ignited widespread debate about what constitutes success in the AI industry.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>High-profile critiques from leading figures shape investor sentiment and talent流向 in the AI ecosystem.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">INDUSTRY</span>
-            <span class="subreddit">r/artificial</span>
-        </div>
-        <h2 class="card-title">Google keeps losing top AI researchers — the moat was never the weights</h2>
-        <div class="card-meta">
-            <span class="meta-score">93 ▲</span>
-            <span class="meta-author">by deepmind_watcher</span>
-            <span class="meta-comments">35 comments</span>
-        </div>
-        <p class="card-body">A discussion on Google&#x27;s ongoing brain drain as top AI researchers depart for startups, competitors, and academia. The post argues that Google&#x27;s moat was never its model weights but its infrastructure and data.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Talent flight from established labs to agile startups is reshaping the competitive landscape and accelerating innovation outside Big Tech.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">INDUSTRY</span>
-            <span class="subreddit">r/ArtificialInteligence</span>
-        </div>
-        <h2 class="card-title">OpenAI and Anthropic face new AI reality as companies shift from tokenmaxxing to efficiency</h2>
-        <div class="card-meta">
-            <span class="meta-score">40 ▲</span>
-            <span class="meta-author">by market_analysis</span>
-            <span class="meta-comments">15 comments</span>
-        </div>
-        <p class="card-body">CNBC reports that major AI labs are pivoting from raw compute scaling (&#x27;tokenmaxxing&#x27;) to efficiency-focused architectures. Smaller, more specialized models are gaining traction as inference costs become the primary bottleneck.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>The shift from &#x27;bigger is better&#x27; to efficiency-first design could democratize AI access and reshape the economics of the entire industry.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">🔬 Open Source &amp; Research</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">OPEN SOURCE</span>
-            <span class="subreddit">r/LocalLLaMA</span>
-        </div>
-        <h2 class="card-title">Nemotron-3-Super-120B-A12B — hybrid Mamba+MoE holds perfect needle retrieval to 504K tokens on 4×3090</h2>
-        <div class="card-meta">
-            <span class="meta-score">170 ▲</span>
-            <span class="meta-author">by nemotron_team</span>
-            <span class="meta-comments">34 comments</span>
-        </div>
-        <p class="card-body">A new hybrid Mamba+MoE architecture achieves perfect needle-in-a-haystack retrieval at 504K tokens running on just 4×RTX 3090s. The 120B-param model activates only 12B tokens per forward pass.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This demonstrates that efficient architectures (Mamba+MoE) can rival dense transformers at a fraction of the compute cost, making long-context local inference accessible on consumer hardware.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">OPEN SOURCE</span>
-            <span class="subreddit">r/LocalLLaMA</span>
-        </div>
-        <h2 class="card-title">Vulkan TP support proposed for llama.cpp — making tensor parallelism viable on non-NVIDIA hardware</h2>
-        <div class="card-meta">
-            <span class="meta-score">65 ▲</span>
-            <span class="meta-author">by llamacpp_dev</span>
-            <span class="meta-comments">35 comments</span>
-        </div>
-        <p class="card-body">A new pull request for llama.cpp adds tensor parallelism support via Vulkan, enabling multi-GPU inference across heterogeneous hardware including AMD, Intel, and Apple GPUs.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Vulkan-based TP would break NVIDIA&#x27;s CUDA monopoly on multi-GPU inference, dramatically expanding local LLM deployment options.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">RESEARCH</span>
-            <span class="subreddit">r/MachineLearning</span>
-        </div>
-        <h2 class="card-title">DeepSWE: new benchmark for how well today&#x27;s frontier models can actually write code</h2>
-        <div class="card-meta">
-            <span class="meta-score">40 ▲</span>
-            <span class="meta-author">by deepSWE_team</span>
-            <span class="meta-comments">17 comments</span>
-        </div>
-        <p class="card-body">DeepSWE is a new benchmark evaluating frontier models on real-world software engineering tasks — not just isolated coding challenges but end-to-end feature implementation, bug fixing, and code review.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Moving beyond synthetic coding benchmarks to real engineering tasks provides a more accurate measure of AI&#x27;s practical utility for software development.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">RESEARCH</span>
-            <span class="subreddit">r/MachineLearning</span>
-        </div>
-        <h2 class="card-title">Compiling Agentic Workflows into LLM Weights — near-frontier quality at 2 orders of magnitude less compute</h2>
-        <div class="card-meta">
-            <span class="meta-score">8 ▲</span>
-            <span class="meta-author">by arxiv_bot</span>
-            <span class="meta-comments">1 comment</span>
-        </div>
-        <p class="card-body">A new paper demonstrates compiling multi-step agentic workflows directly into model weights, achieving near-frontier quality with dramatically reduced inference costs.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This could bridge the gap between small local models and large API-based models by baking reasoning chains into weights rather than prompting.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">🎨 Creative AI &amp; Image/Video</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">OPEN SOURCE</span>
-            <span class="subreddit">r/StableDiffusion</span>
-        </div>
-        <h2 class="card-title">KREA 2: Open-Source Release — next-gen image generation model</h2>
-        <div class="card-meta">
-            <span class="meta-score">682 ▲</span>
-            <span class="meta-author">by krea_team</span>
-            <span class="meta-comments">92 comments</span>
-        </div>
-        <p class="card-body">KREA 2 has been released as open source, bringing significant improvements in image quality, prompt adherence, and speed over the original KREA and FLUX models. 999 LoRAs are available on HuggingFace.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Open-source image generation continues to accelerate, rivaling proprietary solutions like Midjourney and DALL-E. KREA 2&#x27;s release gives creators unprecedented control.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">TOOL LAUNCH</span>
-            <span class="subreddit">r/StableDiffusion</span>
-        </div>
-        <h2 class="card-title">LTX Director 2.0 Update — free open-source all-in-one AI video tool for ComfyUI</h2>
-        <div class="card-meta">
-            <span class="meta-score">440 ▲</span>
-            <span class="meta-author">by ltx_dev</span>
-            <span class="meta-comments">107 comments</span>
-        </div>
-        <p class="card-body">LTX Director 2.0 launches as a comprehensive free tool for AI video generation within ComfyUI, featuring improved motion consistency, longer outputs, and new control features.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>AI video generation is becoming more accessible and controllable, lowering the barrier for creators to produce high-quality synthetic video content.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">AI CREATIVE</span>
-            <span class="subreddit">r/singularity</span>
-        </div>
-        <h2 class="card-title">Japanese animator using Seedance to render anime from simple 3D models</h2>
-        <div class="card-meta">
-            <span class="meta-score">2701 ▲</span>
-            <span class="meta-author">by anime_ai_fan</span>
-            <span class="meta-comments">364 comments</span>
-        </div>
-        <p class="card-body">A Japanese animator demonstrates using Seedance AI to transform basic 3D model animations into full anime-style rendered footage, dramatically reducing production time.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This showcases one of the most compelling creative AI use cases — preserving human artistry while eliminating tedious manual rendering work.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">🧠 Science &amp; Breakthroughs</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">BRAIN AI</span>
-            <span class="subreddit">r/singularity</span>
-        </div>
-        <h2 class="card-title">Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans</h2>
-        <div class="card-meta">
-            <span class="meta-score">223 ▲</span>
-            <span class="meta-author">by neuro_future</span>
-            <span class="meta-comments">48 comments</span>
-        </div>
-        <p class="card-body">Google DeepMind CEO Demis Hassabis announces a breakthrough in brain-computer interface research: AI systems can now reconstruct visual experiences from fMRI brain scans, including dream content.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This represents a leap in neural decoding technology with profound implications for neuroscience, medicine, and understanding consciousness.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">SCIENCE</span>
-            <span class="subreddit">r/singularity</span>
-        </div>
-        <h2 class="card-title">Aleph Neuro achieves highest-resolution 3D brain imaging — powered by AI reconstruction</h2>
-        <div class="card-meta">
-            <span class="meta-score">747 ▲</span>
-            <span class="meta-author">by neuroscience_news</span>
-            <span class="meta-comments">48 comments</span>
-        </div>
-        <p class="card-body">Aleph Neuro and Butterfly Network claim the highest-resolution 3D image of the human brain ever produced, using AI-enhanced ultrasound reconstruction techniques.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>AI-powered medical imaging continues to push boundaries, potentially enabling earlier detection of neurological conditions and better understanding of brain structure.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">⚖️ AI Policy &amp; Safety</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">AI POLICY</span>
-            <span class="subreddit">r/ChatGPT</span>
-        </div>
-        <h2 class="card-title">U.S. government will decide who gets to use the latest upgrade to ChatGPT</h2>
-        <div class="card-meta">
-            <span class="meta-score">167 ▲</span>
-            <span class="meta-author">by policy_watcher</span>
-            <span class="meta-comments">46 comments</span>
-        </div>
-        <p class="card-body">The Washington Post reports that the U.S. government is implementing a clearance system for access to frontier AI models, starting with GPT-5.6. Access will be restricted based on nationality, security clearance, and intended use.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Government gating of AI capabilities sets a precedent that could reshape the global AI landscape, potentially creating a two-tier system of AI haves and have-nots.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">AI POLICY</span>
-            <span class="subreddit">r/artificial</span>
-        </div>
-        <h2 class="card-title">Europe&#x27;s doomsday AI scenario comes alive — EU grapples with existential risk regulation</h2>
-        <div class="card-meta">
-            <span class="meta-score">39 ▲</span>
-            <span class="meta-author">by eu_policy</span>
-            <span class="meta-comments">27 comments</span>
-        </div>
-        <p class="card-body">The European Parliament Magazine examines how the EU is dealing with existential risk scenarios from advanced AI, as the gap between regulatory frameworks and AI capabilities widens.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>The EU AI Act faces its first real test as frontier models outpace the regulatory framework designed to govern them.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">AI ADOPTION</span>
-            <span class="subreddit">r/artificial</span>
-        </div>
-        <h2 class="card-title">Anthropic published data: 35% of users expect AI to do MOST of their work within 1 year</h2>
-        <div class="card-meta">
-            <span class="meta-score">31 ▲</span>
-            <span class="meta-author">by anthropic_research</span>
-            <span class="meta-comments">39 comments</span>
-        </div>
-        <p class="card-body">Anthropic releases survey data showing that 35% of their users expect AI to handle the majority of their work tasks within the next year. The data reveals rapidly shifting expectations around AI capabilities.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>User expectations are accelerating faster than model capabilities, creating both opportunity and risk as the gap between perception and reality fluctuates.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">🖥️ Hardware &amp; Infrastructure</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">HARDWARE</span>
-            <span class="subreddit">r/LocalLLaMA</span>
-        </div>
-        <h2 class="card-title">96GB 5090s from Shenzhen&#x27;s Huaqiangbei — the wild world of modified consumer GPUs</h2>
-        <div class="card-meta">
-            <span class="meta-score">246 ▲</span>
-            <span class="meta-author">by gpu_modder</span>
-            <span class="meta-comments">103 comments</span>
-        </div>
-        <p class="card-body">Modified RTX 4090 and 5090 GPUs with 96GB VRAM are being sold in Shenzhen electronics markets. A follow-up post warns these are often scams — repackaged lower-spec cards.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>The demand for high-VRAM consumer GPUs for local AI inference is driving a grey market of modified hardware, with significant quality and safety risks.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">OPEN SOURCE</span>
-            <span class="subreddit">r/LocalLLaMA</span>
-        </div>
-        <h2 class="card-title">Vulkan makes TP viable for llama.cpp — multi-GPU on any hardware</h2>
-        <div class="card-meta">
-            <span class="meta-score">65 ▲</span>
-            <span class="meta-author">by ggml_contributor</span>
-            <span class="meta-comments">35 comments</span>
-        </div>
-        <p class="card-body">Tensor parallelism via Vulkan in llama.cpp enables multi-GPU inference across AMD, Intel, Apple Silicon, and NVIDIA — not just CUDA.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>This democratizes multi-GPU inference, letting users pool any GPUs they have access to rather than being locked into NVIDIA ecosystems.</p>
-        </div>
-        
-    </div>
-
-        <div class="section-label">📌 Notable Mentions</div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">AI HISTORY</span>
-            <span class="subreddit">r/artificial</span>
-        </div>
-        <h2 class="card-title">Papyrus scroll burnt during Vesuvius eruption deciphered by AI</h2>
-        <div class="card-meta">
-            <span class="meta-score">13 ▲</span>
-            <span class="meta-author">by history_ai</span>
-            <span class="meta-comments">8 comments</span>
-        </div>
-        <p class="card-body">AI has successfully deciphered text from a papyrus scroll carbonized during the eruption of Mount Vesuvius in 79 AD, revealing previously lost ancient writings.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>The Vesuvius Challenge continues to demonstrate AI&#x27;s unique ability to unlock historical knowledge that would otherwise be lost forever.</p>
-        </div>
-        
-    </div>
-
-    <div class="card">
-        <div class="card-header">
-            <span class="tag">OPEN SOURCE</span>
-            <span class="subreddit">r/artificial</span>
-        </div>
-        <h2 class="card-title">GNOME AI assistant adds image generation support — open-source desktop AI advances</h2>
-        <div class="card-meta">
-            <span class="meta-score">1 ▲</span>
-            <span class="meta-author">by gnome_dev</span>
-            <span class="meta-comments">comment</span>
-        </div>
-        <p class="card-body">The GNOME desktop environment&#x27;s AI assistant now supports local image generation, integrating with open-source models running on the user&#x27;s own hardware.</p>
-        
-        <div class="why-block">
-            <strong>Why it matters</strong>
-            <p>Desktop-level AI integration is becoming a reality in open-source ecosystems, reducing dependency on cloud APIs for everyday AI tasks.</p>
-        </div>
-        
-    </div>
-
-        <hr class="divider">
-
-        <div class="footer">
-            <p>AI News Today · June 27, 2026</p>
-            <p style="margin-top:4px">Curated from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence</p>
-            <p style="margin-top:4px"><a href="https://github.com/nousresearch/hermes">Powered by Hermes Agent</a></p>
-        </div>
-    </div>
+</div>
 </body>
 </html>

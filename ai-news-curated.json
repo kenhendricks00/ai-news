@@ -1,0 +1,231 @@
+{
+  "date": "2026-06-28",
+  "date_formatted": "June 28, 2026",
+  "posts": [
+    {
+      "title": "We're probably going to need that soon.",
+      "subreddit": "LocalLLaMA",
+      "score": "1609",
+      "category": "MODEL LAUNCH",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uht2m0/were_probably_going_to_need_that_soon/",
+      "author": "Nunki08",
+      "num_comments": "216"
+    },
+    {
+      "title": "Updates for ChatGPT",
+      "subreddit": "ChatGPT",
+      "score": "3561",
+      "category": "OPENAI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+      "author": "samaltman",
+      "num_comments": "1412"
+    },
+    {
+      "title": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+      "subreddit": "singularity",
+      "score": "167",
+      "category": "ANTHROPIC",
+      "url": "https://www.reddit.com/r/singularity/comments/1uhkyg4/china_has_matched_anthropic_in_cybersecurity/",
+      "author": "yogthos",
+      "num_comments": "42"
+    },
+    {
+      "title": "Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!",
+      "subreddit": "singularity",
+      "score": "1684",
+      "category": "GOOGLE",
+      "url": "https://www.reddit.com/r/singularity/comments/1uh259r/breaking_news_gemini_35_pro_so_ass_the_us/",
+      "author": "THE--GRINCH",
+      "num_comments": "169"
+    },
+    {
+      "title": "Yann LeCun says xAI is a failure",
+      "subreddit": "singularity",
+      "score": "1460",
+      "category": "XAI",
+      "url": "https://www.reddit.com/r/singularity/comments/1ugfgzu/yann_lecun_says_xai_is_a_failure/",
+      "author": "Formal-Assistance02",
+      "num_comments": "311"
+    },
+    {
+      "title": "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
+      "subreddit": "singularity",
+      "score": "304",
+      "category": "AI AGENTS",
+      "url": "https://www.reddit.com/r/singularity/comments/1uhxshz/meanwhile_in_china_10000_delivery_bots_are/",
+      "author": "Distinct-Question-16",
+      "num_comments": "111"
+    },
+    {
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "subreddit": "singularity",
+      "score": "64",
+      "category": "AI CODING",
+      "url": "https://www.reddit.com/r/singularity/comments/1uh4k19/dspark_speculative_decoding_accelerates_llm/",
+      "author": "yogthos",
+      "num_comments": "6"
+    },
+    {
+      "title": "Krea2 style transfer: first release",
+      "subreddit": "StableDiffusion",
+      "score": "144",
+      "category": "RESEARCH",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1uhpiov/krea2_style_transfer_first_release/",
+      "author": "Winter_unmuted",
+      "num_comments": "15"
+    },
+    {
+      "title": "Showcase: geolocating a dashcam video without GPS, only from the footage [P]",
+      "subreddit": "MachineLearning",
+      "score": "18",
+      "category": "VIDEO GEN",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/",
+      "author": "Ok-Apricot956",
+      "num_comments": "16"
+    },
+    {
+      "title": "ComfyUI now natively supports INT8 tested and confirmed",
+      "subreddit": "StableDiffusion",
+      "score": "240",
+      "category": "IMAGE GEN",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1uhcg69/comfyui_now_natively_supports_int8_tested_and/",
+      "author": "Winougan",
+      "num_comments": "220"
+    },
+    {
+      "title": "Ngl, it's gonna be glorious when it happens. AI should be available to all and not only to selected few among the elites.",
+      "subreddit": "singularity",
+      "score": "539",
+      "category": "AI TOOLS",
+      "url": "https://www.reddit.com/r/singularity/comments/1ugnifs/ngl_its_gonna_be_glorious_when_it_happens_ai/",
+      "author": "Boring_Aioli7916",
+      "num_comments": "242"
+    },
+    {
+      "title": "In all the excitement pointing fingers at Dario we forgot to ask how (or why) is the commerce secretary directing national and global AI policy for the US moving forward?",
+      "subreddit": "singularity",
+      "score": "404",
+      "category": "AI POLICY",
+      "url": "https://www.reddit.com/r/singularity/comments/1uhgq6g/in_all_the_excitement_pointing_fingers_at_dario/",
+      "author": "Cagnazzo82",
+      "num_comments": "168"
+    },
+    {
+      "title": "OWNING HARDWARE THAT CAN RUN MODELS LOCALLY MATTERS MORE THAN EVER",
+      "subreddit": "ArtificialInteligence",
+      "score": "262",
+      "category": "HARDWARE",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1uh100j/owning_hardware_that_can_run_models_locally/",
+      "author": "0xMassii",
+      "num_comments": "106"
+    },
+    {
+      "title": "NagaTranslate: Building a translation and voice pipeline for low-resource Nagaland creoles (Whisper, VITS, LLMs) [P]",
+      "subreddit": "MachineLearning",
+      "score": "9",
+      "category": "VOICE AI",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/",
+      "author": "Material_Dinner_1924",
+      "num_comments": "3"
+    },
+    {
+      "title": "Japanese animator using Seedance to render anime from simple 3D models",
+      "subreddit": "singularity",
+      "score": "2723",
+      "category": "AGI",
+      "url": "https://www.reddit.com/r/singularity/comments/1ue6yoh/japanese_animator_using_seedance_to_render_anime/",
+      "author": "PointmanW",
+      "num_comments": "366"
+    },
+    {
+      "title": "A debugger for RL reward functions that detects reward hacking during training [P]",
+      "subreddit": "MachineLearning",
+      "score": "279",
+      "category": "AI NEWS",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
+      "author": "BaniyanChor",
+      "num_comments": "20"
+    },
+    {
+      "title": "Dario has been doing this for years",
+      "subreddit": "OpenAI",
+      "score": "2130",
+      "category": "OPENAI",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1ugbi6w/dario_has_been_doing_this_for_years/",
+      "author": "DigSignificant1419",
+      "num_comments": "166"
+    },
+    {
+      "title": "This might be Sam Altman\u2019s most controversial non-AI tweet.",
+      "subreddit": "ChatGPT",
+      "score": "1149",
+      "category": "OPENAI",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1uhr5l4/this_might_be_sam_altmans_most_controversial/",
+      "author": "imfrom_mars_",
+      "num_comments": "247"
+    },
+    {
+      "title": "96gb+ 4090's and 5090 are literally a scam. I mods these cards myself",
+      "subreddit": "LocalLLaMA",
+      "score": "847",
+      "category": "MODEL LAUNCH",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh1lc7/96gb_4090s_and_5090_are_literally_a_scam_i_mods/",
+      "author": "computune",
+      "num_comments": "195"
+    },
+    {
+      "title": "Gpt 5.6 better than Mythos 5 that's crazy",
+      "subreddit": "OpenAI",
+      "score": "793",
+      "category": "OPENAI",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1ugd1pa/gpt_56_better_than_mythos_5_thats_crazy/",
+      "author": "Independent-Wind4462",
+      "num_comments": "191"
+    },
+    {
+      "title": "KREA 2: Open-Source Release",
+      "subreddit": "StableDiffusion",
+      "score": "689",
+      "category": "MODEL LAUNCH",
+      "url": "https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/",
+      "author": "Angrypenguinpng",
+      "num_comments": "93"
+    },
+    {
+      "title": "US Ban Benchmark Updated: Toe-to-toe Between Two Big Names!",
+      "subreddit": "OpenAI",
+      "score": "626",
+      "category": "OPENAI",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1uh2m8s/us_ban_benchmark_updated_toetotoe_between_two_big/",
+      "author": "Tudragon123456",
+      "num_comments": "61"
+    },
+    {
+      "title": "Remember the creator of Reddit",
+      "subreddit": "OpenAI",
+      "score": "539",
+      "category": "OPENAI",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1uhalo0/remember_the_creator_of_reddit/",
+      "author": "Excellent_Call_5954",
+      "num_comments": "13"
+    },
+    {
+      "title": "The US lifts its block on Mythos 5",
+      "subreddit": "singularity",
+      "score": "535",
+      "category": "AGI",
+      "url": "https://www.reddit.com/r/singularity/comments/1ugme72/the_us_lifts_its_block_on_mythos_5/",
+      "author": "Charuru",
+      "num_comments": "76"
+    },
+    {
+      "title": "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
+      "subreddit": "singularity",
+      "score": "508",
+      "category": "AGI",
+      "url": "https://www.reddit.com/r/singularity/comments/1ugw8t1/demis_hassabis_ai_can_now_reconstruct_what_people/",
+      "author": "TorturedPoet30",
+      "num_comments": "70"
+    }
+  ]
+}

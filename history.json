@@ -62,6 +62,37 @@
         "GNOME AI assistant adds image generation support \u2014 open-source desktop AI advances"
       ],
       "story_count": 24
+    },
+    {
+      "date": "2026-06-28",
+      "headlines": [
+        "[MODEL LAUNCH] We're probably going to need that soon. (r/LocalLLaMA, \u25b21609)",
+        "[OPENAI] Updates for ChatGPT (r/ChatGPT, \u25b23561)",
+        "[ANTHROPIC] China Has Matched Anthropic in Cybersecurity, Resetting AI Race (r/singularity, \u25b2167)",
+        "[GOOGLE] Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US! (r/singularity, \u25b21684)",
+        "[XAI] Yann LeCun says xAI is a failure (r/singularity, \u25b21460)",
+        "[AI AGENTS] Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous (r/singularity, \u25b2304)",
+        "[AI CODING] DSpark: Speculative decoding accelerates LLM inference [pdf] (r/singularity, \u25b264)",
+        "[RESEARCH] Krea2 style transfer: first release (r/StableDiffusion, \u25b2144)",
+        "[VIDEO GEN] Showcase: geolocating a dashcam video without GPS, only from the footage [P] (r/MachineLearning, \u25b218)",
+        "[IMAGE GEN] ComfyUI now natively supports INT8 tested and confirmed (r/StableDiffusion, \u25b2240)",
+        "[AI TOOLS] Ngl, it's gonna be glorious when it happens. AI should be available to all and not only to selected few among the elites. (r/singularity, \u25b2539)",
+        "[AI POLICY] In all the excitement pointing fingers at Dario we forgot to ask how (or why) is the commerce secretary directing national and global AI policy for the US moving forward? (r/singularity, \u25b2404)",
+        "[HARDWARE] OWNING HARDWARE THAT CAN RUN MODELS LOCALLY MATTERS MORE THAN EVER (r/ArtificialInteligence, \u25b2262)",
+        "[VOICE AI] NagaTranslate: Building a translation and voice pipeline for low-resource Nagaland creoles (Whisper, VITS, LLMs) [P] (r/MachineLearning, \u25b29)",
+        "[AGI] Japanese animator using Seedance to render anime from simple 3D models (r/singularity, \u25b22723)",
+        "[AI NEWS] A debugger for RL reward functions that detects reward hacking during training [P] (r/MachineLearning, \u25b2279)",
+        "[OPENAI] Dario has been doing this for years (r/OpenAI, \u25b22130)",
+        "[OPENAI] This might be Sam Altman\u2019s most controversial non-AI tweet. (r/ChatGPT, \u25b21149)",
+        "[MODEL LAUNCH] 96gb+ 4090's and 5090 are literally a scam. I mods these cards myself (r/LocalLLaMA, \u25b2847)",
+        "[OPENAI] Gpt 5.6 better than Mythos 5 that's crazy (r/OpenAI, \u25b2793)",
+        "[MODEL LAUNCH] KREA 2: Open-Source Release (r/StableDiffusion, \u25b2689)",
+        "[OPENAI] US Ban Benchmark Updated: Toe-to-toe Between Two Big Names! (r/OpenAI, \u25b2626)",
+        "[OPENAI] Remember the creator of Reddit (r/OpenAI, \u25b2539)",
+        "[AGI] The US lifts its block on Mythos 5 (r/singularity, \u25b2535)",
+        "[AGI] Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\" (r/singularity, \u25b2508)"
+      ],
+      "story_count": 25
     }
   ]
 }
