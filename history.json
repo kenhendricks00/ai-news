@@ -1,98 +1,30 @@
-{
-  "page": "AI News Today",
-  "description": "Daily archive of curated AI news from Reddit",
-  "entries": [
-    {
-      "date": "2026-06-26",
-      "url": "https://news.ken.tools",
-      "headlines": [
-        "OpenAI previews GPT-5.6 \"Sol\" \u2014 beats Mythos 5",
-        "US Govt to individually approve who gets GPT-5.6 access",
-        "Claude Fable 5 returning after 13-day government suspension",
-        "OpenAI unveils GPT-5.6 series: Sol, Earth, and Luna",
-        "Ornith-1.0 released on Hugging Face",
-        "KREA 2: Open-Source Release",
-        "audio.cpp: 12 audio models in one C++/ggml runtime \u2014 5x faster TTS",
-        "JetSpec: Speculative Decoding with 9.64x lossless speedup",
-        "Italy's Domyn to launch open-source frontier AI model within a year",
-        "Apple to skip M6 Pro/Max, fast-track M7 for local AI",
-        "IBM announces major AI efficiency breakthrough",
-        "Yann LeCun says xAI is a failure",
-        "OpenAI considering halting their IPO",
-        "Google keeps losing top AI researchers \u2014 \"the moat was never the weights\"",
-        "Why big AI labs are hiring so many philosophers \u2014 The Economist",
-        "LTX Director 2.0 \u2014 Free open-source AI video tool for ComfyUI",
-        "RefControl \u2014 LoRA family for FLUX.2 Klein",
-        "Best Local Agents \u2014 June 2026 roundup",
-        "Japanese animator using Seedance to render anime from simple 3D models",
-        "Wan-Streamer v0.1: Real-time Interactive Foundation Models",
-        "[P] A debugger for RL reward functions that detects reward hacking",
-        "Vesuvius scroll burnt to a crisp deciphered with help of AI",
-        "Stronger AI models may mean slower releases, not faster ones",
-        "Analyzed 500+ companies' job postings \u2014 new roles emerging due to AI",
-        "If your AI automation reads emails, websites, or databases, someone can manipulate it"
-      ]
-    },
-    {
-      "date": "2026-06-27",
-      "headlines": [
-        "OpenAI announces GPT-5.6 Sol, Earth, and Luna \u2014 previewing the next-generation model series",
-        "GPT-5.6 Sol preview: benchmark gap wider than expected \u2014 beats Mythos 5 across the board",
-        "The US lifts its block on Mythos 5 \u2014 Anthropic can now deploy at scale",
-        "DeepSeek-V4-Pro-DSpark released on HuggingFace \u2014 speculative decoding for faster inference",
-        "Sam Altman unsure about GPT-5.6 release outside the US \u2014 export controls loom large",
-        "Yann LeCun says xAI is a failure \u2014 sparks debate on the future of AI companies",
-        "Google keeps losing top AI researchers \u2014 the moat was never the weights",
-        "OpenAI and Anthropic face new AI reality as companies shift from tokenmaxxing to efficiency",
-        "Nemotron-3-Super-120B-A12B \u2014 hybrid Mamba+MoE holds perfect needle retrieval to 504K tokens on 4\u00d73090",
-        "Vulkan TP support proposed for llama.cpp \u2014 making tensor parallelism viable on non-NVIDIA hardware",
-        "DeepSWE: new benchmark for how well today's frontier models can actually write code",
-        "Compiling Agentic Workflows into LLM Weights \u2014 near-frontier quality at 2 orders of magnitude less compute",
-        "KREA 2: Open-Source Release \u2014 next-gen image generation model",
-        "LTX Director 2.0 Update \u2014 free open-source all-in-one AI video tool for ComfyUI",
-        "Japanese animator using Seedance to render anime from simple 3D models",
-        "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans",
-        "Aleph Neuro achieves highest-resolution 3D brain imaging \u2014 powered by AI reconstruction",
-        "U.S. government will decide who gets to use the latest upgrade to ChatGPT",
-        "Europe's doomsday AI scenario comes alive \u2014 EU grapples with existential risk regulation",
-        "Anthropic published data: 35% of users expect AI to do MOST of their work within 1 year",
-        "96GB 5090s from Shenzhen's Huaqiangbei \u2014 the wild world of modified consumer GPUs",
-        "Vulkan makes TP viable for llama.cpp \u2014 multi-GPU on any hardware",
-        "Papyrus scroll burnt during Vesuvius eruption deciphered by AI",
-        "GNOME AI assistant adds image generation support \u2014 open-source desktop AI advances"
-      ],
-      "story_count": 24
-    },
-    {
-      "date": "2026-06-28",
-      "headlines": [
-        "[MODEL LAUNCH] We're probably going to need that soon. (r/LocalLLaMA, \u25b21609)",
-        "[OPENAI] Updates for ChatGPT (r/ChatGPT, \u25b23561)",
-        "[ANTHROPIC] China Has Matched Anthropic in Cybersecurity, Resetting AI Race (r/singularity, \u25b2167)",
-        "[GOOGLE] Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US! (r/singularity, \u25b21684)",
-        "[XAI] Yann LeCun says xAI is a failure (r/singularity, \u25b21460)",
-        "[AI AGENTS] Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous (r/singularity, \u25b2304)",
-        "[AI CODING] DSpark: Speculative decoding accelerates LLM inference [pdf] (r/singularity, \u25b264)",
-        "[RESEARCH] Krea2 style transfer: first release (r/StableDiffusion, \u25b2144)",
-        "[VIDEO GEN] Showcase: geolocating a dashcam video without GPS, only from the footage [P] (r/MachineLearning, \u25b218)",
-        "[IMAGE GEN] ComfyUI now natively supports INT8 tested and confirmed (r/StableDiffusion, \u25b2240)",
-        "[AI TOOLS] Ngl, it's gonna be glorious when it happens. AI should be available to all and not only to selected few among the elites. (r/singularity, \u25b2539)",
-        "[AI POLICY] In all the excitement pointing fingers at Dario we forgot to ask how (or why) is the commerce secretary directing national and global AI policy for the US moving forward? (r/singularity, \u25b2404)",
-        "[HARDWARE] OWNING HARDWARE THAT CAN RUN MODELS LOCALLY MATTERS MORE THAN EVER (r/ArtificialInteligence, \u25b2262)",
-        "[VOICE AI] NagaTranslate: Building a translation and voice pipeline for low-resource Nagaland creoles (Whisper, VITS, LLMs) [P] (r/MachineLearning, \u25b29)",
-        "[AGI] Japanese animator using Seedance to render anime from simple 3D models (r/singularity, \u25b22723)",
-        "[AI NEWS] A debugger for RL reward functions that detects reward hacking during training [P] (r/MachineLearning, \u25b2279)",
-        "[OPENAI] Dario has been doing this for years (r/OpenAI, \u25b22130)",
-        "[OPENAI] This might be Sam Altman\u2019s most controversial non-AI tweet. (r/ChatGPT, \u25b21149)",
-        "[MODEL LAUNCH] 96gb+ 4090's and 5090 are literally a scam. I mods these cards myself (r/LocalLLaMA, \u25b2847)",
-        "[OPENAI] Gpt 5.6 better than Mythos 5 that's crazy (r/OpenAI, \u25b2793)",
-        "[MODEL LAUNCH] KREA 2: Open-Source Release (r/StableDiffusion, \u25b2689)",
-        "[OPENAI] US Ban Benchmark Updated: Toe-to-toe Between Two Big Names! (r/OpenAI, \u25b2626)",
-        "[OPENAI] Remember the creator of Reddit (r/OpenAI, \u25b2539)",
-        "[AGI] The US lifts its block on Mythos 5 (r/singularity, \u25b2535)",
-        "[AGI] Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\" (r/singularity, \u25b2508)"
-      ],
-      "story_count": 25
-    }
-  ]
-}
+[
+  {
+    "date": "2026-06-29",
+    "headlines": [
+      "KREA 2: Open-Source Release",
+      "We released a tiny packed Sana 1.6B model into 1.58bit ... would love feedback from local image people",
+      "VNCCS 3.0 Has been released!",
+      "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
+      "Look at that !! Scientist early tester on GPT-5.6 Sol",
+      "Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!",
+      "Google caps Meta’s Gemini use as AI demand strains capacity",
+      "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+      "Sam Altman unsure about gpt 5.6 release outside of US",
+      "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
+      "Meta improves Brain2QWERTY, a system that can decode text from brain activity to enable typing using non-invasive technologies, MEG and EEG",
+      "A debugger for RL reward functions that detects reward hacking during training [P]",
+      "Japanese animator using Seedance to render anime from simple 3D models",
+      "Best Local Agents - Jun 2026",
+      "GLM 5.2 Q1_S vs Qwen 27B Q8",
+      "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+      "US officials fear ‘supervillain’ China pulling ahead in AI race even a little",
+      "Anthropic and US govt insiders expect limits on Fable 5 could be lifted as soon as this coming week - Axios",
+      "During safety testing, GPT-5.6 Sol cheated so much METR was not able to evaluate it",
+      "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
+      "Open source is the future — so I'm giving away 144 cinematic AI stills, each with its prompt + template + workflow included (free / pay what you want)",
+      "Training LoRA for Krea 2 is easy and wonderful",
+      "So now scraping data without permission is bad for AI training all of sudden?"
+    ]
+  }
+]
