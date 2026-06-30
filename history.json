@@ -26,5 +26,34 @@
       "Training LoRA for Krea 2 is easy and wonderful",
       "So now scraping data without permission is bad for AI training all of sudden?"
     ]
+  },
+  {
+    "date": "2026-06-30",
+    "headlines": [
+      "Effect of GLM 5.2 !!",
+      "Introducing LongCat-2.0 - , a large-scale MoE language model with 1.6 trillion total parameters and ~48 billion activated per token. This was the stealth model that was on Openrouter under the name 'owl-alpha'.",
+      "nvidia/Qwen3.6-27B-NVFP4 just dropped",
+      "KREA 2: Open-Source Release",
+      "DeepSeek V4, PR merged into llama.cpp !",
+      "Huawei open-sources OpenPangu-2.0-Flash - 92B total,6B active",
+      "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
+      "VNCCS 3.0 Has been released!",
+      "Updates for ChatGPT",
+      "Meta was secretly running on Google's Gemini the whole time and then got cut off for using too much",
+      "Google caps Meta’s Gemini use as AI demand strains capacity",
+      "Cerebras OpenAI deal capacity has effectively killed the waitlist for everyone else [D]",
+      "Microsoft has taken down fastcontext model from everywhere",
+      "Japanese animator using Seedance to render anime from simple 3D models",
+      "Ford rehires more than 300 veteran human engineers after it says Al failed to deliver the same level of expertise.",
+      "Introverts automating their own work.",
+      "UBTech is unveiling their emotional humanoid robots, starting at ~$15K",
+      "Best Local Agents - Jun 2026",
+      "Meta improves Brain2QWERTY, a system that can decode text from brain activity to enable typing using non-invasive technologies, MEG and EEG",
+      "A debugger for RL reward functions that detects reward hacking during training [P]",
+      "I shrank a transformer until every number fitted on the screen and made the weights editable [R]",
+      "Energy Department Announces Initiative to Create and Deploy the World’s First Scientifically Relevant, Fault-Tolerant Quantum Computers",
+      "During safety testing, GPT-5.6 Sol cheated so much METR was not able to evaluate it",
+      "China Has Matched Anthropic in Cybersecurity, Resetting AI Race"
+    ]
   }
 ]
