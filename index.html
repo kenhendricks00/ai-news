@@ -2,515 +2,596 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI News Today - July 16, 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AI News Today · July 17, 2026</title>
+<meta name="description" content="Curated AI news picks from Reddit — July 17, 2026">
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  background: #000;
-  color: #e0e0e0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.6;
-  padding: 20px;
-}
-.container {
-  max-width: 680px;
-  margin: 0 auto;
-}
-header {
-  margin-bottom: 32px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid #1a1a1a;
-}
-header h1 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 8px;
-}
-header .meta {
-  font-size: 13px;
-  color: #666;
-}
-.section-label {
-  text-transform: uppercase;
-  font-size: 12px;
-  color: #888;
-  letter-spacing: 1px;
-  margin: 32px 0 16px 0;
-  font-weight: 600;
-}
-.card {
-  background: #151515;
-  border: 1px solid #1f1f1f;
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
-}
-.tag {
-  display: inline-block;
-  background: rgba(56,152,255,0.12);
-  color: #3898ff;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 4px 10px;
-  border-radius: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 10px;
-}
-.card h2 {
-  font-size: 17px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 8px;
-  line-height: 1.4;
-}
-.card h2 a {
-  color: #fff;
-  text-decoration: none;
-}
-.card h2 a:hover {
-  text-decoration: underline;
-}
-.card-meta {
-  font-size: 12px;
-  color: #666;
-  margin-bottom: 10px;
-}
-.card-meta .subreddit {
-  color: #ff6b35;
-  font-weight: 600;
-}
-.card-meta .sep {
-  margin: 0 6px;
-  color: #333;
-}
-.card-body {
-  font-size: 13.5px;
-  color: #888;
-  margin-bottom: 12px;
-}
-.why {
-  border-left: 3px solid #42c478;
-  background: rgba(66,196,120,0.05);
-  padding: 10px 14px;
-  margin-top: 12px;
-  border-radius: 0 6px 6px 0;
-}
-.why-label {
-  font-size: 11px;
-  color: #42c478;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 4px;
-}
-.why-text {
-  font-size: 13px;
-  color: #e0e0e0;
-  line-height: 1.5;
-}
-.card-image {
-  margin-top: 12px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.card-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.divider {
-  border: none;
-  border-top: 1px solid #1a1a1a;
-  margin: 24px 0;
-}
-footer {
-  text-align: center;
-  color: #666;
-  font-size: 12px;
-  margin-top: 48px;
-  padding: 24px 0;
-  border-top: 1px solid #1a1a1a;
-}
-@media (max-width: 480px) {
-  body { padding: 12px; }
-  .card { padding: 14px; }
-  header h1 { font-size: 20px; }
-  .card h2 { font-size: 16px; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif; background: #000; color: #e0e0e0; line-height: 1.5; }
+a { color: inherit; text-decoration: none; }
+.container { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+
+/* Header */
+.header { padding: 32px 0 24px; }
+.header h1 { font-size: 22px; font-weight: 700; color: #fff; letter-spacing: -0.3px; }
+.header .subtitle { font-size: 13px; color: #666; margin-top: 4px; }
+.header .meta { font-size: 12px; color: #555; margin-top: 2px; }
+.header .subtitle span { color: #ff6b35; }
+
+/* Section labels */
+.section-label { text-transform: uppercase; font-size: 12px; letter-spacing: 1.5px; color: #888; margin: 28px 0 12px; padding-top: 8px; border-top: 1px solid #1a1a1a; }
+
+/* Cards */
+.card-link { display: block; margin-bottom: 12px; }
+.card { background: #151515; border: 1px solid #1f1f1f; border-radius: 12px; padding: 16px; transition: border-color 0.15s, transform 0.1s; }
+.card:hover { border-color: #333; }
+.card:active { transform: scale(0.99); }
+
+.tag { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; padding: 3px 8px; border-radius: 4px; background: rgba(56,152,255,0.12); color: #3898ff; margin-bottom: 10px; text-transform: uppercase; }
+
+.card-title { font-size: 17px; font-weight: 700; color: #fff; line-height: 1.35; margin-bottom: 8px; }
+
+.card-meta { font-size: 12.5px; color: #666; margin-bottom: 10px; display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+.card-meta .subreddit { color: #ff6b35; font-weight: 600; }
+.card-meta .score { color: #aaa; }
+.card-meta .sep { color: #444; }
+.card-meta .author { color: #777; }
+.card-meta .comments { color: #777; }
+
+.card-body { font-size: 13.5px; color: #888; line-height: 1.55; margin-bottom: 12px; }
+
+/* Why it matters */
+.why-matters { background: rgba(66,196,120,0.08); border-left: 3px solid #42c478; border-radius: 0 6px 6px 0; padding: 12px 14px; margin-bottom: 12px; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 6px; }
+.why-matters svg { flex-shrink: 0; margin-top: 2px; }
+.why-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #42c478; }
+.why-matters p { font-size: 13px; color: #ddd; line-height: 1.5; margin-top: 4px; width: 100%; }
+
+/* Post image */
+.post-image { width: 100%; border-radius: 8px; margin-top: 4px; display: block; max-height: 320px; object-fit: cover; background: #111; }
+
+/* Footer */
+.footer { text-align: center; padding: 32px 0 40px; font-size: 12px; color: #555; border-top: 1px solid #1a1a1a; margin-top: 8px; }
+.footer a { color: #3898ff; }
+
+@media (max-width: 480px) { 
+    .container { padding: 0 12px; }
+    .header h1 { font-size: 20px; }
+    .card-title { font-size: 16px; }
+    .card { padding: 14px; }
 }
 </style>
 </head>
 <body>
 <div class="container">
-<header>
-<h1>r/Artificial → AI News picks</h1>
-<div class="meta">July 16, 2026 · Curated from 8 AI subreddits</div>
-</header>
-
-<div class="section-label">Top Stories</div>
-<div class="card">
-<div class="tag">AI NEWS</div>
-<h2><a href="https://old.reddit.com/r/LocalLLaMA/comments/1ux9xze/the_best_model_is_the_one_you_can_actually_run/" target="_blank" rel="noopener">The best model is the one you can actually run</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/LocalLLaMA</span>
-<span class="sep">·</span>
-<span>↑ 1667</span>
-<span class="sep">·</span>
-<span>210 comments</span>
-<span class="sep">·</span>
-<span>u/OneFanFare</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">A practical reminder that model selection should be driven by deployment constraints, not just benchmark scores.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/dyi11adk1fdh1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=8f92833afd621976c3156e11f51308870296d086" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">MODEL LAUNCH</div>
-<h2><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uxdv34/thinking_machines_releases_first_openweight_model/" target="_blank" rel="noopener">Thinking Machines releases first open-weight model “Inkling”</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/LocalLLaMA</span>
-<span class="sep">·</span>
-<span>↑ 1188</span>
-<span class="sep">·</span>
-<span>256 comments</span>
-<span class="sep">·</span>
-<span>u/WhyLifeIs4</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Thinking Machines' first open-weight model 'Inkling' expands the open-source AI ecosystem and provides researchers with new capabilities.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/d7s0z8kqpfdh1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=12f4301a96e2c8103d1faff1e6d7258ae32633da" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">OPEN SOURCE</div>
-<h2><a href="https://old.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/" target="_blank" rel="noopener">KREA 2: Open-Source Release</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/StableDiffusion</span>
-<span class="sep">·</span>
-<span>↑ 743</span>
-<span class="sep">·</span>
-<span>99 comments</span>
-<span class="sep">·</span>
-<span>u/Angrypenguinpng</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">KREA 2's open-source release democratizes image generation, giving creators and researchers access to state-of-the-art models without vendor lock-in.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/ZGVhc3VyZzZ1MTloMQ9S4GwL9hyJcYg2Nc1NIgrXSnMED6nMqq5mrwFu8gVu.png?width=140&amp;height=78&amp;format=jpg&amp;auto=webp&amp;s=aa2b58cc6b3a54a1b04cf658f20c435301cc5c36" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">MODEL UPDATE</div>
-<h2><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uxfu4k/google_is_updating_gemma_4s_chat_templates/" target="_blank" rel="noopener">Google is updating Gemma 4's chat templates, bringing major fixes to tool calling and reducing "laziness", and enabling Flash Attention 4 on Hopper GPUs, plus an interactive guide on how to work with and improve its vision!</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/LocalLLaMA</span>
-<span class="sep">·</span>
-<span>↑ 653</span>
-<span class="sep">·</span>
-<span>118 comments</span>
-<span class="sep">·</span>
-<span>u/Iwaku_Real</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Google's Gemma 4 updates improve tool-calling and reduce hallucinations, directly impacting developers building on open-weight models.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/9j0dofv61gdh1.png?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=297238a83604eb277cd8f270d08df7e91d8b721b" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">MODEL LAUNCH</div>
-<h2><a href="https://old.reddit.com/r/singularity/comments/1uxdtpe/thinking_machines_releases_first_open_weight/" target="_blank" rel="noopener">Thinking Machines releases first Open Weight Model “Inkling”</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/singularity</span>
-<span class="sep">·</span>
-<span>↑ 448</span>
-<span class="sep">·</span>
-<span>59 comments</span>
-<span class="sep">·</span>
-<span>u/WhyLifeIs4</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Thinking Machines' first open-weight model 'Inkling' expands the open-source AI ecosystem and provides researchers with new capabilities.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/ta2c1nwhpfdh1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7cd2958f1ef6c2b0338678d0858fc6b6a6a814dc" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">MODEL UPDATE</div>
-<h2><a href="https://old.reddit.com/r/OpenAI/comments/1ux396z/gpt_56_sol_tackles_the_3_body_problem/" target="_blank" rel="noopener">GPT 5.6 Sol tackles the 3 Body Problem</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/OpenAI</span>
-<span class="sep">·</span>
-<span>↑ 283</span>
-<span class="sep">·</span>
-<span>73 comments</span>
-<span class="sep">·</span>
-<span>u/Acceptable-Object390</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">GPT-5.6 Sol's performance on complex problems like the 3-Body Problem demonstrates continued advances in reasoning capabilities.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/a2psc2tveDhxZGRoMX0jGUH_gci79cLCAofX2ChClZnURWhEtqMxAwSOWYm-.png?width=140&amp;height=78&amp;format=jpg&amp;auto=webp&amp;s=648b9014300386c8cad8088bc654f2612403e768" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">IMAGE MODEL</div>
-<h2><a href="https://old.reddit.com/r/StableDiffusion/comments/1uxfwrw/havent_used_a_model_this_much_since_flux1dev/" target="_blank" rel="noopener">Haven't used a model this much since Flux1.Dev</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/StableDiffusion</span>
-<span class="sep">·</span>
-<span>↑ 585</span>
-<span class="sep">·</span>
-<span>81 comments</span>
-<span class="sep">·</span>
-<span>u/Beautiful_Egg6188</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Continued enthusiasm for Flux models shows the strong community adoption of open-source image generation tools.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/dl9xbk901gdh1.png?width=140&amp;height=78&amp;auto=webp&amp;s=db0fc647590b168376ae65512f9b74ccab8266d2" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI TOOL</div>
-<h2><a href="https://old.reddit.com/r/StableDiffusion/comments/1uxxfzo/i_love_ltx23_cant_believe_we_have_free_things/" target="_blank" rel="noopener">I love LTX2.3. Cant believe we have free things that just work</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/StableDiffusion</span>
-<span class="sep">·</span>
-<span>↑ 555</span>
-<span class="sep">·</span>
-<span>53 comments</span>
-<span class="sep">·</span>
-<span>u/Beautiful_Egg6188</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">LTX 2.3's quality improvements make open-source video generation competitive with proprietary solutions.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/d2x0djI1cTE0a2RoMa7lnxwvVO0pW-tWmBwp-5ZRKCHCTYOzRxaambNqFodh.png?width=140&amp;height=78&amp;format=jpg&amp;auto=webp&amp;s=cd2985b3f9d9624d922acf3ee2ab9b66d91be60d" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI TOOL</div>
-<h2><a href="https://old.reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/" target="_blank" rel="noopener">LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/StableDiffusion</span>
-<span class="sep">·</span>
-<span>↑ 489</span>
-<span class="sep">·</span>
-<span>153 comments</span>
-<span class="sep">·</span>
-<span>u/WhatDreamsCost</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">LTX Director 2.0 provides a free, open-source pipeline for AI video creation, lowering barriers for independent creators.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/ymcs5VvfqJGKEzflTSzrF1C46FrKlajXIxawFbSIVFQ.jpeg?width=140&amp;height=105&amp;auto=webp&amp;s=799351c96ffb8407a4aa9385c3907cb19ef326b7" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI POLICY</div>
-<h2><a href="https://old.reddit.com/r/artificial/comments/1uxg3p4/american_communities_are_coming_together_to/" target="_blank" rel="noopener">American Communities Are Coming Together To Destroy Flock Surveillance Cameras</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/artificial</span>
-<span class="sep">·</span>
-<span>↑ 492</span>
-<span class="sep">·</span>
-<span>41 comments</span>
-<span class="sep">·</span>
-<span>u/Sgt_Gram</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Community action against AI surveillance cameras reflects growing public pushback against pervasive AI monitoring systems.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/fLdPtlo8anwWDydqu4nA5qMlRgaDsMqsZnOXAJ2gtPw.jpeg?width=140&amp;height=78&amp;auto=webp&amp;s=3510d3cf870a7d7f2cf34611cdbb0528ff028af8" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI SAFETY</div>
-<h2><a href="https://old.reddit.com/r/singularity/comments/1uxhpj3/anthropic_warns_that_ai_will_soon_be_able_to/" target="_blank" rel="noopener">Anthropic warns that AI will soon be able to improve itself without human intervention</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/singularity</span>
-<span class="sep">·</span>
-<span>↑ 446</span>
-<span class="sep">·</span>
-<span>212 comments</span>
-<span class="sep">·</span>
-<span>u/castironglider</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Anthropic's warning about self-improving AI underscores the urgency of alignment research as models approach critical capability thresholds.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/f11k-oSXgJCeQ1wUbCWx9JnsPVKIsD5gXNbFaiHCPYQ.jpeg?width=140&amp;height=78&amp;auto=webp&amp;s=82e5b2436e1e24dba3ae47894550a7925d8b3075" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI SAFETY</div>
-<h2><a href="https://old.reddit.com/r/OpenAI/comments/1uxfkju/openai_anounces_gptred_an_ai_to_hack_its_own/" target="_blank" rel="noopener">OpenAI anounces GPT-Red - an AI to Hack Its Own Models</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/OpenAI</span>
-<span class="sep">·</span>
-<span>↑ 284</span>
-<span class="sep">·</span>
-<span>36 comments</span>
-<span class="sep">·</span>
-<span>u/etherd0t</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">GPT-Red, an AI that audits its own models, represents OpenAI's push toward self-improving systems and automated safety testing.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/j69g0q390gdh1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=72562ea82c8ee0092945e4d549f0c477c8ad9443" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI DEBATE</div>
-<h2><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uxbrw4/linus_torvalds_tells_people_to_stop_attacking/" target="_blank" rel="noopener">Linus Torvalds tells people to stop attacking others for using AI</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/LocalLLaMA</span>
-<span class="sep">·</span>
-<span>↑ 2760</span>
-<span class="sep">·</span>
-<span>344 comments</span>
-<span class="sep">·</span>
-<span>u/Illustrious_Car344</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Linus Torvalds' stance on AI usage in the Linux community reflects broader tensions in tech about AI adoption, tooling, and community norms.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/b3ekTIlx6R3geklbLb4RUZ2PO4tVgbJWbQdl7cAJV0M.jpeg?width=140&amp;height=121&amp;auto=webp&amp;s=e7819150742e3cb06d10a96c5e09d1147f719c46" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI DEBATE</div>
-<h2><a href="https://old.reddit.com/r/singularity/comments/1uxwzi4/george_lucas_says_rejecting_ai_is_like_rejecting/" target="_blank" rel="noopener">George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it… it's the future'</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/singularity</span>
-<span class="sep">·</span>
-<span>↑ 1351</span>
-<span class="sep">·</span>
-<span>522 comments</span>
-<span class="sep">·</span>
-<span>u/Anen-o-me</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">George Lucas' comparison of AI to historical technology adoption frames the current AI debate in a broader historical context.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/5MrTuv1P4tf-6MJTV1UtK7V0X1nq1Lx7LrO7HJMheNo.jpeg?width=140&amp;height=78&amp;auto=webp&amp;s=fb86a12267ee3531eb0ef13f8329bdf036f77c33" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI DEBATE</div>
-<h2><a href="https://old.reddit.com/r/singularity/comments/1uxhnh1/linus_torvalds_reaffirms_that_linux_is_not_antiai/" target="_blank" rel="noopener">Linus Torvalds Reaffirms That Linux Is Not "Anti-AI" And Not A "Social Warrior" Project</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/singularity</span>
-<span class="sep">·</span>
-<span>↑ 879</span>
-<span class="sep">·</span>
-<span>109 comments</span>
-<span class="sep">·</span>
-<span>u/PointmanW</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">This development advances the AI field and impacts how practitioners build and use AI systems.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/b3ekTIlx6R3geklbLb4RUZ2PO4tVgbJWbQdl7cAJV0M.jpeg?width=140&amp;height=121&amp;auto=webp&amp;s=e7819150742e3cb06d10a96c5e09d1147f719c46" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI BENCHMARK</div>
-<h2><a href="https://old.reddit.com/r/ChatGPT/comments/1ux140w/6_ai_models_picked_france_to_win_the_world_cup/" target="_blank" rel="noopener">6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0.</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/ChatGPT</span>
-<span class="sep">·</span>
-<span>↑ 823</span>
-<span class="sep">·</span>
-<span>122 comments</span>
-<span class="sep">·</span>
-<span>u/Unlucky_Plantain</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">AI models' predictions about the World Cup highlight both their pattern-recognition capabilities and limitations in real-world forecasting.</div>
-</div>
-<div class="card-image">
-<img src="https://preview.redd.it/r8g3yah76ddh1.jpeg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=004e9ef27834836e08d95e145a2ce8d34ce619bf" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI IMPACT</div>
-<h2><a href="https://old.reddit.com/r/ChatGPT/comments/1uxv0ne/26_meta_employees_accuse_mark_zuckerberg_of_using/" target="_blank" rel="noopener">26 Meta employees accuse Mark Zuckerberg of using AI to target 8,000 layoffs against workers on medical, parental or family leave</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/ChatGPT</span>
-<span class="sep">·</span>
-<span>↑ 427</span>
-<span class="sep">·</span>
-<span>41 comments</span>
-<span class="sep">·</span>
-<span>u/KeanuRave100</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Meta employees' accusations about AI-driven layoffs highlight the human cost of automation and raise questions about corporate AI ethics.</div>
-</div>
-<div class="card-image">
-<img src="https://external-preview.redd.it/s-Sw42QOXjJ9-8ri9B0WoqFerg2IR7WkRe-JsdpvJKg.jpeg?width=140&amp;height=70&amp;auto=webp&amp;s=1c55bac262c8ad9353b088d33e56f3bfe0728267" alt="" loading="lazy">
-</div>
-</div><hr class="divider">
-<div class="card">
-<div class="tag">AI IMPACT</div>
-<h2><a href="https://old.reddit.com/r/ArtificialInteligence/comments/1uwjeho/anthropic_can_duplicate_your_business_models/" target="_blank" rel="noopener">Anthropic can duplicate your business models overnight</a></h2>
-<div class="card-meta">
-<span class="subreddit">r/ArtificialInteligence</span>
-<span class="sep">·</span>
-<span>↑ 410</span>
-<span class="sep">·</span>
-<span>196 comments</span>
-<span class="sep">·</span>
-<span>u/Jesse-359</span>
-</div>
-<div class="why">
-<div class="why-label">Why it matters</div>
-<div class="why-text">Anthropic's ability to rapidly replicate business models demonstrates both the power and competitive threat of frontier AI systems.</div>
-</div>
-
-</div>
-<footer>
-Generated on July 16, 2026 · Data from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence
-</footer>
+    <header class="header">
+        <h1>r/Artificial → AI News Picks</h1>
+        <div class="subtitle">Curated from <span>r/artificial</span>, <span>r/MachineLearning</span>, <span>r/LocalLLaMA</span>, <span>r/OpenAI</span>, <span>r/ChatGPT</span>, <span>r/singularity</span>, <span>r/StableDiffusion</span></div>
+        <div class="meta">July 17, 2026 · 24 stories</div>
+    </header>
+    
+    <a href="https://www.reddit.com/r/singularity/comments/1uxwzi4/george_lucas_says_rejecting_ai_is_like_rejecting/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">DISCUSSION</span>
+            <h2 class="card-title">George Lucas says rejecting AI is like rejecting cars in favour of horses: &#x27;There&#x27;s nothing you can do about it… it&#x27;s the future&#x27;</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">2477 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Anen-o-me</span>
+                <span class="sep">·</span>
+                <span class="comments">912 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/Anen-o-me · 2477 points · 912 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>George Lucas draws a parallel between the automobile revolution and AI adoption, arguing resistance is futile and adaptation is inevitable.</p>
+        </div>
+            <img class="post-image" src="//external-preview.redd.it/5MrTuv1P4tf-6MJTV1UtK7V0X1nq1Lx7LrO7HJMheNo.jpeg?width=140&amp;amp;height=78&amp;amp;auto=webp&amp;amp;s=fb86a12267ee3531eb0ef13f8329bdf036f77c33" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/OpenAI/comments/1uyd77a/kimik3_arrived_the_era_of_the_chinese_labs_being/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">NEWS</span>
+            <h2 class="card-title">Kimi-K3 arrived: The era of the Chinese labs being far behind is over</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/OpenAI</span>
+                <span class="sep">·</span>
+                <span class="score">1741 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/AloneCoffee4538</span>
+                <span class="sep">·</span>
+                <span class="comments">370 comments</span>
+            </div>
+            <p class="card-body">Posted in r/OpenAI by u/AloneCoffee4538 · 1741 points · 370 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/yk7rxgy7bndh1.jpeg?width=140&amp;amp;height=140&amp;amp;auto=webp&amp;amp;s=477d0282d8140e1c52a8ad1d75ef822a489f1d5a" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/singularity/comments/1uyas13/we_have_real_steel_now_alpha_version/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">ROBOTICS</span>
+            <h2 class="card-title">We have Real Steel now (Alpha Version)</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">1664 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/The_Rational_Gooner</span>
+                <span class="sep">·</span>
+                <span class="comments">166 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/The_Rational_Gooner · 1664 points · 166 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Humanoid robotics competitions are accelerating real-world dexterity, moving from lab demos to actual tournaments in under a year.</p>
+        </div>
+            <img class="post-image" src="//external-preview.redd.it/czBjc2Z5c3V1bWRoMdfXYtRw92QIuOdFBUMKvweN4eJWMIiFFlW88dZ1i2VH.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=713ec0ba5da5d6c200fb81ebead1b1f4abd7f1cf" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">DISCUSSION</span>
+            <h2 class="card-title">KIMI K3 Beats Claude Fable and GPT 5.6 sol in arena.ai!!!</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">1651 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Gohab2001</span>
+                <span class="sep">·</span>
+                <span class="comments">303 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/Gohab2001 · 1651 points · 303 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/sry915x7dndh1.png?width=140&amp;amp;height=50&amp;amp;auto=webp&amp;amp;s=b6108114ee3ce62bd1dd0493dc31f2babb0f18c7" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/StableDiffusion/comments/1uxxfzo/i_love_ltx23_cant_believe_we_have_free_things/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">OPEN SOURCE</span>
+            <h2 class="card-title">I love LTX2.3. Cant believe we have free things that just work</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/StableDiffusion</span>
+                <span class="sep">·</span>
+                <span class="score">1311 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Beautiful_Egg6188</span>
+                <span class="sep">·</span>
+                <span class="comments">109 comments</span>
+            </div>
+            <p class="card-body">Posted in r/StableDiffusion by u/Beautiful_Egg6188 · 1311 points · 109 comments</p>
+            
+            <img class="post-image" src="//external-preview.redd.it/d2x0djI1cTE0a2RoMa7lnxwvVO0pW-tWmBwp-5ZRKCHCTYOzRxaambNqFodh.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=cd2985b3f9d9624d922acf3ee2ab9b66d91be60d" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uy9cft/kimi_k3_benchmarks/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">NEWS</span>
+            <h2 class="card-title">Kimi K3 Benchmarks</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">1193 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/WhyLifeIs4</span>
+                <span class="sep">·</span>
+                <span class="comments">345 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/WhyLifeIs4 · 1193 points · 345 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/yuyk4c99mmdh1.jpeg?width=140&amp;amp;height=78&amp;amp;auto=webp&amp;amp;s=e15c86c5cb099c87958469572411b07dd911cbea" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/singularity/comments/1uybldp/kimi_k3_tops_frontend_code_arena/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">DISCUSSION</span>
+            <h2 class="card-title">Kimi K3 tops Frontend Code Arena</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">1119 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/MagicZhang</span>
+                <span class="sep">·</span>
+                <span class="comments">234 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/MagicZhang · 1119 points · 234 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/pg72x8ul0ndh1.jpeg?width=140&amp;amp;height=140&amp;amp;auto=webp&amp;amp;s=051a4e1392d1e74168e2df609176ffe56a2105d2" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uytamy/chinese_president_xi_jinping_speaks_at_world_ai/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Chinese President Xi Jinping speaks at World AI Conference and reaffirms commitment to open source to promote&quot;openness and win-win&quot;</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">978 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Nunki08</span>
+                <span class="sep">·</span>
+                <span class="comments">200 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/Nunki08 · 978 points · 200 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>China's President personally endorsing open-source AI at a major conference signals that open-weight models are now a matter of national strategy.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/7w3pnhw8yqdh1.jpeg?width=140&amp;amp;height=138&amp;amp;auto=webp&amp;amp;s=93ae04596ff246130d881b2dcf5d4d250112847b" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/singularity/comments/1uxhnh1/linus_torvalds_reaffirms_that_linux_is_not_antiai/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">DISCUSSION</span>
+            <h2 class="card-title">Linus Torvalds Reaffirms That Linux Is Not &quot;Anti-AI&quot; And Not A &quot;Social Warrior&quot; Project</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">938 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/PointmanW</span>
+                <span class="sep">·</span>
+                <span class="comments">120 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/PointmanW · 938 points · 120 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Linus Torvalds firmly rejects claims that Linux is anti-AI, telling critics to fork the kernel if they disagree — a strong signal that AI development is welcome in the open-source ecosystem.</p>
+        </div>
+            <img class="post-image" src="//external-preview.redd.it/b3ekTIlx6R3geklbLb4RUZ2PO4tVgbJWbQdl7cAJV0M.jpeg?width=140&amp;amp;height=121&amp;amp;auto=webp&amp;amp;s=e7819150742e3cb06d10a96c5e09d1147f719c46" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uycepz/kimi_k3_achieves_3rd_place_on_artificalanalysis/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">NEWS</span>
+            <h2 class="card-title">Kimi K3 achieves 3rd Place on ArtificalAnalysis, beating out Claude Opus 4.8</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">854 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/MagicZhang</span>
+                <span class="sep">·</span>
+                <span class="comments">84 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/MagicZhang · 854 points · 84 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/5vorrnbx5ndh1.png?width=140&amp;amp;height=65&amp;amp;auto=webp&amp;amp;s=c484bcc5ed0e727cde2150cf092867a948b0eb55" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/singularity/comments/1uy3oij/chinese_fable_5_is_here_aka_kimi_k3/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">DISCUSSION</span>
+            <h2 class="card-title">Chinese fable 5 is here !! Aka kimi k3</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">832 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Independent-Wind4462</span>
+                <span class="sep">·</span>
+                <span class="comments">188 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/Independent-Wind4462 · 832 points · 188 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/uv4k60ydlldh1.jpeg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=9ea5699d2db53f3cb8692bafb0eae5d607b3fac3" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/artificial/comments/1uxg3p4/american_communities_are_coming_together_to/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">NEWS</span>
+            <h2 class="card-title">American Communities Are Coming Together To Destroy Flock Surveillance Cameras</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/artificial</span>
+                <span class="sep">·</span>
+                <span class="score">809 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Sgt_Gram</span>
+                <span class="sep">·</span>
+                <span class="comments">57 comments</span>
+            </div>
+            <p class="card-body">Posted in r/artificial by u/Sgt_Gram · 809 points · 57 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Community-led takedowns of Flock surveillance cameras highlight growing tension between AI-powered policing and privacy rights.</p>
+        </div>
+            <img class="post-image" src="//external-preview.redd.it/fLdPtlo8anwWDydqu4nA5qMlRgaDsMqsZnOXAJ2gtPw.jpeg?width=140&amp;amp;height=78&amp;amp;auto=webp&amp;amp;s=3510d3cf870a7d7f2cf34611cdbb0528ff028af8" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Anthropic and OpenAI don&#x27;t have secret sauce</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">750 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/a9udn9u</span>
+                <span class="sep">·</span>
+                <span class="comments">277 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/a9udn9u · 750 points · 277 comments</p>
+            
+            <img class="post-image" src="/r/LocalLLaMA/comments/1uygxt3/anthropic_and_openai_dont_have_secret_sauce/" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">OPEN SOURCE</span>
+            <h2 class="card-title">KREA 2: Open-Source Release</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/StableDiffusion</span>
+                <span class="sep">·</span>
+                <span class="score">738 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Angrypenguinpng</span>
+                <span class="sep">·</span>
+                <span class="comments">99 comments</span>
+            </div>
+            <p class="card-body">Posted in r/StableDiffusion by u/Angrypenguinpng · 738 points · 99 comments</p>
+            
+            <img class="post-image" src="//external-preview.redd.it/ZGVhc3VyZzZ1MTloMQ9S4GwL9hyJcYg2Nc1NIgrXSnMED6nMqq5mrwFu8gVu.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=aa2b58cc6b3a54a1b04cf658f20c435301cc5c36" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uy3a0q/kimi_k3_released_on_web_and_app/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Kimi K3 released on web and app</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">621 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/External_Mood4719</span>
+                <span class="sep">·</span>
+                <span class="comments">266 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/External_Mood4719 · 621 points · 266 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/ymn0oaggildh1.jpg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=4fcbb266ce3df1a1cd77e94af058581678f864a4" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/OpenAI/comments/1uycwq1/i_used_56_sol_ultra_to_close_a_30year_open_gap_in/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">I used 5.6 Sol Ultra to Close a 30-Year Open Gap in Mathematical Optimization Theory, following OpenAI&#x27;s CDC Proof Prompt Methodology</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/OpenAI</span>
+                <span class="sep">·</span>
+                <span class="score">569 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/pkerger</span>
+                <span class="sep">·</span>
+                <span class="comments">48 comments</span>
+            </div>
+            <p class="card-body">Posted in r/OpenAI by u/pkerger · 569 points · 48 comments</p>
+            
+            <img class="post-image" src="/r/OpenAI/comments/1uycwq1/i_used_56_sol_ultra_to_close_a_30year_open_gap_in/" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/OpenAI/comments/1uyg5wl/time_for_your_quarterly_freak_out_over_a/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Time for your quarterly freak out over a benchmaxxed Chinese open source model</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/OpenAI</span>
+                <span class="sep">·</span>
+                <span class="score">522 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/infohoundloselose</span>
+                <span class="sep">·</span>
+                <span class="comments">149 comments</span>
+            </div>
+            <p class="card-body">Posted in r/OpenAI by u/infohoundloselose · 522 points · 149 comments</p>
+            
+            <img class="post-image" src="//preview.redd.it/yuc5hggavndh1.jpeg?width=140&amp;amp;height=99&amp;amp;auto=webp&amp;amp;s=a3c3a272100127fb4870c769a8a665f82327aaec" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/StableDiffusion/comments/1ub4jpk/ltx_director_20_update_a_free_open_source/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">OPEN SOURCE</span>
+            <h2 class="card-title">LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/StableDiffusion</span>
+                <span class="sep">·</span>
+                <span class="score">487 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/WhatDreamsCost</span>
+                <span class="sep">·</span>
+                <span class="comments">154 comments</span>
+            </div>
+            <p class="card-body">Posted in r/StableDiffusion by u/WhatDreamsCost · 487 points · 154 comments</p>
+            
+            <img class="post-image" src="//external-preview.redd.it/ymcs5VvfqJGKEzflTSzrF1C46FrKlajXIxawFbSIVFQ.jpeg?width=140&amp;amp;height=105&amp;amp;auto=webp&amp;amp;s=799351c96ffb8407a4aa9385c3907cb19ef326b7" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uydbmc/kimi_k3_shows_openweight_models_are_about_to/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Kimi K3 Shows Open-Weight Models Are About to Overtake the Frontier</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">394 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/ideaofsoul</span>
+                <span class="sep">·</span>
+                <span class="comments">169 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/ideaofsoul · 394 points · 169 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/ezew13xabndh1.gif?frame=1&amp;amp;width=140&amp;amp;height=140&amp;amp;auto=webp&amp;amp;s=a07e48a499eac94355ac645c53fbe3b036138290" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Anyone else completely tuning out these massive &quot;open weight&quot; drops?</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">376 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Mountain_Patience231</span>
+                <span class="sep">·</span>
+                <span class="comments">364 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/Mountain_Patience231 · 376 points · 364 comments</p>
+            
+            <img class="post-image" src="/r/LocalLLaMA/comments/1uylutc/anyone_else_completely_tuning_out_these_massive/" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uyb88e/kimi_k3_weights_to_be_released_on_the_27th/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">MODEL LAUNCH</span>
+            <h2 class="card-title">Kimi K3 weights to be released on the 27th.</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/LocalLLaMA</span>
+                <span class="sep">·</span>
+                <span class="score">369 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Different_Fix_2217</span>
+                <span class="sep">·</span>
+                <span class="comments">98 comments</span>
+            </div>
+            <p class="card-body">Posted in r/LocalLLaMA by u/Different_Fix_2217 · 369 points · 98 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Kimi K3 represents a major milestone in open-weight AI, demonstrating Chinese labs can now compete at the frontier. The model reportedly beats Claude Fable and GPT 5.6 Sol in several benchmarks.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/lg3io1qxxmdh1.png?width=140&amp;amp;height=57&amp;amp;auto=webp&amp;amp;s=536e53206b0fd40f547a82465b66e1376cf701df" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/singularity/comments/1uyu4x8/insane_new_humanoid_battle_tournament_in_shenzhen/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">ROBOTICS</span>
+            <h2 class="card-title">Insane new humanoid battle tournament in Shenzhen</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">367 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/Fit-Case1093</span>
+                <span class="sep">·</span>
+                <span class="comments">75 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/Fit-Case1093 · 367 points · 75 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Humanoid robotics competitions are accelerating real-world dexterity, moving from lab demos to actual tournaments in under a year.</p>
+        </div>
+            <img class="post-image" src="//external-preview.redd.it/bTBpNDE2ejE3cmRoMZzL1cS_8O6Pjcy3-BF6_a_4fccltBYLnMHbUgVoz0EH.png?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=52fd3b15ec89e0b5de2341d72a2a431fa88f76c8" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/singularity/comments/1uydghu/linus_torvalds_tells_ai_haters_to_fork_off/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">DISCUSSION</span>
+            <h2 class="card-title">Linus Torvalds tells AI haters to fork off</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/singularity</span>
+                <span class="sep">·</span>
+                <span class="score">366 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/chessboardtable</span>
+                <span class="sep">·</span>
+                <span class="comments">19 comments</span>
+            </div>
+            <p class="card-body">Posted in r/singularity by u/chessboardtable · 366 points · 19 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Linus Torvalds firmly rejects claims that Linux is anti-AI, telling critics to fork the kernel if they disagree — a strong signal that AI development is welcome in the open-source ecosystem.</p>
+        </div>
+            <img class="post-image" src="https://www.theregister.com/ai-and-ml/2026/07/15/linus-torvalds-tells-ai-haters-to-fork-off/5271894" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <a href="https://www.reddit.com/r/ChatGPT/comments/1uybgq5/sam_altman_on_the_future_of_ai/" target="_blank" rel="noopener noreferrer" class="card-link">
+        <article class="card">
+            <span class="tag">NEWS</span>
+            <h2 class="card-title">Sam Altman on the future of AI</h2>
+            <div class="card-meta">
+                <span class="subreddit">r/ChatGPT</span>
+                <span class="sep">·</span>
+                <span class="score">364 pts</span>
+                <span class="sep">·</span>
+                <span class="author">u/herooffjustice</span>
+                <span class="sep">·</span>
+                <span class="comments">222 comments</span>
+            </div>
+            <p class="card-body">Posted in r/ChatGPT by u/herooffjustice · 364 points · 222 comments</p>
+            
+        <div class="why-matters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#42c478" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+            <span class="why-label">Why it matters</span>
+            <p>Sam Altman's public comments on AI's future trajectory offer insight into where one of the industry's most influential leaders sees things heading.</p>
+        </div>
+            <img class="post-image" src="//preview.redd.it/kfu9ucvqzmdh1.jpeg?width=140&amp;amp;height=126&amp;amp;auto=webp&amp;amp;s=ab5c9d959e3917475ff33b467070ce998f24ef7f" alt="Post thumbnail" loading="lazy">
+        </article>
+    </a>
+    <footer class="footer">
+        <p>AI News Today · July 17, 2026</p>
+        <p style="margin-top:4px">Curated from Reddit · <a href="https://old.reddit.com/r/artificial/">r/artificial</a> · <a href="https://old.reddit.com/r/MachineLearning/">r/MachineLearning</a> · <a href="https://old.reddit.com/r/LocalLLaMA/">r/LocalLLaMA</a></p>
+        <p style="margin-top:4px">Automatically generated daily</p>
+    </footer>
 </div>
 </body>
 </html>
