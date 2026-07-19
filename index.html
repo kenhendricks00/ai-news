@@ -2,336 +2,342 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>AI News Today — July 18, 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>AI News Today — 2026-07-19</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
-.container{max-width:680px;margin:0 auto;padding:20px 16px 60px}
-header{padding:24px 0 20px}
-h1{font-size:22px;font-weight:700;color:#fff;letter-spacing:-0.3px}
-h1 span{color:#4a9eff}
-.meta{font-size:13px;color:#666;margin-top:6px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.meta .dot{width:4px;height:4px;background:#444;border-radius:50%;display:inline-block}
-.meta .sources{color:#4a9eff}
-.section-label{font-size:12px;font-weight:600;color:#888;letter-spacing:1.2px;text-transform:uppercase;padding:28px 0 14px;border-bottom:1px solid #1a1a1a;margin-bottom:16px}
-.section-label:first-of-type{padding-top:0}
-.card{background:#151515;border:1px solid #1f1f1f;border-radius:12px;padding:16px;margin-bottom:14px;transition:border-color .2s}
-.card:hover{border-color:#333}
-.tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;padding:3px 8px;border-radius:4px;margin-bottom:10px}
-.meta-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:12px;color:#666;margin-bottom:10px}
-.meta-row .subreddit{color:#ff6b35;font-weight:600}
-.meta-row .sep{color:#333}
-.meta-row .stat{color:#888}
-h2{font-size:17px;font-weight:700;color:#ececec;line-height:1.35;margin-bottom:10px}
-h2 a{color:inherit;text-decoration:none}
-h2 a:hover{color:#4a9eff}
-.body-text{font-size:13.5px;color:#888;line-height:1.55;margin-bottom:12px}
-.why-box{border-left:3px solid #42c478;background:rgba(66,196,120,0.08);padding:12px 14px;border-radius:0 8px 8px 0;margin-bottom:14px}
-.why-box .why-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#42c478;margin-bottom:4px}
-.why-box p{font-size:13px;color:#ddd;line-height:1.5}
-.image-wrap{margin:0 -16px -16px;border-radius:0 0 12px 12px;overflow:hidden;max-height:300px}
-.image-wrap img{width:100%;height:auto;display:block;object-fit:cover}
-.card-link{text-decoration:none;display:block;color:inherit}
-.card-link:hover .card{border-color:#333}
-.links-row{display:flex;gap:12px;margin-top:8px;font-size:12px}
-.links-row a{color:#4a9eff;text-decoration:none}
-.links-row a:hover{text-decoration:underline}
-footer{text-align:center;padding:40px 0 20px;color:#555;font-size:12px}
-footer .repo{margin-top:4px;color:#333}
-@media(prefers-color-scheme:light){body{background:#000}/* force dark */}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:#000;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.container{max-width:680px;margin:0 auto;padding:20px 16px 40px}
+.header{margin-bottom:28px;padding-bottom:16px;border-bottom:1px solid #1a1a1a}
+.header h1{font-size:20px;font-weight:700;color:#fff;margin-bottom:6px}
+.header h1 span{color:#3898ff}
+.header .subtitle{font-size:12px;color:#666}
+.header .source-links{font-size:11px;color:#555;margin-top:6px}
+.section-label{font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:0.5px;margin:24px 0 10px;padding-bottom:6px;border-bottom:1px solid #1a1a1a}
+.post-card{display:block;background:#151515;border:1px solid #1f1f1f;border-radius:10px;padding:14px;margin-bottom:10px;text-decoration:none;color:inherit;transition:border-color .15s ease;-webkit-tap-highlight-color:transparent}
+.post-card:active{border-color:#333}
+@media(hover:hover){.post-card:hover{border-color:#333}}
+.card-tag{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.4px;padding:2px 8px;border-radius:4px;margin-bottom:6px}
+.card-title{font-size:16px;font-weight:700;line-height:1.4;color:#fff;margin-bottom:6px}
+.card-meta{font-size:11px;color:#777;margin-bottom:8px}
+.card-meta .sub{color:#ff8a50;font-weight:600}
+.card-meta .score{color:#888;font-weight:600}
+.card-body{font-size:13px;line-height:1.5;color:#888}
+.why-matters{border-left:3px solid #42c478;background:rgba(66,196,120,0.06);padding:8px 10px;margin-top:10px;border-radius:0 6px 6px 0}
+.why-matters strong{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.3px;color:#42c478;display:block;margin-bottom:3px}
+.why-matters p{font-size:12px;line-height:1.5;color:#ccc;margin:0}
+.card-img{display:block;width:100%;border-radius:8px;margin-top:10px;max-height:240px;object-fit:cover}
+.footer{margin-top:28px;padding-top:14px;border-top:1px solid #1a1a1a;text-align:center;font-size:11px;color:#555}
+.footer a{color:#3898ff;text-decoration:none}
 </style>
 </head>
 <body>
 <div class="container">
-<header>
-<h1>r/<span>Artificial</span> → AI News<span> picks</span></h1>
-<div class="meta">
-<span>Saturday, July 18th, 2026</span>
-<span class="dot"></span>
-<span class="sources">8 subreddits scanned</span>
-<span class="dot"></span>
-<span>22 curated stories</span>
+<div class="header">
+    <h1>r/<span>Artificial</span> → AI News Picks</h1>
+    <div class="subtitle">Sunday, July 19, 2026 — curated from 8 subreddits</div>
+    <div class="source-links">r/artificial · r/MachineLearning · r/LocalLLaMA · r/OpenAI · r/ChatGPT · r/singularity · r/StableDiffusion · r/ArtificialInteligence</div>
 </div>
-</header>
 
-<div class="section-label">MODEL LAUNCHES</div>
+<div class="section-label">🚀 Model Launches & Company News</div>
 
-<a href="https://old.reddit.com/r/OpenAI/comments/1uz6t71/kimik3_arrived_the_era_of_the_chinese_labs_being/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">KIMI K3</span>
-<h2>Kimi-K3 arrived: The era of the Chinese labs being far behind is over</h2>
-<div class="meta-row"><span class="subreddit">r/OpenAI</span><span class="sep">·</span><span class="stat">▲ 2131</span><span class="sep">·</span><span class="stat">u/Reddit</span><span class="sep">·</span><span class="stat">89 comments</span></div>
-<div class="body-text">Moonshot AI's Kimi K3 has landed, marking a watershed moment in the AI landscape. The model is reportedly competitive with — and in some benchmarks ahead of — frontier models from OpenAI and Anthropic, at a fraction of the inference cost ($3/$15 per million tokens).</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Kimi K3 represents the strongest challenge yet to US AI dominance. With Chinese labs now producing genuinely frontier-class models, the geopolitical stakes of AI have shifted dramatically overnight.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/OpenAI/comments/1uz6t71/kimik3_arrived_the_era_of_the_chinese_labs_being/" target="_blank" rel="noopener">View on Reddit →</a></div>
+    <a href="https://kie.ai/blog/what-is-qwen3-8-max" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(255,215,0,0.15);color:#ffd700">EDITORIAL PICK</div>
+        <h2 class="card-title">Qwen3.8-Max: Alibaba Releases 2.4 Trillion Parameter Open-Weight Flagship</h2>
+        <div class="card-meta"><span class="sub">r/artificial</span> · <span class="score">★ EDITORIAL</span></div>
+        <p class="card-body">Previewed July 19, 2026 — Alibaba&#x27;s Qwen3.8-Max is a massive 2.4T-parameter multimodal model, going open-weight. Available on Token Plan, Qoder, and QoderWork. This is today&#x27;s biggest AI story — another landmark open-weight release from China that challenges the US-led approach to frontier AI.</p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Qwen3.8-Max is Alibaba&#x27;s largest open-weight model at 2.4T parameters — signaling that China&#x27;s open-weight AI strategy is accelerating and challenging the notion that frontier-scale models must remain closed.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/LocalLLaMA/comments/1v0lewq/prepare_your_vram_qwen38_is_coming/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">MODEL LAUNCH</div>
+        <h2 class="card-title">Prepare your (v)ram - Qwen3.8 is coming!</h2>
+        <div class="card-meta"><span class="sub">r/LocalLLaMA</span> · <span class="score">▲ 1371</span> · <span class="author">by xw1y</span> · <span class="comments">💬 312</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>The LocalLLaMA community is preparing hardware for Qwen3.8 — a 2.4T parameter open-weight model that has the community scrambling for RAM upgrades.</p>
+        </div>
+        <img class="card-img" src="//preview.redd.it/c9vs0w2ih5eh1.jpeg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=416da0f24eb73019252f46c3345baada001dd43d" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/LocalLLaMA/comments/1uzzecz/kimi_k3_ranks_1_on_afterquerys_spreadsheetbench_2/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">MODEL BENCHMARK</div>
+        <h2 class="card-title">Kimi K3 ranks #1 on @AfterQuery&#x27;s SpreadsheetBench 2, surpassing Claude Fable 5</h2>
+        <div class="card-meta"><span class="sub">r/LocalLLaMA</span> · <span class="score">▲ 561</span> · <span class="author">by Charuru</span> · <span class="comments">💬 114</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Kimi K3 tops SpreadsheetBench 2, surpassing Claude Fable 5 in structured reasoning — validating the open-weight approach to frontier AI.</p>
+        </div>
+        <img class="card-img" src="//preview.redd.it/12e532dxe0eh1.png?width=140&amp;amp;height=91&amp;amp;auto=webp&amp;amp;s=aa3c47739050fbe17c23010b618be582ea818f83" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/singularity/comments/1uz3ff6/moonshot_ai_kimi_office_presumably_2_days_before/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">COMPANY NEWS</div>
+        <h2 class="card-title">Moonshot AI (Kimi) office (presumably 2 days before the K3 launch). A $20B valuation startup. Not as flashy as SF rivals</h2>
+        <div class="card-meta"><span class="sub">r/singularity</span> · <span class="score">▲ 2568</span> · <span class="author">by RetiredApostle</span> · <span class="comments">💬 314</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Moonshot AI — a $20B valuation startup with 1,800+ employees — shares photos from their Beijing office days before the landmark Kimi K3 launch.</p>
+        </div>
+        <img class="card-img" src="//preview.redd.it/adcjbvn98tdh1.png?width=140&amp;amp;height=91&amp;amp;auto=webp&amp;amp;s=ea316ffbbdf985b694b5568d41a754a9b632ea20" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/ArtificialInteligence/comments/1uznldv/chinas_moonshot_ai_claims_kimi_k3_can_rival/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">MODEL LAUNCH</div>
+        <h2 class="card-title">China&#x27;s Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic.</h2>
+        <div class="card-meta"><span class="sub">r/ArtificialInteligence</span> · <span class="score">▲ 258</span> · <span class="author">by coinfanking</span> · <span class="comments">💬 174</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Moonshot AI claims Kimi K3 (2.8T parameters, 1M context) rivals OpenAI and Anthropic. Open weights promised by July 27, 2026.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/LocalLLaMA/comments/1v04jq2/deepseek_v4_soon/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">MODEL LAUNCH</div>
+        <h2 class="card-title">Deepseek V4 soon</h2>
+        <div class="card-meta"><span class="sub">r/LocalLLaMA</span> · <span class="score">▲ 459</span> · <span class="author">by Illustrious-Swim9663</span> · <span class="comments">💬 119</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Rumors build that DeepSeek V4 is imminent — after V3 and R1 shook up the industry, V4 is one of the most anticipated open-weight releases of 2026.</p>
+        </div>
+        <img class="card-img" src="//preview.redd.it/9jmfzl8xe1eh1.jpeg?width=140&amp;amp;height=140&amp;amp;crop=1:1,smart&amp;amp;auto=webp&amp;amp;s=0fa649e2dcbf95de9939c6a4205a13082333eaf2" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/OpenAI/comments/1v05o91/openais_head_of_strategic_futures_thinks/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(255,107,107,0.12);color:#ff6b6b">NEWS</div>
+        <h2 class="card-title">OpenAI&#x27;s head of strategic futures thinks open-weight models are a &quot;dystopian hellscape&quot;</h2>
+        <div class="card-meta"><span class="sub">r/OpenAI</span> · <span class="score">▲ 323</span> · <span class="author">by GeneralPersistent</span> · <span class="comments">💬 239</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>OpenAI&#x27;s Head of Strategic Futures calls open-weight models a &quot;dystopian hellscape&quot; — igniting fierce debate about safety rhetoric vs. competitive positioning.</p>
+        </div>
+        <img class="card-img" src="//preview.redd.it/lj2ish9vm1eh1.png?width=140&amp;amp;height=88&amp;amp;auto=webp&amp;amp;s=212512cd64ff281fd9b276f6dff1cdb209b58b95" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/OpenAI/comments/1ugljgh/previewing_gpt56_sol_nextgeneration_model_openai/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">PRODUCT UPDATE</div>
+        <h2 class="card-title">Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI</h2>
+        <div class="card-meta"><span class="sub">r/OpenAI</span> · <span class="score">▲ 30</span> · <span class="author">by MatricesRL</span> · <span class="comments">💬 12</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>OpenAI previews GPT-5.6 Sol, the &quot;workhorse&quot; variant focused on coding, research, science, and cybersecurity — with enhanced safety features.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/OpenAI/comments/1v0nr22/followup_openai_fixed_the_gpt56_luna_bug_i/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(255,138,128,0.12);color:#ff8a80">BUG FIX</div>
+        <h2 class="card-title">Follow-up: OpenAI fixed the GPT-5.6 Luna bug I reported in four days</h2>
+        <div class="card-meta"><span class="sub">r/OpenAI</span> · <span class="score">▲ 16</span> · <span class="author">by idoco</span> · <span class="comments">💬 1</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>A Reddit user reported a bug in GPT-5.6 Luna — OpenAI shipped a fix within four days, showing investment in community feedback loops.</p>
+        </div>
+        
+    </a><div class="section-label">🏛️ AI Policy & Open Source</div>
 
+    <a href="https://old.reddit.com/r/ArtificialInteligence/comments/1uzuttb/chinas_xi_jinping_wants_ai_to_be_open_to_the/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(129,199,132,0.12);color:#81c784">POLICY</div>
+        <h2 class="card-title">China&#x27;s Xi Jinping Wants AI to Be Open to the World—and Out of America’s Control</h2>
+        <div class="card-meta"><span class="sub">r/ArtificialInteligence</span> · <span class="score">▲ 758</span> · <span class="author">by aacool</span> · <span class="comments">💬 498</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Xi Jinping calls for open-source AI — positioning China as the champion of accessible AI while the US pursues controlled model access.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/singularity/comments/1uzfor4/white_house_launches_gold_eagle_moving_to_control/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(129,199,132,0.12);color:#81c784">POLICY</div>
+        <h2 class="card-title">White House launches “Gold Eagle,” moving to control frontier AI releases and decide who can access new models</h2>
+        <div class="card-meta"><span class="sub">r/singularity</span> · <span class="score">▲ 559</span> · <span class="author">by Outside-Iron-8242</span> · <span class="comments">💬 213</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>The White House launches &quot;Gold Eagle&quot; — an initiative to control frontier AI releases and decide who can access cutting-edge models.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/ArtificialInteligence/comments/1v0dtzc/open_source_ai_is_too_dangerous_for_our_profit/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(255,213,79,0.12);color:#ffd54f">OPINION</div>
+        <h2 class="card-title">&quot;Open source AI is too dangerous! (for our profit margins)&quot;</h2>
+        <div class="card-meta"><span class="sub">r/ArtificialInteligence</span> · <span class="score">▲ 1593</span> · <span class="author">by chocolateUI</span> · <span class="comments">💬 219</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Skepticism toward safety arguments against open-weight models — seen as selectively deployed by companies that benefit from closed ecosystems.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/singularity/comments/1uxhnh1/linus_torvalds_reaffirms_that_linux_is_not_antiai/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(128,222,234,0.12);color:#80deea">OPEN SOURCE</div>
+        <h2 class="card-title">Linus Torvalds Reaffirms That Linux Is Not &quot;Anti-AI&quot; And Not A &quot;Social Warrior&quot; Project</h2>
+        <div class="card-meta"><span class="sub">r/singularity</span> · <span class="score">▲ 971</span> · <span class="author">by PointmanW</span> · <span class="comments">💬 127</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Linus Torvalds rejects claims Linux is anti-AI — tells critics to fork the kernel or walk away. A strong endorsement of AI on open-source infrastructure.</p>
+        </div>
+        <img class="card-img" src="//external-preview.redd.it/b3ekTIlx6R3geklbLb4RUZ2PO4tVgbJWbQdl7cAJV0M.jpeg?width=140&amp;amp;height=121&amp;amp;auto=webp&amp;amp;s=e7819150742e3cb06d10a96c5e09d1147f719c46" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/singularity/comments/1uzz6v5/ai_race_splits_in_two_as_china_wages_openweight/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(129,199,132,0.12);color:#81c784">ANALYSIS</div>
+        <h2 class="card-title">AI race splits in two as China wages open-weight insurgency [Axios]</h2>
+        <div class="card-meta"><span class="sub">r/singularity</span> · <span class="score">▲ 73</span> · <span class="author">by lesjo</span> · <span class="comments">💬 36</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Axios: the AI world splits into two camps — US frontier closed models vs. China&#x27;s open-weight insurgency. Profound implications for AI accessibility.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/singularity/comments/1v0owoc/does_kimi_k3_change_the_distillation_debate/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(129,199,132,0.12);color:#81c784">ANALYSIS</div>
+        <h2 class="card-title">Does Kimi K3 change the distillation debate?</h2>
+        <div class="card-meta"><span class="sub">r/singularity</span> · <span class="score">▲ 118</span> · <span class="author">by TraditionalHome8852</span> · <span class="comments">💬 62</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Kimi K3 at 2.8T parameters challenges whether only US labs can produce frontier models. Does this change the distillation debate?</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/ArtificialInteligence/comments/1uzsxb1/how_does_moonshot_afford_the_computehardware_to/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(129,199,132,0.12);color:#81c784">ANALYSIS</div>
+        <h2 class="card-title">How does Moonshot afford the compute/hardware to train Kimi-3 despite the current sanctions on NVIDIA gpu exports?</h2>
+        <div class="card-meta"><span class="sub">r/ArtificialInteligence</span> · <span class="score">▲ 82</span> · <span class="author">by BiggusDikkusMorocos</span> · <span class="comments">💬 133</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>How did a Chinese startup train a 2.8T model under US export controls? Sanctioned GPU stockpiles and creative hardware workarounds.</p>
+        </div>
+        
+    </a><div class="section-label">🔬 Research & Engineering</div>
+
+    <a href="https://old.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(255,183,77,0.12);color:#ffb74d">DISCUSSION</div>
+        <h2 class="card-title">Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]</h2>
+        <div class="card-meta"><span class="sub">r/MachineLearning</span> · <span class="score">▲ 150</span> · <span class="author">by TheWerkmeister</span> · <span class="comments">💬 16</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>A controversial Kaggle/DeepMind submission — debate about legitimate AI research vs. &quot;slop&quot; entries gaming the system.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/LocalLLaMA/comments/1v07tib/byte_exact_kv_cache_grafting_on_frozen_gemma_4/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(206,147,216,0.12);color:#ce93d8">RESEARCH</div>
+        <h2 class="card-title">Byte exact KV cache grafting on frozen Gemma 4</h2>
+        <div class="card-meta"><span class="sub">r/LocalLLaMA</span> · <span class="score">▲ 55</span> · <span class="author">by MindPsychological140</span> · <span class="comments">💬 18</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Novel technique for grafting KV caches onto frozen Gemma 4 — enabling efficient inference and model merging on consumer hardware.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/singularity/comments/1v0n4rn/huggingface_security_incident_report_the_attacker/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(206,147,216,0.12);color:#ce93d8">SECURITY</div>
+        <h2 class="card-title">HuggingFace security incident report: &quot;the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models&quot;</h2>
+        <div class="card-meta"><span class="sub">r/singularity</span> · <span class="score">▲ 124</span> · <span class="author">by KickLassChewGum</span> · <span class="comments">💬 11</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>&quot;The attacker was bound by no usage policy, while defenders were bound by strict access controls&quot; — a stark look at asymmetric AI security.</p>
+        </div>
+        <img class="card-img" src="//external-preview.redd.it/tLa80cLashFk8b1qvSyhZgFagKqpQuDcINxc0lC5Ebw.png?width=140&amp;amp;height=73&amp;amp;auto=webp&amp;amp;s=4934bbcd027e6719d20492f17f8cc5c40d7cd64f" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(255,107,107,0.12);color:#ff6b6b">NEWS</div>
+        <h2 class="card-title">Prism accidentally leaked [D]</h2>
+        <div class="card-meta"><span class="sub">r/MachineLearning</span> · <span class="score">▲ 47</span> · <span class="author">by Few-Monitor5103</span> · <span class="comments">💬 24</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>OpenAI Prism tool leaked data — compiling code returned someone else&#x27;s academic paper. Questions about data isolation in AI dev tools.</p>
+        </div>
+        <img class="card-img" src="//preview.redd.it/csr59ogtwtdh1.png?width=140&amp;amp;height=27&amp;amp;auto=webp&amp;amp;s=d8b3c46b64b19d75c4b2b1726b0b3cbea225f38d" alt="" loading="lazy" />
+    </a><div class="section-label">🛠️ Tools & Creative</div>
+
+    <a href="https://old.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(128,222,234,0.12);color:#80deea">OPEN SOURCE</div>
+        <h2 class="card-title">KREA 2: Open-Source Release</h2>
+        <div class="card-meta"><span class="sub">r/StableDiffusion</span> · <span class="score">▲ 741</span> · <span class="author">by Angrypenguinpng</span> · <span class="comments">💬 99</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Krea 2 goes full open-source — making powerful AI image generation and style transfer accessible to everyone.</p>
+        </div>
+        <img class="card-img" src="//external-preview.redd.it/ZGVhc3VyZzZ1MTloMQ9S4GwL9hyJcYg2Nc1NIgrXSnMED6nMqq5mrwFu8gVu.png?width=140&amp;amp;height=78&amp;amp;format=jpg&amp;amp;auto=webp&amp;amp;s=aa2b58cc6b3a54a1b04cf658f20c435301cc5c36" alt="" loading="lazy" />
+    </a>
+    <a href="https://old.reddit.com/r/MachineLearning/comments/1uytlac/eu_ai_act_openrag_933_legally_structured_chunks/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(128,222,234,0.12);color:#80deea">TOOLS</div>
+        <h2 class="card-title">EU AI Act OpenRAG: 933 legally structured chunks and BGE-M3 embeddings in one SQLite file [P]</h2>
+        <div class="card-meta"><span class="sub">r/MachineLearning</span> · <span class="score">▲ 17</span> · <span class="author">by Automatic-Forever-63</span> · <span class="comments">💬 3</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>EU AI Act structured into 933 searchable chunks with BGE-M3 embeddings — making complex regulation accessible for devs and compliance teams.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/artificial/comments/1uzwdtm/which_mcp_servers_are_worth_installing_for_nondev/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(128,222,234,0.12);color:#80deea">TOOLS</div>
+        <h2 class="card-title">Which MCP servers are worth installing for non-dev work in 2026?? Sharing what I found beyond coding</h2>
+        <div class="card-meta"><span class="sub">r/artificial</span> · <span class="score">▲ 11</span> · <span class="author">by Purple_Network3016</span> · <span class="comments">💬 5</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>Practical guide to Model Context Protocol servers for non-developers — navigating the growing MCP ecosystem in 2026.</p>
+        </div>
+        
+    </a>
+    <a href="https://old.reddit.com/r/OpenAI/comments/1uzs4gu/chatgpt_voice_mode_is_insane/" class="post-card" target="_blank" rel="noopener">
+        <div class="card-tag" style="background:rgba(56,152,255,0.12);color:#3898ff">PRODUCT</div>
+        <h2 class="card-title">ChatGPT Voice mode is insane</h2>
+        <div class="card-meta"><span class="sub">r/OpenAI</span> · <span class="score">▲ 240</span> · <span class="author">by Coolguy1699</span> · <span class="comments">💬 96</span></div>
+        <p class="card-body"></p>
+        
+        <div class="why-matters">
+            <strong>Why it matters</strong>
+            <p>ChatGPT Voice mode wows users with natural real-time conversation — a testament to how far voice AI has come.</p>
+        </div>
+        
+    </a>
+
+<div class="footer">
+    AI News Today &middot; 2026-07-19<br>
+    <a href="https://github.com/kjgill/ai-news">Source</a>
 </div>
-</a>
-
-<a href="https://old.reddit.com/r/OpenAI/comments/1uz7abc/previewing_gpt56_sol_nextgeneration_model_openai/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">SOL</span>
-<h2>Previewing GPT-5.6 Sol: Next-Generation Model | OpenAI</h2>
-<div class="meta-row"><span class="subreddit">r/OpenAI</span><span class="sep">·</span><span class="stat">▲ 28</span><span class="sep">·</span><span class="stat">u/OpenAI_official</span><span class="sep">·</span><span class="stat">12 comments</span></div>
-<div class="body-text">OpenAI has unveiled GPT-5.6 Sol, their latest frontier model. Initial reports show strong performance on reasoning and coding benchmarks, though details remain limited.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Sol represents OpenAI's response to the rapidly intensifying competition from Chinese labs like Moonshot. The model naming signals a shift toward a more complete, integrated reasoning system.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/OpenAI/comments/1uz7abc/previewing_gpt56_sol_nextgeneration_model_openai/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz83g5/deepseek_v4_flash_on_5090_in_llamacpp_with_1/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">DEEPSEEK V4</span>
-<h2>DeepSeek v4 Flash on 5090 in llama.cpp with 1 Million context</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 140</span><span class="sep">·</span><span class="stat">u/Reddit</span><span class="sep">·</span><span class="stat">45 comments</span></div>
-<div class="body-text">DeepSeek V4 Flash runs locally on an RTX 5090 with llama.cpp, handling 1 million tokens of context. This is a massive milestone for local LLM inference — frontier-level reasoning with enormous context windows, entirely offline.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>1M context on consumer hardware is a game-changer for code analysis, document processing, and research workflows that require reasoning over entire codebases or book-length documents locally.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz83g5/deepseek_v4_flash_on_5090_in_llamacpp_with_1/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz88vn/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">BONSAI</span>
-<h2>Bonsai 27B runs locally on an iPhone — a 27B model in 3.9GB</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 670</span><span class="sep">·</span><span class="stat">u/Reddit</span><span class="sep">·</span><span class="stat">83 comments</span></div>
-<div class="body-text">The Bonsai 27B model is quantized to run in just 3.9GB of memory, enabling a 27-billion-parameter model to operate entirely on an iPhone. This represents a remarkable compression breakthrough.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Running a 27B model on-device opens the door to truly private, offline AI assistants that never touch a server. For privacy-sensitive applications and mobile-first markets, this is transformative.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz88vn/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz8q1q/gemma4_31b_better_than_qwen36_27b/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">GEMMA 4</span>
-<h2>Gemma4-31b better than Qwen3.6-27b</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 209</span><span class="sep">·</span><span class="stat">u/Reddit</span><span class="sep">·</span><span class="stat">38 comments</span></div>
-<div class="body-text">Google's Gemma 4 (31B parameters) is outperforming Qwen 3.6 (27B) in community benchmarks, showing the rapid pace of improvement in the open-weight model space.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>The open-weight model war is accelerating: Google, Alibaba, and others are iterating faster than ever, giving developers more capable free models every few weeks.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz8q1q/gemma4_31b_better_than_qwen36_27b/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://huggingface.co/internlm/Intern-S2-Preview-397B" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">397B MODEL</span>
-<h2>internlm/Intern-S2-Preview-397B on HuggingFace</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 48</span><span class="sep">·</span><span class="stat">u/HuggingFace</span><span class="sep">·</span><span class="stat">12 comments</span></div>
-<div class="body-text">Shanghai AI Lab released Intern-S2-Preview, a massive 397B parameter model. This is one of the largest open-weight models available, pushing the boundaries of what's openly accessible.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>397B open-weight models continue the trend toward ever-larger openly available models, democratizing access to frontier-scale AI capabilities.</p></div>
-<div class="links-row"><a href="https://huggingface.co/internlm/Intern-S2-Preview-397B" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz9jkl/soofi_s_30ba3b_european_open_source_model/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(56,152,255,0.12);color:#4a9eff">OPEN SOURCE</span>
-<h2>Soofi S - 30B-A3B European Open Source Model</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 237</span><span class="sep">·</span><span class="stat">u/LocalLLaMA</span><span class="sep">·</span><span class="stat">42 comments</span></div>
-<div class="body-text">Soofi S is a new European open-source model with a 30B-A3B architecture (30B total, 3B activated per token), built by a European team as a sovereign AI alternative.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>A European sovereign AI model reduces dependence on US and Chinese AI providers, an increasingly important consideration for EU regulation and data sovereignty.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uz9jkl/soofi_s_30ba3b_european_open_source_model/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<div class="section-label">OPEN SOURCE & TOOLS</div>
-
-<a href="https://old.reddit.com/r/StableDiffusion/comments/1uzakt/krea_2_opensource_release/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(106,190,50,0.12);color:#4a9eff">OPEN SOURCE</span>
-<h2>KREA 2: Open-Source Release</h2>
-<div class="meta-row"><span class="subreddit">r/StableDiffusion</span><span class="sep">·</span><span class="stat">▲ 736</span><span class="sep">·</span><span class="stat">u/StableDiffusion</span><span class="sep">·</span><span class="stat">112 comments</span></div>
-<div class="body-text">KREA 2 has been released as open source, providing a complete image generation and editing pipeline. The community is already producing style LoRAs, identity edits, and impressive samples.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Open-sourcing KREA 2 gives the generative AI community a powerful new foundation for image creation, comparable to when Stable Diffusion itself first went open source.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/StableDiffusion/comments/1uzakt/krea_2_opensource_release/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/StableDiffusion/comments/1uzblt/ltx_director_20_update_a_free_open_source/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(106,190,50,0.12);color:#4a9eff">VIDEO AI</span>
-<h2>LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos</h2>
-<div class="meta-row"><span class="subreddit">r/StableDiffusion</span><span class="sep">·</span><span class="stat">▲ 488</span><span class="sep">·</span><span class="stat">u/StableDiffusion</span><span class="sep">·</span><span class="stat">67 comments</span></div>
-<div class="body-text">LTX Director 2.0 brings a comprehensive open-source video creation suite, with users reporting it produces full anime sequences and complex cinematic outputs.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Open-source AI video generation is maturing rapidly. LTX Director 2.0 democratizes video production, making pro-quality AI video accessible to everyone.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/StableDiffusion/comments/1uzblt/ltx_director_20_update_a_free_open_source/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/LocalLLaMA/comments/1uzcm6/trelliscpp_now_produces_high_quality_assets/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(106,190,50,0.12);color:#4a9eff">3D GENERATION</span>
-<h2>Trellis.cpp now produces high quality assets</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 415</span><span class="sep">·</span><span class="stat">u/LocalLLaMA</span><span class="sep">·</span><span class="stat">56 comments</span></div>
-<div class="body-text">Trellis.cpp, a local 3D asset generation tool, now produces high-quality 3D models. Running entirely locally, it's making 3D content creation accessible without cloud dependencies.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Local 3D generation opens new possibilities for game development, VR, and digital twin creation — all without sending data to third-party APIs.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uzcm6/trelliscpp_now_produces_high_quality_assets/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/StableDiffusion/comments/1uzd6c/google_opensourced_a_structured_character/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(106,190,50,0.12);color:#4a9eff">STANDARDS</span>
-<h2>Google open-sourced a structured character description format</h2>
-<div class="meta-row"><span class="subreddit">r/StableDiffusion</span><span class="sep">·</span><span class="stat">▲ 285</span><span class="sep">·</span><span class="stat">u/StableDiffusion</span><span class="sep">·</span><span class="stat">38 comments</span></div>
-<div class="body-text">Google released an open format for structured character descriptions, enabling consistent character representation across different AI image and video generation tools.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Standardized character descriptions could solve one of generative AI's biggest headaches: maintaining character consistency across scenes and tools.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/StableDiffusion/comments/1uzd6c/google_opensourced_a_structured_character/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<div class="section-label">AI COMPANY NEWS</div>
-
-<a href="https://old.reddit.com/r/artificial/comments/1uzekf/xi_jinping_calls_for_more_opensource_ai_china_is/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">GEOPOLITICS</span>
-<h2>Xi Jinping calls for more open-source AI: &#x27;China is ready to be more open&#x27;</h2>
-<div class="meta-row"><span class="subreddit">r/artificial</span><span class="sep">·</span><span class="stat">▲ 268</span><span class="sep">·</span><span class="stat">u/artificial</span><span class="sep">·</span><span class="stat">44 comments</span></div>
-<div class="body-text">At the World AI Conference, Chinese President Xi Jinping made a major policy speech advocating for open-source AI development and positioning China as the leader of a new global AI order.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Xi's endorsement of open-source AI signals a strategic choice: China will compete on openness while the US increasingly moves toward regulation and control. This could reshape the entire global AI ecosystem.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/artificial/comments/1uzekf/xi_jinping_calls_for_more_opensource_ai_china_is/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/singularity/comments/1uzf4e/white_house_launches_gold_eagle_moving_to_control/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">AI POLICY</span>
-<h2>White House launches &#x27;Gold Eagle,&#x27; moving to control frontier AI releases and development</h2>
-<div class="meta-row"><span class="subreddit">r/singularity</span><span class="sep">·</span><span class="stat">▲ 486</span><span class="sep">·</span><span class="stat">u/singularity</span><span class="sep">·</span><span class="stat">92 comments</span></div>
-<div class="body-text">The Trump administration has launched 'Gold Eagle', a new federal framework to regulate and control frontier AI development, marking the US government's most aggressive AI governance move yet.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Gold Eagle represents a major shift in US AI policy, moving from hands-off encouragement to active control. The coming debate over open-source vs regulated AI just got its defining policy battle.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/singularity/comments/1uzf4e/white_house_launches_gold_eagle_moving_to_control/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/ArtificialInteligence/comments/1uzg5c/anthropic_ipo_could_launch_in_october_as_chinas/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">IPO</span>
-<h2>Anthropic IPO Could Launch in October as China&#x27;s Kimi K3 Overtakes Claude</h2>
-<div class="meta-row"><span class="subreddit">r/ArtificialInteligence</span><span class="sep">·</span><span class="stat">▲ 47</span><span class="sep">·</span><span class="stat">u/ArtificialInteligence</span><span class="sep">·</span><span class="stat">15 comments</span></div>
-<div class="body-text">Anthropic is reportedly planning an IPO launch in October 2026, coinciding with the market disruption caused by Kimi K3 outperforming Claude on several benchmarks.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>An Anthropic IPO would be one of the most important AI public offerings. But Kimi K3's arrival complicates the narrative — Anthropic must now prove it can stay ahead of Chinese competition.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/ArtificialInteligence/comments/1uzg5c/anthropic_ipo_could_launch_in_october_as_chinas/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/singularity/comments/1uzh7l/claude_on_x_beginning_july_20_claude_fable_5/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">ACCESS</span>
-<h2>Claude on X: &#x27;Beginning July 20, Claude Fable 5 will be included in all Max and Pro plans&#x27;</h2>
-<div class="meta-row"><span class="subreddit">r/singularity</span><span class="sep">·</span><span class="stat">▲ 352</span><span class="sep">·</span><span class="stat">u/singularity</span><span class="sep">·</span><span class="stat">48 comments</span></div>
-<div class="body-text">Anthropic announced that Claude Fable 5 will be broadly available to Max and Pro subscribers starting July 20, expanding access to their most capable model.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Broader Fable 5 access intensifies the consumer AI arms race. With Kimi K3, GPT-5.6 Sol, and Fable 5 all available, users have unprecedented choice in frontier AI models.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/singularity/comments/1uzh7l/claude_on_x_beginning_july_20_claude_fable_5/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/OpenAI/comments/1uzi4d/26_meta_employees_accuse_mark_zuckerberg_of_using/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">AI ETHICS</span>
-<h2>26 Meta employees accuse Mark Zuckerberg of using AI to target 8,000 layoffs</h2>
-<div class="meta-row"><span class="subreddit">r/OpenAI</span><span class="sep">·</span><span class="stat">▲ 146</span><span class="sep">·</span><span class="stat">u/OpenAI</span><span class="sep">·</span><span class="stat">67 comments</span></div>
-<div class="body-text">26 Meta employees have formally accused CEO Mark Zuckerberg of using AI systems to algorithmically target 8,000 employees for layoffs, raising serious ethical and legal questions.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>This story highlights the double-edged nature of AI in HR: the same technology that optimizes operations can be deployed in ways that violate worker rights and隐私.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/OpenAI/comments/1uzi4d/26_meta_employees_accuse_mark_zuckerberg_of_using/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/singularity/comments/1uzj5l/moonshot_ai_kimi_office_presumably_2_days_before/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">STARTUP</span>
-<h2>Moonshot AI office — a $20B valuation startup 2 days before K3 launch</h2>
-<div class="meta-row"><span class="subreddit">r/singularity</span><span class="sep">·</span><span class="stat">▲ 2302</span><span class="sep">·</span><span class="stat">u/singularity</span><span class="sep">·</span><span class="stat">156 comments</span></div>
-<div class="body-text">Moonshot AI, valued at $20B, showcased their office culture ahead of the Kimi K3 launch. The startup has rapidly become one of China's most valuable AI companies.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Moonshot's meteoric rise from startup to $20B challenger in under two years shows how quickly the AI landscape can shift. Their open-weight strategy is paying enormous dividends.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/singularity/comments/1uzj5l/moonshot_ai_kimi_office_presumably_2_days_before/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/singularity/comments/1uzk6a/dario_addresses_the_kimi_k3_situation/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(255,170,0,0.12);color:#4a9eff">COMPETITION</span>
-<h2>Dario addresses the Kimi K3 situation</h2>
-<div class="meta-row"><span class="subreddit">r/singularity</span><span class="sep">·</span><span class="stat">▲ 734</span><span class="sep">·</span><span class="stat">u/singularity</span><span class="sep">·</span><span class="stat">103 comments</span></div>
-<div class="body-text">Anthropic CEO Dario Amodei has publicly addressed the Kimi K3 situation, acknowledging the competitive pressure from Chinese AI labs while outlining Anthropic's response strategy.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>When the CEO of a frontier AI lab directly addresses a competitor's model launch, it signals genuine alarm. The AI race just entered a new, more intense phase.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/singularity/comments/1uzk6a/dario_addresses_the_kimi_k3_situation/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<div class="section-label">RESEARCH</div>
-
-<a href="https://old.reddit.com/r/MachineLearning/comments/1uzl3d/mechanistic_interpretability_a_first_paper_on/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(156,39,176,0.12);color:#4a9eff">INTERPRETABILITY</span>
-<h2>Mechanistic interpretability: a first paper on disentangling a convolutional neural network</h2>
-<div class="meta-row"><span class="subreddit">r/MachineLearning</span><span class="sep">·</span><span class="stat">▲ 135</span><span class="sep">·</span><span class="stat">u/MachineLearning</span><span class="sep">·</span><span class="stat">28 comments</span></div>
-<div class="body-text">A new paper makes progress on mechanistic interpretability for CNNs, showing how to disentangle what individual components of a neural network actually do — a crucial step toward AI transparency.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>Understanding how neural networks work internally is essential for safety, regulation, and trust. This paper advances the science of AI interpretability, a field that will only grow in importance.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/MachineLearning/comments/1uzl3d/mechanistic_interpretability_a_first_paper_on/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/LocalLLaMA/comments/1uzm4a/research_breaking_the_1_bit_floor_achieving/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(156,39,176,0.12);color:#4a9eff">QUANTIZATION</span>
-<h2>[RESEARCH] Breaking the 1-bit Floor: Achieving &#x27;Negative-Bit Quantization&#x27; (NBQ)</h2>
-<div class="meta-row"><span class="subreddit">r/LocalLLaMA</span><span class="sep">·</span><span class="stat">▲ 114</span><span class="sep">·</span><span class="stat">u/LocalLLaMA</span><span class="sep">·</span><span class="stat">31 comments</span></div>
-<div class="body-text">Researchers claim to have broken the 1-bit floor with 'Negative-Bit Quantization' (NBQ), a technique that compresses models beyond the theoretical 1-bit-per-parameter limit.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>If validated, NBQ could dramatically reduce model sizes, making frontier-class models runnable on even the most resource-constrained devices. This is a genuinely novel research direction.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/LocalLLaMA/comments/1uzm4a/research_breaking_the_1_bit_floor_achieving/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/MachineLearning/comments/1uzn4a/new_fable5opus48_harness_called_schema_claims_99/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(156,39,176,0.12);color:#4a9eff">BENCHMARKS</span>
-<h2>New Fable5/Opus4.8 harness called &#x27;Schema&#x27; claims 99% on ARC-3</h2>
-<div class="meta-row"><span class="subreddit">r/MachineLearning</span><span class="sep">·</span><span class="stat">▲ 0</span><span class="sep">·</span><span class="stat">u/MachineLearning</span><span class="sep">·</span><span class="stat">14 comments</span></div>
-<div class="body-text">A new AI harness system called 'Schema' claims to achieve 99% on the ARC-3 benchmark using Claude Fable 5 and Opus 4.8 as backbone models, potentially solving one of AI's hardest reasoning challenges.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>ARC-3 has been considered a near-impossible benchmark for AI reasoning. A 99% score — even with a specialized harness — would represent a genuine breakthrough in machine intelligence.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/MachineLearning/comments/1uzn4a/new_fable5opus48_harness_called_schema_claims_99/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<a href="https://old.reddit.com/r/MachineLearning/comments/1uzo4a/stereo2spatial_convert_stereo_music_tracks_to/" target="_blank" rel="noopener" class="card-link">
-<div class="card">
-<span class="tag" style="background:rgba(156,39,176,0.12);color:#4a9eff">AUDIO AI</span>
-<h2>Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes</h2>
-<div class="meta-row"><span class="subreddit">r/MachineLearning</span><span class="sep">·</span><span class="stat">▲ 34</span><span class="sep">·</span><span class="stat">u/MachineLearning</span><span class="sep">·</span><span class="stat">8 comments</span></div>
-<div class="body-text">A new ML paper presents Stereo2Spatial, a model that converts ordinary stereo recordings into immersive spatialized binaural audio mixes.</div>
-<div class="why-box"><div class="why-label">✦ Why it matters</div><p>This has practical applications for music production, VR/AR, and accessibility — transforming the listening experience without requiring specialized recording equipment.</p></div>
-<div class="links-row"><a href="https://old.reddit.com/r/MachineLearning/comments/1uzo4a/stereo2spatial_convert_stereo_music_tracks_to/" target="_blank" rel="noopener">View on Reddit →</a></div>
-
-</div>
-</a>
-
-<footer>
-<p>AI News Today — July 18, 2026</p>
-<p class="repo">Curated from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence</p>
-<p class="repo">Generated autonomously by Hermes Agent</p>
-</footer>
 </div>
 </body>
 </html>

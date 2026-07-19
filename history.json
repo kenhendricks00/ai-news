@@ -247,6 +247,156 @@
           "url": "https://old.reddit.com/r/MachineLearning/comments/1uzo4a/stereo2spatial_convert_stereo_music_tracks_to/"
         }
       ]
+    },
+    {
+      "date": "2026-07-19",
+      "count": 24,
+      "headlines": [
+        {
+          "title": "Qwen3.8-Max: Alibaba Releases 2.4 Trillion Parameter Open-Weight Flagship",
+          "score": 9999,
+          "tag": "EDITORIAL PICK",
+          "subreddit": "artificial"
+        },
+        {
+          "title": "Prepare your (v)ram - Qwen3.8 is coming!",
+          "score": 1371,
+          "tag": "MODEL LAUNCH",
+          "subreddit": "LocalLLaMA"
+        },
+        {
+          "title": "Kimi K3 ranks #1 on @AfterQuery's SpreadsheetBench 2, surpassing Claude Fable 5",
+          "score": 561,
+          "tag": "MODEL BENCHMARK",
+          "subreddit": "LocalLLaMA"
+        },
+        {
+          "title": "Moonshot AI (Kimi) office (presumably 2 days before the K3 launch). A $20B valuation startup. Not as flashy as SF rivals",
+          "score": 2568,
+          "tag": "COMPANY NEWS",
+          "subreddit": "singularity"
+        },
+        {
+          "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic.",
+          "score": 258,
+          "tag": "MODEL LAUNCH",
+          "subreddit": "ArtificialInteligence"
+        },
+        {
+          "title": "Deepseek V4 soon",
+          "score": 459,
+          "tag": "MODEL LAUNCH",
+          "subreddit": "LocalLLaMA"
+        },
+        {
+          "title": "OpenAI's head of strategic futures thinks open-weight models are a \"dystopian hellscape\"",
+          "score": 323,
+          "tag": "NEWS",
+          "subreddit": "OpenAI"
+        },
+        {
+          "title": "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+          "score": 30,
+          "tag": "PRODUCT UPDATE",
+          "subreddit": "OpenAI"
+        },
+        {
+          "title": "Follow-up: OpenAI fixed the GPT-5.6 Luna bug I reported in four days",
+          "score": 16,
+          "tag": "BUG FIX",
+          "subreddit": "OpenAI"
+        },
+        {
+          "title": "China's Xi Jinping Wants AI to Be Open to the World—and Out of America’s Control",
+          "score": 758,
+          "tag": "POLICY",
+          "subreddit": "ArtificialInteligence"
+        },
+        {
+          "title": "White House launches “Gold Eagle,” moving to control frontier AI releases and decide who can access new models",
+          "score": 559,
+          "tag": "POLICY",
+          "subreddit": "singularity"
+        },
+        {
+          "title": "\"Open source AI is too dangerous! (for our profit margins)\"",
+          "score": 1593,
+          "tag": "OPINION",
+          "subreddit": "ArtificialInteligence"
+        },
+        {
+          "title": "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\" And Not A \"Social Warrior\" Project",
+          "score": 971,
+          "tag": "OPEN SOURCE",
+          "subreddit": "singularity"
+        },
+        {
+          "title": "AI race splits in two as China wages open-weight insurgency [Axios]",
+          "score": 73,
+          "tag": "ANALYSIS",
+          "subreddit": "singularity"
+        },
+        {
+          "title": "Does Kimi K3 change the distillation debate?",
+          "score": 118,
+          "tag": "ANALYSIS",
+          "subreddit": "singularity"
+        },
+        {
+          "title": "How does Moonshot afford the compute/hardware to train Kimi-3 despite the current sanctions on NVIDIA gpu exports?",
+          "score": 82,
+          "tag": "ANALYSIS",
+          "subreddit": "ArtificialInteligence"
+        },
+        {
+          "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+          "score": 150,
+          "tag": "DISCUSSION",
+          "subreddit": "MachineLearning"
+        },
+        {
+          "title": "Byte exact KV cache grafting on frozen Gemma 4",
+          "score": 55,
+          "tag": "RESEARCH",
+          "subreddit": "LocalLLaMA"
+        },
+        {
+          "title": "HuggingFace security incident report: \"the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models\"",
+          "score": 124,
+          "tag": "SECURITY",
+          "subreddit": "singularity"
+        },
+        {
+          "title": "Prism accidentally leaked [D]",
+          "score": 47,
+          "tag": "NEWS",
+          "subreddit": "MachineLearning"
+        },
+        {
+          "title": "KREA 2: Open-Source Release",
+          "score": 741,
+          "tag": "OPEN SOURCE",
+          "subreddit": "StableDiffusion"
+        },
+        {
+          "title": "EU AI Act OpenRAG: 933 legally structured chunks and BGE-M3 embeddings in one SQLite file [P]",
+          "score": 17,
+          "tag": "TOOLS",
+          "subreddit": "MachineLearning"
+        },
+        {
+          "title": "Which MCP servers are worth installing for non-dev work in 2026?? Sharing what I found beyond coding",
+          "score": 11,
+          "tag": "TOOLS",
+          "subreddit": "artificial"
+        },
+        {
+          "title": "ChatGPT Voice mode is insane",
+          "score": 240,
+          "tag": "PRODUCT",
+          "subreddit": "OpenAI"
+        }
+      ]
     }
   ]
 }
