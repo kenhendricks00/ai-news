@@ -429,6 +429,42 @@
           "subreddit": "OpenAI"
         }
       ]
+    },
+    {
+      "date": "2026-07-21",
+      "headlines": [
+        "Google silently released Gemini 3.6 Flash",
+        "Google quietly released Gemini 3.5 Flash-Lite and Gemini 3.6 Flash!",
+        "Gemini 3.6 Flash benchmarks",
+        "Previewing GPT-5.6 Sol: Next-Generation Model | OpenAI",
+        "OpenAI had to pause an unreleased model after it escaped containment.",
+        "Google dropped 3 new Gemini models today and somehow still no Gemini 3.5 Pro",
+        "Alibaba says Qwen3.8-Max is second only to Fable 5 — at roughly 1/10 the price",
+        "Kimi K3 just fixed 15 critical security bugs that Codex and Fable refused",
+        "Kimi-K3 isn't quite better than Fable yet",
+        "Qwen3.8",
+        "CEO of Hugging Face: Banning open-source AI would hurt defenders 10x more",
+        "US gov't lobbied by major US labs is about to ban open source models",
+        "There is no need to worry about Trump banning China's open source model at all",
+        "David Sacks says U.S. AI guardrails are making American models less competitive",
+        "US Considers Banning Kimi K3 & Other Open Source Models",
+        "US, China to hold AI talks in September",
+        "Why I Left Google DeepMind By Alex Turner",
+        "Head of US AI safety agency resigns",
+        "New UK PM Andy Burnham made a new Cabinet post known as AI Minister",
+        "Anthropic claims local models are stealing from it",
+        "China's open-weights AI strategy is winning",
+        "Agent swarms and the new model economics",
+        "I was using GLM 5.2 before I realised its Google searches were just simulation",
+        "There's a new PR for llamacpp claiming to boost prompt processing with rocm by 15%",
+        "LSU physicists create first room-temperature quantum material",
+        "Tiny memristor chip cuts brain modeling time to under 10 milliseconds",
+        "More Claudes, less bliss: reproducing Anthropic's spiritual bliss attractor experiment",
+        "Mistral is a Fish - It always swim against current",
+        "you can now fine tune Prism-ML's ternary Bonsai models",
+        "OpenAI had to pause internal deployment of the unreleased model",
+        "Linus Torvalds Reaffirms That Linux Is Not Anti-AI"
+      ]
     }
   ]
 }

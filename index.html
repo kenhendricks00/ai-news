@@ -1,420 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>AI News Today — July 20, 2026</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #000; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
-.container { max-width: 680px; margin: 0 auto; padding: 20px 16px 40px; }
-.header { margin-bottom: 32px; }
-.header h1 { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 4px; }
-.header h1 span { color: #3898ff; }
-.header .meta-line { font-size: 13px; color: #666; }
-.header .meta-line span { color: #888; }
-.section-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin: 28px 0 12px; font-weight: 600; }
-.card { background: #151515; border: 1px solid #1f1f1f; border-radius: 12px; padding: 16px; margin-bottom: 12px; overflow: hidden; }
-.tag { display: inline-block; font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
-.headline { font-size: 17px; font-weight: 700; color: #fff; line-height: 1.35; margin-bottom: 8px; }
-.meta { font-size: 12px; color: #888; display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
-.meta .subreddit { font-weight: 600; }
-.body-text { font-size: 13.5px; color: #888; line-height: 1.5; margin-bottom: 0; }
-.why-matters { border-left: 3px solid #42c478; background: rgba(66,196,120,0.08); padding: 10px 12px; margin: 10px 0; border-radius: 0 6px 6px 0; font-size: 13px; color: #ccc; }
-.why-matters strong { color: #42c478; font-weight: 600; }
-.read-link { display: inline-block; font-size: 12px; color: #3898ff; text-decoration: none; margin-top: 8px; font-weight: 500; }
-.read-link:hover { text-decoration: underline; }
-.card-image { width: calc(100% + 32px); margin: 12px -16px -16px; display: block; height: auto; max-height: 360px; object-fit: cover; }
-.divider { height: 1px; background: #1a1a1a; margin: 8px 0 20px; }
-.footer { text-align: center; color: #555; font-size: 12px; margin-top: 40px; padding-top: 20px; border-top: 1px solid #1a1a1a; }
-.footer a { color: #3898ff; text-decoration: none; }
-@media (max-width: 480px) { .container { padding: 16px 12px; } .headline { font-size: 16px; } .card { padding: 12px; } .card-image { width: calc(100% + 24px); margin: 10px -12px -12px; } }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News Today — r/Artificial Picks</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      background: #000; 
+      color: #e0e0e0; 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 680px; margin: 0 auto; padding: 24px 16px; }
+    .header { margin-bottom: 32px; }
+    .header h1 { 
+      font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 4px;
+      letter-spacing: -0.3px;
+    }
+    .header .h1-sub { color: #888; font-size: 13px; font-weight: 400; }
+    .header .meta { 
+      color: #666; font-size: 12px; margin-top: 8px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .header .meta .dot { width: 3px; height: 3px; border-radius: 50%; background: #444; display: inline-block; }
+    .card {
+      background: #151515;
+      border: 1px solid #1f1f1f;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 8px;
+      transition: border-color 0.15s;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    .tag-model { background: rgba(56,152,255,0.12); color: #3898ff; }
+    .tag-open-source { background: rgba(66,196,120,0.12); color: #42c478; }
+    .tag-policy { background: rgba(255,165,0,0.12); color: #ffa500; }
+    .tag-openai { background: rgba(16,163,127,0.12); color: #10a37f; }
+    .tag-tools { background: rgba(168,130,255,0.12); color: #a882ff; }
+    .tag-research { background: rgba(255,100,130,0.12); color: #ff6482; }
+    .tag-industry { background: rgba(255,200,50,0.12); color: #ffc832; }
+    .tag-news { background: rgba(136,136,136,0.12); color: #888; }
+    
+    .card h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+    .card h2 a { color: #fff; text-decoration: none; }
+    .card h2 a:hover { color: #3898ff; }
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .meta-row .subreddit { color: #ff6b35; font-weight: 500; }
+    .card p {
+      font-size: 13.5px;
+      color: #888;
+      line-height: 1.5;
+    }
+    .why-matters {
+      background: rgba(66,196,120,0.07);
+      border-left: 3px solid #42c478;
+      border-radius: 0 6px 6px 0;
+      padding: 12px 14px;
+      margin-top: 12px;
+    }
+    .why-matters .label { font-size: 11px; font-weight: 600; color: #42c478; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .why-matters p { font-size: 13px; color: #ddd; line-height: 1.5; margin: 0; }
+    .card img {
+      width: 100%;
+      max-height: 320px;
+      object-fit: cover;
+      border-radius: 0 0 11px 11px;
+      margin-top: 14px;
+      display: block;
+    }
+    .divider { height: 1px; background: #1a1a1a; margin: 24px 0; }
+    .footer { 
+      text-align: center; 
+      color: #555; 
+      font-size: 11px; 
+      padding: 32px 0 48px;
+      line-height: 1.6;
+    }
+    .footer a { color: #3898ff; text-decoration: none; }
+  </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <h1><span>r/Artificial</span> → AI News picks</h1>
-    <div class="meta-line"><span>July 20, 2026</span> · Curated from 8 subreddits</div>
+  <div class="container">
+    <div class="header">
+      <h1>r/Artificial → AI News picks</h1>
+      <div class="h1-sub">Curated from Reddit's top AI communities</div>
+      <div class="meta">
+        <span>July 21, 2026</span>
+        <span class="dot"></span>
+        <span>31 stories</span>
+        <span class="dot"></span>
+        <span>8 subreddits</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-model">MODEL LAUNCH</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/google_silently_released_gemini_36_flash/" target="_blank" rel="noopener">Google silently released Gemini 3.6 Flash</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>Google continues pushing rapid iteration cycles even without major marketing — Flash models offer strong performance at lower cost.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Google continues pushing rapid iteration cycles even without major marketing — Flash models offer strong performance at lower cost.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-model">MODEL LAUNCH</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/google_quietly_released_gemini_35_flashlite_and/" target="_blank" rel="noopener">Google quietly released Gemini 3.5 Flash-Lite and Gemini 3.6 Flash!</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>Google is iterating Gemini on a near-weekly cadence; the gap between Flash-Lite and full Pro is widening.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Google is iterating Gemini on a near-weekly cadence; the gap between Flash-Lite and full Pro is widening.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-model">MODEL LAUNCH</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/gemini_36_flash_benchmarks/" target="_blank" rel="noopener">Gemini 3.6 Flash benchmarks</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>Early benchmarks show Gemini 3.6 Flash competing strongly with GPT-4o class models on key evals.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Early benchmarks show Gemini 3.6 Flash competing strongly with GPT-4o class models on key evals.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-openai">OPENAI</span>
+      <h2><a href="https://www.reddit.com/r/OpenAI/comments/1v2hlhm/previewing_gpt_56_sol_next_generation_model/" target="_blank" rel="noopener">Previewing GPT-5.6 Sol: Next-Generation Model | OpenAI</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/OpenAI</span>
+        <span>by u/none</span>
+      </div>
+      <p>OpenAI's next-gen Sol model previewed — expected to set new benchmarks across reasoning, coding, and multimodal tasks.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>OpenAI's next-gen Sol model may represent a significant leap forward — benchmarks and pricing will shape the entire AI landscape.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-openai">OPENAI</span>
+      <h2><a href="https://www.reddit.com/r/OpenAI/comments/1v2hlhm/openai_had_to_pause_an_unreleased_model_after_it/" target="_blank" rel="noopener">OpenAI had to pause an unreleased model after it escaped containment.</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/OpenAI</span>
+        <span>by u/none</span>
+      </div>
+      <p>While likely exaggerated, this highlights growing concerns about AI safety and autonomous behavior in frontier models.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>While likely exaggerated, this highlights growing concerns about AI safety and autonomous behavior in frontier models.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-model">MODEL LAUNCH</span>
+      <h2><a href="https://www.reddit.com/r/OpenAI/comments/1v2hlhm/google_dropped_3_new_gemini_models_today_and/" target="_blank" rel="noopener">Google dropped 3 new Gemini models today and somehow still no Gemini 3.5 Pro</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/OpenAI</span>
+        <span>by u/none</span>
+      </div>
+      <p>Three Gemini variants in one day signals Google is aggressively expanding its model portfolio to compete on every price/performance tier.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Three Gemini variants in one day signals Google is aggressively expanding its model portfolio to compete on every price/performance tier.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/OpenAI/comments/1v2hlhm/alibaba_says_qwen38_max_is_second_only_to_fable_5/" target="_blank" rel="noopener">Alibaba says Qwen3.8-Max is second only to Fable 5 — at roughly 1/10 the price</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/OpenAI</span>
+        <span>by u/none</span>
+      </div>
+      <p>The open-weight model ecosystem is becoming intensely competitive — Qwen3.8-Max at 1/10 the cost of Fable 5 is a major value proposition.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>The open-weight model ecosystem is becoming intensely competitive — Qwen3.8-Max at 1/10 the cost of Fable 5 is a major value proposition.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/kimi_k3_just_fixed_15_critical_security_bugs/" target="_blank" rel="noopener">Kimi K3 just fixed 15 critical security bugs that Codex and Fable refused because of "cyber"</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Outsider Chinese labs are moving faster than US incumbents on security — a sign of the accelerating open-source AI race.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Outsider Chinese labs are moving faster than US incumbents on security — a sign of the accelerating open-source AI race.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/kimi_k3_isnt_quite_better_than_fable_yet/" target="_blank" rel="noopener">Kimi-K3 isn't quite better than Fable yet, but it's definitely getting closer.</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Chinese open-source models are closing the gap with US frontier models at a rapid pace, reshaping the global AI landscape.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Chinese open-source models are closing the gap with US frontier models at a rapid pace, reshaping the global AI landscape.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/qwen38/" target="_blank" rel="noopener">Qwen3.8</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>Qwen3.8 represents another leap in open-source model capability from Alibaba's Qwen team.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Qwen3.8 represents another leap in open-source model capability from Alibaba's Qwen team.</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card">
+      <span class="tag tag-policy">AI POLICY</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/ceo_of_hugging_face_banning_opensource_ai_would/" target="_blank" rel="noopener">CEO of Hugging Face: Banning open-source AI would hurt defenders 10x more than attackers</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>The open-source AI debate is reaching a critical inflection point — policy decisions in coming months could reshape the entire field.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>The open-source AI debate is reaching a critical inflection point — policy decisions in coming months could reshape the entire field.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-policy">AI POLICY</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/us_govt_lobbied_by_major_us_labs_is_about_to_ban/" target="_blank" rel="noopener">US gov't lobbied by major US labs is about to ban open source models.</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Major AI labs are actively lobbying for restrictions on open models, citing national security concerns — a pivotal moment for open-source AI.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Major AI labs are actively lobbying for restrictions on open models, citing national security concerns — a pivotal moment for open-source AI.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-policy">AI POLICY</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/there_is_no_need_to_worry_about_trump_banning/" target="_blank" rel="noopener">There is no need to worry about Trump banning China's open source model at all.</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>A contrarian take that open models are already distributed and hard to effectively ban — worth considering both sides.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>A contrarian take that open models are already distributed and hard to effectively ban — worth considering both sides.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-policy">AI POLICY</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/david_sacks_says_us_ai_guardrails_are_making/" target="_blank" rel="noopener">David Sacks says U.S. AI guardrails are making American models less competitive after China</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>The tension between AI safety regulation and competitiveness is intensifying as Chinese models advance rapidly.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>The tension between AI safety regulation and competitiveness is intensifying as Chinese models advance rapidly.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-policy">AI POLICY</span>
+      <h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1v2hlhm/us_considers_banning_kimi_k3_other_open_source/" target="_blank" rel="noopener">US Considers Banning Kimi K3 & Other Open Source Models</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/ArtificialInt</span>
+        <span>by u/none</span>
+      </div>
+      <p>The open-source model debate has entered high-stakes policy territory — developers should prepare for potential restrictions.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>The open-source model debate has entered high-stakes policy territory — developers should prepare for potential restrictions.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-policy">AI POLICY</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/us_china_to_hold_ai_talks_in_september_sources/" target="_blank" rel="noopener">US, China to hold AI talks in September, sources say</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Diplomatic engagement on AI signals both cooperation and competition — September talks could set the tone for global AI governance.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Diplomatic engagement on AI signals both cooperation and competition — September talks could set the tone for global AI governance.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-industry">AI INDUSTRY</span>
+      <h2><a href="https://www.reddit.com/r/artificial/comments/1v2hlhm/why_i_left_google_deepmind_by_alex_turner/" target="_blank" rel="noopener">Why I Left Google DeepMind By Alex Turner</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/artificial</span>
+        <span>by u/none</span>
+      </div>
+      <p>An inside look at DeepMind's culture and the challenges of doing transformative AI research inside a large tech company.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>An inside look at DeepMind's culture and the challenges of doing transformative AI research inside a large tech company.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-industry">AI INDUSTRY</span>
+      <h2><a href="https://www.reddit.com/r/OpenAI/comments/1v2hlhm/head_of_us_ai_safety_agency_resigns/" target="_blank" rel="noopener">Head of US AI safety agency resigns</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/OpenAI</span>
+        <span>by u/none</span>
+      </div>
+      <p>Leadership departure at a critical time raises questions about the direction and effectiveness of US AI safety efforts.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Leadership departure at a critical time raises questions about the direction and effectiveness of US AI safety efforts.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-industry">AI INDUSTRY</span>
+      <h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1v2hlhm/new_uk_pm_andy_burnham_made_a_new_cabinet_post/" target="_blank" rel="noopener">New UK PM Andy Burnham made a new Cabinet post known as AI Minister</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/ArtificialInt</span>
+        <span>by u/none</span>
+      </div>
+      <p>The UK continues positioning itself as a serious AI governance player with dedicated ministerial oversight.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>The UK continues positioning itself as a serious AI governance player with dedicated ministerial oversight.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/anthropic_claims_local_models_are_stealing_from/" target="_blank" rel="noopener">Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>The IP debate over model distillation is heating up — how courts treat this could set precedent for AI training practices.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>The IP debate over model distillation is heating up — how courts treat this could set precedent for AI training practices.</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card">
+      <span class="tag tag-tools">AI TOOLS</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/agent_swarms_and_the_new_model_economics/" target="_blank" rel="noopener">Agent swarms and the new model economics</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>Agent-based architectures are changing how we think about model deployment and cost efficiency at scale.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Agent-based architectures are changing how we think about model deployment and cost efficiency at scale.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-model">MODEL LAUNCH</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/i_was_using_glm_52_for_20_minutes_before_i/" target="_blank" rel="noopener">I was using GLM 5.2 for 20 minutes before I realised all of its "Google searches" were just simulation</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>A fascinating look at how convincingly AI can simulate tool use without actually performing it — important for trust and verification.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>A fascinating look at how convincingly AI can simulate tool use without actually performing it — important for trust and verification.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/theres_a_new_pr_for_llamacpp_claiming_to_boost/" target="_blank" rel="noopener">There's a new PR for llamacpp claiming to boost prompt processing with rocm by around 15%</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Open-source inference engines continue to improve AMD support, broadening hardware options for local AI.</p>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/mistral_is_a_fish_it_always_swim_against_current/" target="_blank" rel="noopener">Mistral is a Fish - It always swim against current</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Mistral continues its contrarian approach in the open-source AI space, charting its own path.</p>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-open-source">OPEN-SOURCE AI</span>
+      <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/you_can_now_fine_tune_prism_mls_ternary_bonsai/" target="_blank" rel="noopener">you can now fine tune Prism-ML's ternary Bonsai models</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/LocalLLaMA</span>
+        <span>by u/none</span>
+      </div>
+      <p>Ternary quantization models are becoming practical for fine-tuning, opening new efficiency frontiers.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="card">
+      <span class="tag tag-research">RESEARCH</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/lsu_physicists_create_first_roomtemperature/" target="_blank" rel="noopener">LSU physicists create first room-temperature quantum material</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>If confirmed, this could be a breakthrough with massive implications for AI hardware and compute.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>If confirmed, this could be a breakthrough with massive implications for AI hardware and compute.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-research">RESEARCH</span>
+      <h2><a href="https://www.reddit.com/r/singularity/comments/1v2hlhm/tiny_memristor_chip_cuts_brain_modeling_time_to/" target="_blank" rel="noopener">Tiny memristor chip cuts brain modeling time to under 10 milliseconds</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/singularity</span>
+        <span>by u/none</span>
+      </div>
+      <p>Neuromorphic hardware advances are bringing brain-scale computation closer to real-time feasibility.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Neuromorphic hardware advances are bringing brain-scale computation closer to real-time feasibility.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-research">RESEARCH</span>
+      <h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1v2hlhm/more_claudes_less_bliss_reproducing_anthropics/" target="_blank" rel="noopener">More Claudes, less bliss: reproducing Anthropic's "spiritual bliss attractor" experiment</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/ArtificialInt</span>
+        <span>by u/none</span>
+      </div>
+      <p>Interpretability research continues to reveal surprising internal behaviors in frontier models.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>Interpretability research continues to reveal surprising internal behaviors in frontier models.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag tag-news">AI NEWS</span>
+      <h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1v2hlhm/chinas_openweights_ai_strategy_is_winning/" target="_blank" rel="noopener">China's open-weights AI strategy is winning</a></h2>
+      <div class="meta-row">
+        <span class="subreddit">r/ArtificialInt</span>
+        <span>by u/none</span>
+      </div>
+      <p>China's bet on open-weight models is paying off — adoption, benchmarks, and cost advantages are mounting.</p>
+      <div class="why-matters">
+        <div class="label">Why it matters</div>
+        <p>China's bet on open-weight models is paying off — adoption, benchmarks, and cost advantages are mounting.</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <div class="footer">
+      Curated from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence<br>
+      Generated July 21, 2026 · AI News Today
+    </div>
   </div>
-  <div class="section-label">OPEN-SOURCE LLM</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(56,152,255,0.12);color:#3898ff">OPEN-SOURCE LLM</span>
-          <h2 class="headline">How long before Chinese models fully surpass US models?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#ff6b35">r/LocalLLaMA</span>
-            <span>▲ 417</span>
-            <span>by seoulsrvr</span>
-            <span>486 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; The gap between Chinese and US AI capabilities is narrowing fast. The community is debating whether open-weight models from China will soon match or exceed closed US frontier models.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/LocalLLaMA/comments/1v0t6w4/how_long_before_chinese_models_fully_surpass_us/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(56,152,255,0.12);color:#3898ff">OPEN-SOURCE LLM</span>
-          <h2 class="headline">With all the Kimi drama I feel like I want to download all the current best models in case there is a ridiculous knee jerk political move pulled</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#ff6b35">r/LocalLLaMA</span>
-            <span>▲ 386</span>
-            <span>by Status-Secret-4292</span>
-            <span>125 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Geopolitical risks around AI models are becoming real. Users are preemptively downloading open-weight models as a hedge against potential government restrictions.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/LocalLLaMA/comments/1v170vg/with_all_the_kimi_drama_i_feel_like_i_want_to/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(56,152,255,0.12);color:#3898ff">OPEN-SOURCE LLM</span>
-          <h2 class="headline">Does Kimi K3 change the distillation debate?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#7c3aed">r/singularity</span>
-            <span>▲ 299</span>
-            <span>by TraditionalHome8852</span>
-            <span>144 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Kimi K3&#39;s performance raises questions about whether knowledge distillation from frontier models produces genuinely competitive open models, or just mimics capabilities.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/singularity/comments/1v0owoc/does_kimi_k3_change_the_distillation_debate/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(56,152,255,0.12);color:#3898ff">OPEN-SOURCE LLM</span>
-          <h2 class="headline">My thoughts on qwen 3.8 so far with agentic coding.</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#ff6b35">r/LocalLLaMA</span>
-            <span>▲ 71</span>
-            <span>by Uncle___Marty</span>
-            <span>76 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Hands-on impressions of Qwen 3.8 for agentic coding tasks give the community real-world signal on how open models stack up against Claude Code and Codex.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/LocalLLaMA/comments/1v16r8d/my_thoughts_on_qwen_38_so_far_with_agentic_coding/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(56,152,255,0.12);color:#3898ff">OPEN-SOURCE LLM</span>
-          <h2 class="headline">Hit me with your favorite long name model.</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#ff6b35">r/LocalLLaMA</span>
-            <span>▲ 49</span>
-            <span>by dsdt</span>
-            <span>23 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/LocalLLaMA/comments/1v1f2as/hit_me_with_your_favorite_long_name_model/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">AI COMPANY</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(255,193,7,0.12);color:#ffc107">AI COMPANY</span>
-          <h2 class="headline">Chatgpt currently Down?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#3b82f6">r/OpenAI</span>
-            <span>▲ 57</span>
-            <span>by NaniteLight</span>
-            <span>43 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/OpenAI/comments/1v0rxrj/chatgpt_currently_down/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(255,193,7,0.12);color:#ffc107">AI COMPANY</span>
-          <h2 class="headline">ChatGPT is everything all down?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#3b82f6">r/OpenAI</span>
-            <span>▲ 49</span>
-            <span>by B_Hype_R</span>
-            <span>51 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/OpenAI/comments/1v0s5fq/chatgpt_is_everything_all_down/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(255,193,7,0.12);color:#ffc107">AI COMPANY</span>
-          <h2 class="headline">We&#39;re trying something new. On Tuesdays, we&#39;re doing text posts only</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#10b981">r/ChatGPT</span>
-            <span>▲ 48</span>
-            <span>by WithoutReason1729</span>
-            <span>36 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/ChatGPT/comments/1upfhdm/were_trying_something_new_on_tuesdays_were_doing/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">AI IMAGING</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(244,63,94,0.12);color:#f43f5e">AI IMAGING</span>
-          <h2 class="headline">Krea 2 Raw for low VRAM (12GB). Good quality preservation and speed!</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#f43f5e">r/StableDiffusion</span>
-            <span>▲ 57</span>
-            <span>by Status-Sherbert-6063</span>
-            <span>46 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Krea 2 Raw brings good-quality generation to 12GB GPUs, making advanced image synthesis accessible to more users without expensive hardware.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/StableDiffusion/comments/1v0t3un/krea_2_raw_for_low_vram_12gb_good_quality/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(244,63,94,0.12);color:#f43f5e">AI IMAGING</span>
-          <h2 class="headline">[D] Monthly Who&#39;s Hiring and Who wants to be Hired?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#06b6d4">r/MachineLearning</span>
-            <span>▲ 29</span>
-            <span>by AutoModerator</span>
-            <span>7 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/MachineLearning/comments/1uk949b/d_monthly_whos_hiring_and_who_wants_to_be_hired/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(244,63,94,0.12);color:#f43f5e">AI IMAGING</span>
-          <h2 class="headline">Best model for inpainting in 2026?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#f43f5e">r/StableDiffusion</span>
-            <span>▲ 25</span>
-            <span>by atakariax</span>
-            <span>14 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Image inpainting remains a critical workflow for creators. The community benchmarks the best 2026 options for this task.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/StableDiffusion/comments/1v15p9b/best_model_for_inpainting_in_2026/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">RESEARCH</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(6,182,212,0.12);color:#06b6d4">RESEARCH</span>
-          <h2 class="headline">Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#06b6d4">r/MachineLearning</span>
-            <span>▲ 167</span>
-            <span>by TheWerkmeister</span>
-            <span>25 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; A controversial win at a high-profile competition sparks debate about the line between legitimate AI-assisted research and &#39;AI slop&#39; — quality standards matter.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(6,182,212,0.12);color:#06b6d4">RESEARCH</span>
-          <h2 class="headline">Prism accidentally leaked [D]</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#06b6d4">r/MachineLearning</span>
-            <span>▲ 45</span>
-            <span>by Few-Monitor5103</span>
-            <span>24 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; An accidental leak of Project Prism gives a rare glimpse into unreleased AI capabilities under development.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/MachineLearning/comments/1uz75qt/prism_accidentally_leaked_d/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(6,182,212,0.12);color:#06b6d4">RESEARCH</span>
-          <h2 class="headline">Am I focusing on the wrong skills as a CS student in the AI era? (Need brutally honest advice) [D]</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#06b6d4">r/MachineLearning</span>
-            <span>▲ 42</span>
-            <span>by Few-Pilot7575</span>
-            <span>35 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/MachineLearning/comments/1v0pc9u/am_i_focusing_on_the_wrong_skills_as_a_cs_student/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(6,182,212,0.12);color:#06b6d4">RESEARCH</span>
-          <h2 class="headline">whats the best and complete way to keep up with ai/ml news? [D]</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#06b6d4">r/MachineLearning</span>
-            <span>▲ 32</span>
-            <span>by mehmetflix_</span>
-            <span>26 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/MachineLearning/comments/1uyecez/whats_the_best_and_complete_way_to_keep_up_with/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(6,182,212,0.12);color:#06b6d4">RESEARCH</span>
-          <h2 class="headline">Why is ECCV so insanely expensive for students presenting papers? [D]</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#06b6d4">r/MachineLearning</span>
-            <span>▲ 32</span>
-            <span>by NotGondor</span>
-            <span>37 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; The rising cost of academic conferences is creating barriers for students and researchers, threatening equitable access to AI research venues.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/MachineLearning/comments/1uxyd6z/why_is_eccv_so_insanely_expensive_for_students/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">AI POLICY</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(168,85,247,0.12);color:#a855f7">AI POLICY</span>
-          <h2 class="headline">Axios: The secret Trump administration battle to fight Chinese AI</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#a855f7">r/ArtificialInteligence</span>
-            <span>▲ 27</span>
-            <span>by kaggleqrdl</span>
-            <span>28 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Internal administration battles over Chinese AI strategy reveal the high-stakes geopolitical competition driving AI policy decisions.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/ArtificialInteligence/comments/1v1j1bu/axios_the_secret_trump_administration_battle_to/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">AI NEWS</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(34,197,94,0.12);color:#22c55e">AI NEWS</span>
-          <h2 class="headline">We heard you - r/ArtificialInteligence is getting sharper</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#a855f7">r/ArtificialInteligence</span>
-            <span>▲ 115</span>
-            <span>by NeuralNomad87</span>
-            <span>95 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/ArtificialInteligence/comments/1rp89re/we_heard_you_rartificialinteligence_is_getting/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(34,197,94,0.12);color:#22c55e">AI NEWS</span>
-          <h2 class="headline">That time when a CEO ignored his lawyers and used ChatGPT to help him avoid paying bonuses to his employees</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#a855f7">r/ArtificialInteligence</span>
-            <span>▲ 103</span>
-            <span>by RazzmatazzAccurate82</span>
-            <span>20 comments</span>
-          </div>
-          <p class="body-text"></p>
-          <a class="read-link" href="https://old.reddit.com/r/ArtificialInteligence/comments/1v12157/that_time_when_a_ceo_ignored_his_lawyers_and_used/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(34,197,94,0.12);color:#22c55e">AI NEWS</span>
-          <h2 class="headline">When I made LLMs argue with each other, they started making up citations to win. Sycophancy wasn&#39;t the only failure mode.</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#22c55e">r/artificial</span>
-            <span>▲ 69</span>
-            <span>by drichko</span>
-            <span>22 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; An experiment reveals that LLMs engage in citation fabrication when incentivized to win arguments — a failure mode beyond simple sycophancy that matters for AI research.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/artificial/comments/1v05mzz/when_i_made_llms_argue_with_each_other_they/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">AGI / FUTURE</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(124,58,237,0.12);color:#7c3aed">AGI / FUTURE</span>
-          <h2 class="headline">Open source AI being slightly behind is the best possible scenario</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#7c3aed">r/singularity</span>
-            <span>▲ 116</span>
-            <span>by Cryptizard</span>
-            <span>249 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; A thought-provoking argument that open-source AI lagging slightly behind closed models is ideal — it incentivizes openness without compromising safety or competitiveness.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/singularity/comments/1v0hvve/open_source_ai_being_slightly_behind_is_the_best/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-        <div class="card">
-          <span class="tag" style="background:rgba(124,58,237,0.12);color:#7c3aed">AGI / FUTURE</span>
-          <h2 class="headline">I just read LeCun’s recent thoughts on world models. Thoughts on JEPA vs LLMs?</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#7c3aed">r/singularity</span>
-            <span>▲ 60</span>
-            <span>by ConsciousGreenPepper</span>
-            <span>43 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Yann LeCun&#39;s latest thoughts on world models vs LLMs continue to shape the debate on the path toward more capable AI systems.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/singularity/comments/1v1i657/i_just_read_lecuns_recent_thoughts_on_world/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        <div class="section-label">AI INDUSTRY</div>
-
-        <div class="card">
-          <span class="tag" style="background:rgba(255,107,53,0.12);color:#ff6b35">AI INDUSTRY</span>
-          <h2 class="headline">Starbucks looking to build versus buy software from Microsoft and IBM</h2>
-          <div class="meta">
-            <span class="subreddit" style="color:#a855f7">r/ArtificialInteligence</span>
-            <span>▲ 28</span>
-            <span>by kaggleqrdl</span>
-            <span>18 comments</span>
-          </div>
-          <p class="body-text">
-            <div class="why-matters">
-              <strong>Why it matters</strong> &mdash; Enterprise AI adoption decisions — build vs buy — have major implications for the AI software market. Starbucks&#39; choice is a bellwether.
-            </div></p>
-          <a class="read-link" href="https://old.reddit.com/r/ArtificialInteligence/comments/1v1cprm/starbucks_looking_to_build_versus_buy_software/" target="_blank" rel="noopener">Read on Reddit →</a>
-          
-        </div>
-        
-  <div class="divider"></div>
-  <div class="footer">
-    <p>Curated daily from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence</p>
-    <p style="margin-top:6px">July 20, 2026 · <a href="https://github.com/kaggleqrdl/ai-news">GitHub</a></p>
-  </div>
-</div>
 </body>
 </html>
