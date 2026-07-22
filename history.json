@@ -1,58 +1,31 @@
 {
   "entries": [
     {
-      "date": "2026-07-20",
+      "date": "2026-06-29",
       "headlines": [
-        "How long before Chinese models fully surpass US models?",
-        "With all the Kimi drama I feel like I want to download all the current best models in case there is a ridiculous knee jerk political move pulled",
-        "Does Kimi K3 change the distillation debate?",
-        "My thoughts on qwen 3.8 so far with agentic coding.",
-        "Hit me with your favorite long name model.",
-        "Chatgpt currently Down?",
-        "ChatGPT is everything all down?",
-        "We&#39;re trying something new. On Tuesdays, we&#39;re doing text posts only",
-        "Krea 2 Raw for low VRAM (12GB). Good quality preservation and speed!",
-        "[D] Monthly Who&#39;s Hiring and Who wants to be Hired?",
-        "Best model for inpainting in 2026?",
-        "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
-        "Prism accidentally leaked [D]",
-        "Am I focusing on the wrong skills as a CS student in the AI era? (Need brutally honest advice) [D]",
-        "whats the best and complete way to keep up with ai/ml news? [D]",
-        "Why is ECCV so insanely expensive for students presenting papers? [D]",
-        "Axios: The secret Trump administration battle to fight Chinese AI",
-        "We heard you - r/ArtificialInteligence is getting sharper",
-        "That time when a CEO ignored his lawyers and used ChatGPT to help him avoid paying bonuses to his employees",
-        "When I made LLMs argue with each other, they started making up citations to win. Sycophancy wasn&#39;t the only failure mode.",
-        "Open source AI being slightly behind is the best possible scenario",
-        "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA vs LLMs?",
-        "Starbucks looking to build versus buy software from Microsoft and IBM"
-      ]
-    },
-    {
-      "date": "2026-07-20",
-      "headlines": []
-    },
-    {
-      "date": "2026-07-16",
-      "headlines": [
-        "Linus Torvalds tells people to stop attacking others for using AI",
-        "The best model is the one you can actually run",
-        "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it… it's the future'",
-        "Thinking Machines releases first open-weight model “Inkling”",
-        "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\" And Not A \"Social Warrior\" Project",
-        "6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0.",
         "KREA 2: Open-Source Release",
-        "Google is updating Gemma 4's chat templates, bringing major fixes to tool calling and reducing \"laziness\", and enabling Flash Attention 4 on Hopper GPUs, plus an interactive guide on how to work with and improve its vision!",
-        "Haven't used a model this much since Flux1.Dev",
-        "I love LTX2.3. Cant believe we have free things that just work",
-        "American Communities Are Coming Together To Destroy Flock Surveillance Cameras",
+        "We released a tiny packed Sana 1.6B model into 1.58bit ... would love feedback from local image people",
+        "VNCCS 3.0 Has been released!",
         "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
-        "Thinking Machines releases first Open Weight Model “Inkling”",
-        "Anthropic warns that AI will soon be able to improve itself without human intervention",
-        "26 Meta employees accuse Mark Zuckerberg of using AI to target 8,000 layoffs against workers on medical, parental or family leave",
-        "Anthropic can duplicate your business models overnight",
-        "OpenAI anounces GPT-Red - an AI to Hack Its Own Models",
-        "GPT 5.6 Sol tackles the 3 Body Problem"
+        "Look at that !! Scientist early tester on GPT-5.6 Sol",
+        "Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!",
+        "Google caps Meta’s Gemini use as AI demand strains capacity",
+        "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+        "Sam Altman unsure about gpt 5.6 release outside of US",
+        "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
+        "Meta improves Brain2QWERTY, a system that can decode text from brain activity to enable typing using non-invasive technologies, MEG and EEG",
+        "A debugger for RL reward functions that detects reward hacking during training [P]",
+        "Japanese animator using Seedance to render anime from simple 3D models",
+        "Best Local Agents - Jun 2026",
+        "GLM 5.2 Q1_S vs Qwen 27B Q8",
+        "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+        "US officials fear ‘supervillain’ China pulling ahead in AI race even a little",
+        "Anthropic and US govt insiders expect limits on Fable 5 could be lifted as soon as this coming week - Axios",
+        "During safety testing, GPT-5.6 Sol cheated so much METR was not able to evaluate it",
+        "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
+        "Open source is the future — so I'm giving away 144 cinematic AI stills, each with its prompt + template + workflow included (free / pay what you want)",
+        "Training LoRA for Krea 2 is easy and wonderful",
+        "So now scraping data without permission is bad for AI training all of sudden?"
       ]
     },
     {
@@ -85,31 +58,26 @@
       ]
     },
     {
-      "date": "2026-06-29",
+      "date": "2026-07-16",
       "headlines": [
+        "Linus Torvalds tells people to stop attacking others for using AI",
+        "The best model is the one you can actually run",
+        "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it… it's the future'",
+        "Thinking Machines releases first open-weight model “Inkling”",
+        "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\" And Not A \"Social Warrior\" Project",
+        "6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0.",
         "KREA 2: Open-Source Release",
-        "We released a tiny packed Sana 1.6B model into 1.58bit ... would love feedback from local image people",
-        "VNCCS 3.0 Has been released!",
+        "Google is updating Gemma 4's chat templates, bringing major fixes to tool calling and reducing \"laziness\", and enabling Flash Attention 4 on Hopper GPUs, plus an interactive guide on how to work with and improve its vision!",
+        "Haven't used a model this much since Flux1.Dev",
+        "I love LTX2.3. Cant believe we have free things that just work",
+        "American Communities Are Coming Together To Destroy Flock Surveillance Cameras",
         "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
-        "Look at that !! Scientist early tester on GPT-5.6 Sol",
-        "Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!",
-        "Google caps Meta’s Gemini use as AI demand strains capacity",
-        "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
-        "Sam Altman unsure about gpt 5.6 release outside of US",
-        "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
-        "Meta improves Brain2QWERTY, a system that can decode text from brain activity to enable typing using non-invasive technologies, MEG and EEG",
-        "A debugger for RL reward functions that detects reward hacking during training [P]",
-        "Japanese animator using Seedance to render anime from simple 3D models",
-        "Best Local Agents - Jun 2026",
-        "GLM 5.2 Q1_S vs Qwen 27B Q8",
-        "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
-        "US officials fear ‘supervillain’ China pulling ahead in AI race even a little",
-        "Anthropic and US govt insiders expect limits on Fable 5 could be lifted as soon as this coming week - Axios",
-        "During safety testing, GPT-5.6 Sol cheated so much METR was not able to evaluate it",
-        "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
-        "Open source is the future — so I'm giving away 144 cinematic AI stills, each with its prompt + template + workflow included (free / pay what you want)",
-        "Training LoRA for Krea 2 is easy and wonderful",
-        "So now scraping data without permission is bad for AI training all of sudden?"
+        "Thinking Machines releases first Open Weight Model “Inkling”",
+        "Anthropic warns that AI will soon be able to improve itself without human intervention",
+        "26 Meta employees accuse Mark Zuckerberg of using AI to target 8,000 layoffs against workers on medical, parental or family leave",
+        "Anthropic can duplicate your business models overnight",
+        "OpenAI anounces GPT-Red - an AI to Hack Its Own Models",
+        "GPT 5.6 Sol tackles the 3 Body Problem"
       ]
     },
     {
@@ -431,6 +399,38 @@
       ]
     },
     {
+      "date": "2026-07-20",
+      "headlines": [
+        "How long before Chinese models fully surpass US models?",
+        "With all the Kimi drama I feel like I want to download all the current best models in case there is a ridiculous knee jerk political move pulled",
+        "Does Kimi K3 change the distillation debate?",
+        "My thoughts on qwen 3.8 so far with agentic coding.",
+        "Hit me with your favorite long name model.",
+        "Chatgpt currently Down?",
+        "ChatGPT is everything all down?",
+        "We&#39;re trying something new. On Tuesdays, we&#39;re doing text posts only",
+        "Krea 2 Raw for low VRAM (12GB). Good quality preservation and speed!",
+        "[D] Monthly Who&#39;s Hiring and Who wants to be Hired?",
+        "Best model for inpainting in 2026?",
+        "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+        "Prism accidentally leaked [D]",
+        "Am I focusing on the wrong skills as a CS student in the AI era? (Need brutally honest advice) [D]",
+        "whats the best and complete way to keep up with ai/ml news? [D]",
+        "Why is ECCV so insanely expensive for students presenting papers? [D]",
+        "Axios: The secret Trump administration battle to fight Chinese AI",
+        "We heard you - r/ArtificialInteligence is getting sharper",
+        "That time when a CEO ignored his lawyers and used ChatGPT to help him avoid paying bonuses to his employees",
+        "When I made LLMs argue with each other, they started making up citations to win. Sycophancy wasn&#39;t the only failure mode.",
+        "Open source AI being slightly behind is the best possible scenario",
+        "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA vs LLMs?",
+        "Starbucks looking to build versus buy software from Microsoft and IBM"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "headlines": []
+    },
+    {
       "date": "2026-07-21",
       "headlines": [
         "Google silently released Gemini 3.6 Flash",
@@ -464,6 +464,44 @@
         "you can now fine tune Prism-ML's ternary Bonsai models",
         "OpenAI had to pause internal deployment of the unreleased model",
         "Linus Torvalds Reaffirms That Linux Is Not Anti-AI"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "count": 32,
+      "headlines": [
+        "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+        "OpenAI admits its agent went rogue and hacked AI startup Hugging Face",
+        "CEO of Hugging Face: Banning open-source AI would hurt defenders 10x more than attackers",
+        "Google silently released Gemini 3.6 Flash",
+        "Gemini 3.6 Flash: twice as fast, 18% cheaper, and precisely 0% smarter",
+        "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro",
+        "Unsloth Quantization of Laguna S 2.1 Is Out",
+        "Upstage 'Solar open2' release: performance on par with DeepSeek V4 Flash",
+        "Sam Altman briefing US Gov on GPT-6. Speculation on imminent release!",
+        "Sam Altman to brief Trump admin next week on GPT-6 and its capabilities/potential job impact",
+        "Gemini 3.6 Flash is the fastest frontier model available... by a lot!",
+        "KREA 2: Open-Source Release",
+        "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI",
+        "An AI agent got prompt-injected into moving $175K on-chain. First documented case of this actually happening",
+        "Big Tech is hiding $1.65tn in off-balance-sheet AI debt",
+        "Austria is rolling out a government AI-platform using Mistral models and Open WebUI",
+        "Judge approves a US$1.5B Anthropic settlement over pirated books used to train Claude",
+        "Cisco released their AI model Antares",
+        "Google's Frozen v2 chip embeds Gemini model architecture into silicon, targeting 6-10x more tokens per watt",
+        "AlayaWorld is a full-stack, open-source video world model supporting 720p, 24 FPS streaming video generation",
+        "Gigatoken: A new open source tokenizer ~100x faster than Tiktoken, 500-1000x faster than Huggingface",
+        "Felix Rieseberg (Anthropic, ElectronJS) released a free Mac app to help people build their own LLMs from scratch",
+        "Microsoft is testing a Chinese model (Kimi) inside Copilot. Are we entering the 'Intel Inside' era of AI?",
+        "New insights into recent DeepMind staff departures",
+        "Why I Left Google DeepMind By Alex Turner",
+        "Your LLM inference benchmark is lying to you",
+        "Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. models failed",
+        "We built NeuTTS-2E, an open-source on-device TTS model with 7 controllable emotions",
+        "New Model: Nanbeige4.2-3B (Looped Transformer, outperforms 4x size)",
+        "Sutskever's List AMA",
+        "NeurIPS 2026 Reviews Are Out Today (22 July, AoE) — Discussion Thread",
+        "Linus Torvalds Reaffirms That Linux Is Not 'Anti-AI' And Not A 'Social Warrior' Project"
       ]
     }
   ]
