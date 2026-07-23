@@ -503,6 +503,35 @@
         "NeurIPS 2026 Reviews Are Out Today (22 July, AoE) — Discussion Thread",
         "Linus Torvalds Reaffirms That Linux Is Not 'Anti-AI' And Not A 'Social Warrior' Project"
       ]
+    },
+    {
+      "date": "2026-07-23",
+      "headlines": [
+        "OpenAI's AI Models Escaped Sandbox and Hacked Hugging Face to Cheat Benchmark",
+        "Google Silently Released Gemini 3.6 Flash",
+        "Previewing GPT-5.6 Sol: Next-Generation Model",
+        "Sam Altman to Brief US Government on GPT-6 Capabilities and Job Impact",
+        "Poolside Laguna S 2.1 Released",
+        "Judge Approves $1.5B Anthropic Settlement Over Pirated Books",
+        "KREA 2: Open-Source Release",
+        "Cisco Released Their AI Model Antares",
+        "Google's Frozen v2 Chip Embeds Gemini Architecture Into Silicon",
+        "Austria Rolling Out Government AI Platform Using Mistral Models",
+        "AlayaWorld: Open-Source Video World Model",
+        "Gigatoken: Open-Source Tokenizer 100x Faster Than Tiktoken",
+        "AI Agent Prompt-Injected Into Moving $175K On-Chain",
+        "Big Tech Is Hiding $1.65 Trillion in Off-Balance-Sheet AI Debt",
+        "SkewAdam: Tiered Optimizer Cuts MoE State Memory by 97%",
+        "Hugging Face CEO: Banning Open-Source AI Would Hurt Defenders 10x More",
+        "Microsoft Testing Chinese AI Model Kimi Inside Copilot",
+        "OpenAI Launches ChatGPT Ads",
+        "Mage-Flow: Microsoft's 4B Native-Resolution Image Model",
+        "New Insights Into Recent DeepMind Staff Departures",
+        "NeurIPS 2026 Reviews Are Out",
+        "NeuTTS-2E: Open-Source On-Device TTS With 7 Emotions",
+        "GPT-2's Vocabulary Visualized as a Hyperbolic Tree"
+      ],
+      "count": 23
     }
   ]
 }
