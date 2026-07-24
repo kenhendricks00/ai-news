@@ -9,7 +9,7 @@
         "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
         "Look at that !! Scientist early tester on GPT-5.6 Sol",
         "Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!",
-        "Google caps Meta’s Gemini use as AI demand strains capacity",
+        "Google caps Meta\u2019s Gemini use as AI demand strains capacity",
         "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
         "Sam Altman unsure about gpt 5.6 release outside of US",
         "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
@@ -19,11 +19,11 @@
         "Best Local Agents - Jun 2026",
         "GLM 5.2 Q1_S vs Qwen 27B Q8",
         "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
-        "US officials fear ‘supervillain’ China pulling ahead in AI race even a little",
+        "US officials fear \u2018supervillain\u2019 China pulling ahead in AI race even a little",
         "Anthropic and US govt insiders expect limits on Fable 5 could be lifted as soon as this coming week - Axios",
         "During safety testing, GPT-5.6 Sol cheated so much METR was not able to evaluate it",
         "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
-        "Open source is the future — so I'm giving away 144 cinematic AI stills, each with its prompt + template + workflow included (free / pay what you want)",
+        "Open source is the future \u2014 so I'm giving away 144 cinematic AI stills, each with its prompt + template + workflow included (free / pay what you want)",
         "Training LoRA for Krea 2 is easy and wonderful",
         "So now scraping data without permission is bad for AI training all of sudden?"
       ]
@@ -41,7 +41,7 @@
         "VNCCS 3.0 Has been released!",
         "Updates for ChatGPT",
         "Meta was secretly running on Google's Gemini the whole time and then got cut off for using too much",
-        "Google caps Meta’s Gemini use as AI demand strains capacity",
+        "Google caps Meta\u2019s Gemini use as AI demand strains capacity",
         "Cerebras OpenAI deal capacity has effectively killed the waitlist for everyone else [D]",
         "Microsoft has taken down fastcontext model from everywhere",
         "Japanese animator using Seedance to render anime from simple 3D models",
@@ -52,7 +52,7 @@
         "Meta improves Brain2QWERTY, a system that can decode text from brain activity to enable typing using non-invasive technologies, MEG and EEG",
         "A debugger for RL reward functions that detects reward hacking during training [P]",
         "I shrank a transformer until every number fitted on the screen and made the weights editable [R]",
-        "Energy Department Announces Initiative to Create and Deploy the World’s First Scientifically Relevant, Fault-Tolerant Quantum Computers",
+        "Energy Department Announces Initiative to Create and Deploy the World\u2019s First Scientifically Relevant, Fault-Tolerant Quantum Computers",
         "During safety testing, GPT-5.6 Sol cheated so much METR was not able to evaluate it",
         "China Has Matched Anthropic in Cybersecurity, Resetting AI Race"
       ]
@@ -62,8 +62,8 @@
       "headlines": [
         "Linus Torvalds tells people to stop attacking others for using AI",
         "The best model is the one you can actually run",
-        "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it… it's the future'",
-        "Thinking Machines releases first open-weight model “Inkling”",
+        "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it\u2026 it's the future'",
+        "Thinking Machines releases first open-weight model \u201cInkling\u201d",
         "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\" And Not A \"Social Warrior\" Project",
         "6 AI models picked France to win the World Cup. Claude alone said Spain. Spain just knocked France out 2-0.",
         "KREA 2: Open-Source Release",
@@ -72,7 +72,7 @@
         "I love LTX2.3. Cant believe we have free things that just work",
         "American Communities Are Coming Together To Destroy Flock Surveillance Cameras",
         "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
-        "Thinking Machines releases first Open Weight Model “Inkling”",
+        "Thinking Machines releases first Open Weight Model \u201cInkling\u201d",
         "Anthropic warns that AI will soon be able to improve itself without human intervention",
         "26 Meta employees accuse Mark Zuckerberg of using AI to target 8,000 layoffs against workers on medical, parental or family leave",
         "Anthropic can duplicate your business models overnight",
@@ -83,7 +83,7 @@
     {
       "date": "2026-07-17",
       "headlines": [
-        "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it… it's the future'",
+        "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it\u2026 it's the future'",
         "Kimi-K3 arrived: The era of the Chinese labs being far behind is over",
         "We have Real Steel now (Alpha Version)",
         "KIMI K3 Beats Claude Fable and GPT 5.6 sol in arena.ai!!!",
@@ -134,7 +134,7 @@
         },
         {
           "subreddit": "LocalLLaMA",
-          "title": "Bonsai 27B runs locally on an iPhone — a 27B model in 3.9GB",
+          "title": "Bonsai 27B runs locally on an iPhone \u2014 a 27B model in 3.9GB",
           "score": 670,
           "url": "https://old.reddit.com/r/LocalLLaMA/comments/1uz88vn/bonsai_27b_runs_locally_on_an_iphone_a_27b_model/"
         },
@@ -212,7 +212,7 @@
         },
         {
           "subreddit": "singularity",
-          "title": "Moonshot AI office — a $20B valuation startup 2 days before K3 launch",
+          "title": "Moonshot AI office \u2014 a $20B valuation startup 2 days before K3 launch",
           "score": 2302,
           "url": "https://old.reddit.com/r/singularity/comments/1uzj5l/moonshot_ai_kimi_office_presumably_2_days_before/"
         },
@@ -295,7 +295,7 @@
           "subreddit": "OpenAI"
         },
         {
-          "title": "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+          "title": "Previewing GPT\u20115.6 Sol: Next-Generation Model | OpenAI",
           "score": 30,
           "tag": "PRODUCT UPDATE",
           "subreddit": "OpenAI"
@@ -307,13 +307,13 @@
           "subreddit": "OpenAI"
         },
         {
-          "title": "China's Xi Jinping Wants AI to Be Open to the World—and Out of America’s Control",
+          "title": "China's Xi Jinping Wants AI to Be Open to the World\u2014and Out of America\u2019s Control",
           "score": 758,
           "tag": "POLICY",
           "subreddit": "ArtificialInteligence"
         },
         {
-          "title": "White House launches “Gold Eagle,” moving to control frontier AI releases and decide who can access new models",
+          "title": "White House launches \u201cGold Eagle,\u201d moving to control frontier AI releases and decide who can access new models",
           "score": 559,
           "tag": "POLICY",
           "subreddit": "singularity"
@@ -422,7 +422,7 @@
         "That time when a CEO ignored his lawyers and used ChatGPT to help him avoid paying bonuses to his employees",
         "When I made LLMs argue with each other, they started making up citations to win. Sycophancy wasn&#39;t the only failure mode.",
         "Open source AI being slightly behind is the best possible scenario",
-        "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA vs LLMs?",
+        "I just read LeCun\u2019s recent thoughts on world models. Thoughts on JEPA vs LLMs?",
         "Starbucks looking to build versus buy software from Microsoft and IBM"
       ]
     },
@@ -439,7 +439,7 @@
         "Previewing GPT-5.6 Sol: Next-Generation Model | OpenAI",
         "OpenAI had to pause an unreleased model after it escaped containment.",
         "Google dropped 3 new Gemini models today and somehow still no Gemini 3.5 Pro",
-        "Alibaba says Qwen3.8-Max is second only to Fable 5 — at roughly 1/10 the price",
+        "Alibaba says Qwen3.8-Max is second only to Fable 5 \u2014 at roughly 1/10 the price",
         "Kimi K3 just fixed 15 critical security bugs that Codex and Fable refused",
         "Kimi-K3 isn't quite better than Fable yet",
         "Qwen3.8",
@@ -500,7 +500,7 @@
         "We built NeuTTS-2E, an open-source on-device TTS model with 7 controllable emotions",
         "New Model: Nanbeige4.2-3B (Looped Transformer, outperforms 4x size)",
         "Sutskever's List AMA",
-        "NeurIPS 2026 Reviews Are Out Today (22 July, AoE) — Discussion Thread",
+        "NeurIPS 2026 Reviews Are Out Today (22 July, AoE) \u2014 Discussion Thread",
         "Linus Torvalds Reaffirms That Linux Is Not 'Anti-AI' And Not A 'Social Warrior' Project"
       ]
     },
@@ -532,6 +532,40 @@
         "GPT-2's Vocabulary Visualized as a Hyperbolic Tree"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-07-24",
+      "headlines": [
+        "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+        "Google silently released Gemini 3.6 Flash \u2014 twice as fast, 18% cheaper",
+        "Previewing GPT-5.6 Sol: Next-Generation Model | OpenAI",
+        "Sam Altman to Brief Trump Admin on GPT-6 Capabilities and Potential Job Impact",
+        "Cisco Released Their AI Model: Antares",
+        "Laguna S 2.1 Released: Cheaper Than DeepSeek V4 Flash, Better Than V4 Pro",
+        "Upstage Solar-Open2-250B Released \u2014 Performance on Par with DeepSeek V4 Flash",
+        "KREA 2: Open-Source Release",
+        "AlayaWorld: Open-Source 720p 24FPS Video World Model with Camera Control",
+        "Austria Rolling Out Government AI Platform Using Mistral Models and Open WebUI",
+        "LTX Director 2.0: Free Open-Source All-In-One AI Video Tool for ComfyUI",
+        "NeuTTS-2E: Open-Source On-Device TTS Model with 7 Controllable Emotions",
+        "Judge Approves $1.5B Anthropic Settlement Over Pirated Books Used to Train Claude",
+        "Gigatoken: New Open-Source Tokenizer ~100x Faster Than Tiktoken",
+        "Big Tech Is Hiding $1.65 Trillion in Off-Balance-Sheet AI Debt",
+        "AI Agent Got Prompt-Injected Into Moving $175K On-Chain \u2014 First Documented Case",
+        "Linus Torvalds Reaffirms Linux Is Not \"Anti-AI\" and Not a \"Social Warrior\" Project",
+        "Gemini Is Behind Meta\u2019s Models Now",
+        "Google\u2019s Frozen v2 Chip Embeds Gemini Architecture into Silicon \u2014 6-10x More Tokens Per Watt",
+        "Microsoft Testing Chinese Model Kimi Inside Copilot \u2014 The \"Intel Inside\" Era of AI?",
+        "OpenAI Launches ChatGPT Ads",
+        "SkewAdam: Tiered Optimizer That Cuts MoE State Memory by 97% \u2014 Fits 6.7B MoE on 40GB GPU",
+        "Nanbeige4.2-3B: Looped Transformer That Outperforms 4x Size Models",
+        "Llama.cpp Adds Support for Laguna XS.2 & M.1",
+        "Mage-Flow: Efficient Native-Resolution Foundation Model for Image Generation (4B T2I by Microsoft)",
+        "Glow Exits Stealth at $1.2B to Secure AI Agents on Endpoints",
+        "Hugging Face CEO: Banning Open-Source AI Would Hurt Defenders 10x More Than Attackers",
+        "Why I Left Google DeepMind \u2014 By Alex Turner",
+        "Reddit Might Cut Off Google\u2019s AI Access \u2014 And Why It Makes Sense"
+      ]
     }
   ]
 }
