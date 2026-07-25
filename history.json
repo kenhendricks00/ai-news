@@ -566,6 +566,47 @@
         "Why I Left Google DeepMind \u2014 By Alex Turner",
         "Reddit Might Cut Off Google\u2019s AI Access \u2014 And Why It Makes Sense"
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "headlines": [
+        "Previewing GPT\u20115.6 Sol: Next-Generation Model | OpenAI",
+        "Opus 5 is here!",
+        "Opus 5's effort dial is not monotonic. Above \"high\", coding scores go down, and Anthropic's own migration guide says so.",
+        "Principal Engineer at Nvidia review of 5.6 Sol",
+        "KREA 2: Open-Source Release",
+        "inclusionAI (Ant Group) released Ling-3.0-flash, a 124B sparse MoE (5.1B active), 256K context, API-only on OpenRouter and free for a week",
+        "More than 20 companies including NVIDIA, Meta, Microsoft, Palantir, and Hugging Face have signed a letter urging policymakers to avoid premature restrictions on open weight models.",
+        "Anonymous OpenAI staffer: \"Externally, this feels like a big warning shot, but internally, related incidents have been happening for a while.\"",
+        "White House offers its science blueprint: More AI, less life sciences. \u2018Science: A New Golden Age\u2019 report calls for shifting billions from universities to tech companies",
+        "Bipartisan bill would require companies to tell users when they're talking to AI",
+        "Users tried to object to their chatgpt logs being handed to the NYT. the court ruled they were \"non-parties\" to their own conversations.",
+        "China\u2019s open AI strategy is changing the race",
+        "Stripe Eyes $10 Billion Deal for AI Model Marketplace OpenRouter",
+        "Alibaba bans employees from using Anthropic's Claude Code in workplace environments from July 10, citing alleged embedded \"backdoor\" risks raised after recent binary reverse-engineering.",
+        "AI executives demand OpenAI release more details about how the Hugging Face hack happened",
+        "Damo Academy unveils an AI agent able to discover superconductors, which could revolutionise scientific materials research and innovation",
+        "GPT-5.5 Scores 10.6% on ActiveVision, Humans Hit 96.1% [R]",
+        "the diffusion versus autoregressive debate finally has a clean data point, and it points to a much narrower claim than the hype",
+        "Hugging Face releases The Stack v3 \u2013 largest open code dataset yet",
+        "I released Inflect v2: two ultra-tiny complete TTS models under 4M and 10M parameters",
+        "AMD Instella-MoE-16B-A3B",
+        "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
+        "CachyLLama: llama.cpp fork with persistent SSD-backed KV caching for local agent workflows",
+        "I built a compiler that turns computation graphs into the weights of a vanilla transformer \u2014 no training anywhere [P]",
+        "I built a self-hosted tool that turns one reference photo into a curated, captioned, trained LoRA and a lot more \u2014 open source, MIT"
+      ],
+      "count": 25,
+      "subreddits": [
+        "artificial",
+        "MachineLearning",
+        "LocalLLaMA",
+        "OpenAI",
+        "ChatGPT",
+        "singularity",
+        "StableDiffusion",
+        "ArtificialInteligence"
+      ]
     }
   ]
 }
