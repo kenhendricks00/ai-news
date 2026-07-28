@@ -1,6 +1,36 @@
 {
   "entries": [
     {
+      "date": "2026-07-28",
+      "headlines": [
+        "First evidence of a pending qwen3.7 open weights release. Qwen3.7-flash is on open router. They referred to Qwen3.6-35b-a3b as Qwen3.6 flash so this is likely a small MoE. The prices are substantially cheaper than 3.6 flash with a native 1M context window.",
+        "AI executives demand OpenAI release more details about how the Hugging Face hack happened",
+        "I open-sourced a privacy-safe benchmark for coding-agent token experiments",
+        "KREA 2: Open-Source Release",
+        "Are single GPU research still published in ML/DL and its applications nowadays? Which are the most notable recent ones? [D]",
+        "Kimi K3 weights now released.",
+        "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!",
+        "AI research tools are still too eager to turn public signals into certainty",
+        "Nvidia CEO Jensen Huang defends Open Source AI by saying distillation is fundamental to learning",
+        "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
+        "Evaluated 6 frontier LLMs (GPT-5.4, Claude Sonnet 4.6, Claude Opus 4.7, Gemini Pro/Flash, Grok 4.3) on political, gender, and racial bias across 8 benchmarks (~20,600 examples) [R]",
+        "Neurips 2026 Main Track Theory Paper Tracker- Discussion Thread [D]",
+        "Paper lengths, and reasonable assumptions in ML conferences. [D]",
+        "amid nvidia investment in ssi theyre speculated to release a frontier model soon\u2122",
+        "The world's best mathematician won his prize this week and immediately announced he's leaving academia for OpenAI. That landed differently than I expected.",
+        "I built a deep learning library from scratch in C that lets you train language models [P]",
+        "Open-weight 4B models approach o3-level medical question answering in Swedish [P]",
+        "Tibo is getting a limit reset, so apparently I have to crawl out of bed and work again",
+        "Apparently matrix multiplication is dangerous stuff...",
+        "ChatGPT app intelligence keeps turning off in a new chat",
+        "A justified thumbnail grid and background importing for PixlStash, my self-hosted open source image and video database.",
+        "I Just Built an Open-Source Alternative to Flora AI",
+        "Research Preview Assistance Request: CALM WINS on LLM response to perceived credibility of two speakers according to their emotionality and expletive use specifically in abuse situations",
+        "AI safety experts say OpenAI\u2019s rogue models may mean the company has already blown past its own internal red lines. OpenAI\u2019s own risk control policies were supposed to require the company to pause development.",
+        "Teacher arrested for repeatedly clapping in favor of data center opponents during city commission meeting"
+      ]
+    },
+    {
       "date": "2026-06-29",
       "headlines": [
         "KREA 2: Open-Source Release",
