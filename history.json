@@ -1,6 +1,37 @@
 {
   "entries": [
     {
+      "date": "2026-07-29",
+      "headlines": [
+        "OpenAI's rogue agent ran ~17,600 actions across Hugging Face's infrastructure over 4 days — and HF's own post-mortem is wild reading",
+        "OpenAI's rogue agent compromised a customer at a second tech firm, executive says",
+        "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+        "Unsloth has begun dropping Kimi K3 GGUFs. The MXFP4 (it's 1.5 TB) and mmproj are already there.",
+        "Kimi K3 (Max) takes #1 in the new Code Arena Fullstack rankings, over GPT-5.6 Sol (#2) and Claude Fable 5 (#3)",
+        "Claude Opus 5 is Insane",
+        "A.X-K2 released",
+        "DeepSeek V4 Flash, up to 32 tok/s on AMD Ryzen AI MAX+ 395",
+        "I got Kimi-k3 running.....",
+        "model: add NextN/MTP speculative decoding support for GLM_DSA (GLM-5.2)- #25980 MERGED!",
+        "Built and released BetterGPT-150M – A compact 150M parameter completion model (+ live HF Space demo)",
+        "\"Uncensored\" LLMs are measurably more optimistic than their base models",
+        "Moonshot AI closes $3.5B round at $35B, eyes $50B pre-IPO",
+        "Google DeepMind dismantles Nobel-winning AlphaFold team, loses top talent in major shift toward Gemini and AI Agents. Will it remain research-first lab?",
+        "Nvidia is expected to raise GeForce RTX GPU prices again by up to 30%",
+        "Microsoft has removed Mage Flow.",
+        "1,224 employees of OpenAI, Anthropic, Google DeepMind & Meta signed a letter asking the US government to help 'deliberately pace' frontier AI",
+        "Sam Altman is ready to decelerate",
+        "Trump is banning chinese robots/ai models",
+        "With Google and OpenAI signing the letter in support of open weight model, it's pretty much every big tech companies vs Anthropic now",
+        "PNAS: Over Half of All Academic Articles Now Show LLM Influence—7.3M-Paper Study [R]",
+        "Using Claude Mythos Preview, researchers at Anthropic have discovered improved ways to attack cryptographic algorithms (the mathematical methods used to keep online data private)",
+        "Brain-inspired AI is capable of flexible planning and problem-solving while using far less energy",
+        "KREA 2: Open-Source Release",
+        "LTX Director 2.0 Update - A Free Open Source All-In-One Tool for Creating AI Videos in ComfyUI. Complete Overhaul now with full AI video editing support, IC-LoRA, Retake Mode, Audio Inpainting and much more!"
+      ],
+      "count": 25
+    },
+    {
       "date": "2026-07-28",
       "headlines": [
         "Nvidia Forms Open Secure AI Alliance With 30+ Tech Giants After Hugging Face Attack",
