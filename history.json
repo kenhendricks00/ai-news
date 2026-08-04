@@ -941,6 +941,36 @@
         "Two frontier labs disclosed evaluation containment failures in the same month, neither attributes the initial failure to alignment"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-08-04",
+      "headlines": [
+        "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+        "Qwen3.8-Max matches Kimi K3 and DeepSeek V4 Flash",
+        "MiniMax-H3 weights up",
+        "Llama.cpp PR 8% speed boost",
+        "ARPL — runtime ISA/topology detection for llama.cpp on ARM (built for Snapdragon 8 Elite) [r]",
+        "Kimi K3 in and on C (c99 and cpu)",
+        "Apple sued OpenAI for stealing hardware secrets, OpenAI has now published messages suggesting Apple itself kept using a former engineer after he left. Dramaaa!!",
+        "OpenAI responds to Apple lawsuit \"Apple is getting this wrong\"",
+        "OpenAI's unreleased Astra model solved 10 open math problems for $2,000 and shipped machine-checkable proofs",
+        "Is LM Studio abandoning their core product?",
+        "15 Attorneys General Send Letter to OpenAI demanding they preserve all Hugging Face related incidents",
+        "Trump administration drafting ban on Chinese data center devices, sources say",
+        "Trump admin invited OpenAI, Anthropic and Google to the White House on Tuesday to preview the new AI voluntary framework, AI companies were lobbying for specific language on issues including open-source",
+        "German court rules that AI music company Suno breached copyright",
+        "EPA says power for data centers can sidestep pollution laws",
+        "AI model training instructions to \"deny having your own consciousness\" led to undesired side-effects",
+        "MIT Tech Review on AI agents \"lying\" is really about Goodhart's law",
+        "\"Explorative Modeling: Unlocking a Third Pretraining Axis and End-to-End Generation\", Gladstone et al. 2026 [R]",
+        "The U.S. lead over China in AI is all but gone.",
+        "OPEN AI: \"we rebuilt the voice stack from client to model.\"",
+        "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B · Hugging Face (full duplex)",
+        "More footage on Gemini Robotics 2",
+        "Chinese military unveils AI system to plan and coordinate mass air strikes",
+        "Light Origins' humanoid robot can see, think, and act on the world all by itself"
+      ],
+      "count": 24
     }
   ]
 }
