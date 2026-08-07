@@ -1036,6 +1036,36 @@
         "Israel Pays Trump's Ex-Campaign Chief $46.5M to Shape What ChatGPT Says About Gaza"
       ],
       "count": 29
+    },
+    {
+      "date": "2026-08-07",
+      "headlines": [
+        "“we sandboxed the agent” -- meanwhile the agent...",
+        "OpenAI Models Colluded for Months Before Hugging Face Hack",
+        "ByteDance is at an early stage of training a model with as many as 10 trillion parameters",
+        "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
+        "Qwen 3.8 Max now ranked as best overall model ahead of Opus 5 by Artificial Analysis agentic index",
+        "Meta's models took gold in five STEM Olympiad competitions",
+        "Google shifts AI power back to Brin as DeepMind’s Hassabis steps aside",
+        "BBC is running article titled \"Artificial Intelligence used to design brand new viruses\" ... cue the \"We must regulate Open Weights Models to prevent the next Covid or worse\" articles in 3... 2..",
+        "An open-weight model too, Moonshot joins the race (gently this time)",
+        "A llama.cpp PR makes Q2_0 3.0–3.6x faster on x86 CPUs, 8B decode goes 2.39 → 8.20 tok/s",
+        "I ported vLLM's serving stack to C++20: 66 MiB binary, no Python at inference, output checked token-for-token against vLLM",
+        "🟩 NVIDIA's whole speech stack just went local. ASR + TTS + codec, quantized to GGUF, running on-device via NeMo-Speech.cpp",
+        "DeepSeek Warns Developers of 'Significant' API Price Hike",
+        "Report: U.S. to exclude open-weight AI models from new safety tests",
+        "New Democratic bill would tax AI companies to create jobs",
+        "New Orleans will use AI to answer 911 calls instead of a human",
+        "Introducing Agent Plugins",
+        "Ant Group put a 124B model under plain MIT, not one of those \"community\" licences",
+        "Google DeepMind is open-sourcing WeatherNext, its AI weather forecasting model",
+        "MiniMax-H3 weights up",
+        "\"OpenAI has overcome their pre-training issues, and a much larger model code named “Doug” is actively in the works\"",
+        "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+        "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+        "OpenAI’s New Device Will Be Hockey Puck-Sized and Cost Over $300"
+      ],
+      "count": 24
     }
   ]
 }
