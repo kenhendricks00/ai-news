@@ -1097,6 +1097,41 @@
         "OpenAI’s New Device Will Be Hockey Puck-Sized and Cost Over $300"
       ],
       "count": 24
+    },
+    {
+      "date": "2026-08-12",
+      "headlines": [
+        "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+        "Qwen 3.8-27b coming this week",
+        "It's the final countdown, baby! Qwen is out in just over 7 hours!",
+        "LTX-2.5 is Here",
+        "We quantized DeepSeek V4 0731 and benchmarked it against popular quants on 8× RTX 5090",
+        "LiquidAI/LFM2.5-VL-3B · Hugging Face",
+        "New Muse-Glimmer-30B SoTA Quants - hopefully a new lineup :)",
+        "OpenAI’s head of ethics leaves start-up less than one year after joining",
+        "OpenAI's Chief Operating Officer resigns.",
+        "NVIDIA's Fastest Blackwell GPU, the 96 GB RTX PRO 6000, Now Costs $16,000, Almost Double Its Original Price",
+        "Did anyone catch this? Nvidia put together a $500B financing deal with Wall Street to help fund AI infrastructure where they are not putting up their own money",
+        "NVIDIA is building its next-gen Nemotron 4 family to compete directly with leading Chinese open models and secure the open-weight crown for the U.S. The largest version will have at least 1 trillion parameters, according to original reporting from The Information",
+        "Gemini catches ChatGPT, passing 1 billion users in record time",
+        "Everything’s bigger in Texas: Musk’s planned $16.8 billion chip factory is five times bigger than the world’s current largest building",
+        "Samsung Electronics reported efficiency gains due to using Claude models.",
+        "OpenAI is now the #3 largest lab by token consumption on OpenRouter, surpassing Anthropic",
+        "Claude now embeds an invisible watermark into every piece of text it generates.",
+        "Bernie Sanders has written a letter to Sam Altman, Dario Amodei, and Mark Zuckerberg urging them to immediately pause all AI development in the interest of humanity. And he warns if they do not take appropriate action now, the US Senate will.",
+        "German advocacy group lodges criminal complaint over Meta AI glasses",
+        "Anthropic, OpenAI, Google, Meta, Microsoft, and Mistral all signed the EU Code of Practice on Transparency of AI-Generated Content",
+        "an AI agent has been autonomously finding security holes in major open-source projects and getting the fixes merged by human maintainers",
+        "OpenAI Presence packages policies, evaluations and human escalation around enterprise AI agents",
+        "Intel LLM-Scaler ready with Muse Glimmer support, other LLMs & features",
+        "Release of H3 Infinite Continuation Suite for ComfyUI: Create infinite length videos in consistently High Quality using Keyframes in FFLF-Mode (fl2v-Checkpoint)",
+        "DeepMind just released SL2T, sign language-to-text model, deaf users can now sign into their phones instead of typing, developed with heavy input from the Deaf community",
+        "All your reasoning are belong to us",
+        "Did Pathway just reveal the architecture breakthrough Andrew Curran predicted? Its 150M model sets a new ARC-AGI-1 cost-efficiency frontier",
+        "IBM Verifiable Quantum Advantage On Noisy Hardware",
+        "AMA: MiniMax H3 Team — Ask us anything about our open video generation model, training, and future plans"
+      ],
+      "count": 29
     }
   ]
 }
