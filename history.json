@@ -1160,6 +1160,132 @@
         "Chinese AI start-up ModelBest kicks off pre-IPO tutoring process on mainland"
       ],
       "count": 22
+    },
+    {
+      "date": "2026-08-16",
+      "headlines": [
+        {
+          "title": "[Megathread] Qwen 3.8 27B Release Day",
+          "subreddit": "LocalLLaMA",
+          "tag": "MODEL LAUNCH"
+        },
+        {
+          "title": "Previewing GPT-5.6 Sol: Next-Generation Model | OpenAI",
+          "subreddit": "OpenAI",
+          "tag": "MODEL LAUNCH"
+        },
+        {
+          "title": "OpenAI Previews GPT-5.6 Sol Ultrafast at 14x Speed on Cerebras",
+          "subreddit": "OpenAI",
+          "tag": "AI DEPLOYMENT"
+        },
+        {
+          "title": "EVOKE 14B - a 3-step, CFG-free interactive world model",
+          "subreddit": "StableDiffusion",
+          "tag": "MODEL LAUNCH"
+        },
+        {
+          "title": "Apple trains own China LLM with Alibaba, cleared by Beijing",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI COMPANY"
+        },
+        {
+          "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
+          "subreddit": "artificial",
+          "tag": "AI COMPANY"
+        },
+        {
+          "title": "OpenAI is testing an $80 button to un-throttle the plan you already paid for",
+          "subreddit": "OpenAI",
+          "tag": "AI COMPANY"
+        },
+        {
+          "title": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Google",
+          "subreddit": "singularity",
+          "tag": "AI INDUSTRY"
+        },
+        {
+          "title": "Zuckerberg is betting Meta's whole ad business on AI and his own ai ugc tools are turning dresses into pants",
+          "subreddit": "artificial",
+          "tag": "AI INDUSTRY"
+        },
+        {
+          "title": "Best Local LLMs - August 2026",
+          "subreddit": "LocalLLaMA",
+          "tag": "OPEN SOURCE"
+        },
+        {
+          "title": "Uncensored Qwen 3.8 VL Prompt Refiner Model (Ollama)",
+          "subreddit": "StableDiffusion",
+          "tag": "OPEN SOURCE"
+        },
+        {
+          "title": "Quick PSA: Qwen3.8-27B reasoning effort vs reasoning budget in llama.cpp",
+          "subreddit": "LocalLLaMA",
+          "tag": "OPEN SOURCE"
+        },
+        {
+          "title": "Paper claims RL for reasoning only changes 1-3% of tokens, and they replicate the gains without RL at ~1000x less compute",
+          "subreddit": "LocalLLaMA",
+          "tag": "RESEARCH"
+        },
+        {
+          "title": "Survival of the Fitted: Qwen3.6-27B's Jacobian lens reads and steers Qwen3.8-27B with zero refitting [R]",
+          "subreddit": "MachineLearning",
+          "tag": "RESEARCH"
+        },
+        {
+          "title": "SSOG-Attention: Sum Of Separable Gaussians as a sub-quadratic and scalable alternative to SDPA. [R]",
+          "subreddit": "MachineLearning",
+          "tag": "RESEARCH"
+        },
+        {
+          "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
+          "subreddit": "MachineLearning",
+          "tag": "RESEARCH"
+        },
+        {
+          "title": "AI Isn't Outthinking Mathematicians. It's Out-Remembering Them.",
+          "subreddit": "singularity",
+          "tag": "RESEARCH"
+        },
+        {
+          "title": "U.S. to tell partners they must pick sides in AI race with China: Reuters",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI POLICY"
+        },
+        {
+          "title": "The Trump administration is pressuring Apple not to buy Chinese memory chips as AI data centers drain global supply.",
+          "subreddit": "artificial",
+          "tag": "AI POLICY"
+        },
+        {
+          "title": "Anthropic published on their blog how the watermark will work on Claude, and here's a summary ! \u26ce",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI SAFETY"
+        },
+        {
+          "title": "AI Chatbots Are Better at Scamming People Than Human Scammers, Study Finds",
+          "subreddit": "OpenAI",
+          "tag": "AI SAFETY"
+        },
+        {
+          "title": "Genie-style playable world model running 720p at 16 FPS on a single 5090 in 19GB VRAM",
+          "subreddit": "LocalLLaMA",
+          "tag": "AI CREATIVE"
+        },
+        {
+          "title": "ChatGPT upcoming speed improvements summarized by OpenAI employee",
+          "subreddit": "singularity",
+          "tag": "AI TOOLS"
+        },
+        {
+          "title": "AIPass Memory: Why agents that own small JSON files beat giant vector stores",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI TOOLS"
+        }
+      ],
+      "count": 24
     }
   ]
 }
