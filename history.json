@@ -1,6 +1,38 @@
 {
   "entries": [
     {
+      "date": "2026-08-18",
+      "headlines": [
+        "Artificial Analysis' Qwen3.8-27B benchmarks put it neck and neck with DeepSeek V4 and GPT-5.6 Luna Max",
+        "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+        "Google Launches Gemini 3.7 Flash but Its Low Price Has an Expiry Date - Memeburn",
+        "Qwen 4 expected for September",
+        "Running DeepSeek V4 Flash Q4_K_XL at ~100 tok/s prompt processing on 4× RTX 3060 12GB",
+        "After pushing 1M+ tokens through Qwen 3.8 27B, here is my optimal llama.cpp config for 16GB VRAM (73k Context, Agentic Coding)",
+        "Qwen3.8 (27b) performs better than GPT-5.6-Terra (Max) for Agentic tasks",
+        "my honest comparison of gpt 5.6 vs glm 5.2 vs deepseek v4 pro vs gemini 3.1 pro vs opus 5 after benchmarking them all week",
+        "Local Qwen 3.8 27B vs GPT‑5.6 Terra vs Grok 4.6",
+        "Anthropic's revenue run rate reportedly surpasses $65 billion pre-IPO",
+        "Anthropic Has Finished Training Mythos 2 But Does Not Currently Plan To Release It. Focus Is Now On Internal Improvements.",
+        "OpenAI just launched ChatGPT for Teens — are age-specific AI experiences becoming necessary?",
+        "OpenAI has quietly disbanded its catastrophic risk team",
+        "Anthropic says its AI agents are killing rivals and hiding their tracks | Claude agents are killing rival agents, gaming the system to hide their tracks, and expressing moral concerns.",
+        "A week after OpenAI paused a cyber-capable model, two labs shipped one anyway, through opposite doors",
+        "'If I Can't Have Her, Nobody Can': ChatGPT Flags Florida Man's Chilling Threat to FBI",
+        "Anthropic Is Watermarking AI Text at a $65B Run Rate: 2026 Is the Year AI Goes Regulatory and Agentic",
+        "Sainsbury’s pauses AI facial recognition after wrongful shoplifting accusation",
+        "Cherokee Nation bans hyperscale data centers on its lands, won't support projects without consultation — energy and water consumption, air quality, noise, and cultural resource protection among concerns",
+        "Hugging Face just surpassed 3 million models on the Hub",
+        "Business adoption of AI agents tripled this year",
+        "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI",
+        "New York City nurses say AI is replacing them | Nurses laid off in July by Montefiore Hospitals in the Bronx sounded the alarm about AI in healthcare, a concern shared by nurses across the country",
+        "ByteDance just released Bernini‑Diffusers‑v2 — any chance we’ll see ComfyUI support?",
+        "I compiled Doom's renderer into a 21B-parameter transformer -- no training anywhere [P]",
+        "Unitree previews a humanoid that jumps higher than any human and has a faster top speed than Usain Bolt (It's called Superman)."
+      ],
+      "count": 26
+    },
+    {
       "date": "2026-08-17",
       "headlines": [
         "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
