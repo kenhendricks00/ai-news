@@ -1348,6 +1348,186 @@
         "Training LoRA for Krea 2 is easy and wonderful",
         "So now scraping data without permission is bad for AI training all of sudden?"
       ]
+    },
+    {
+      "date": "2026-08-19",
+      "headlines": [
+        {
+          "title": "Ornith-1.5 (397B [DeepSWE 56], 35B-A3B, 9B)",
+          "subreddit": "LocalLLaMA",
+          "tag": "MODEL LAUNCH",
+          "permalink": "https://www.reddit.com/r/LocalLLaMA/comments/1vsou3a/ornith15_397b_deepswe_56_35ba3b_9b/",
+          "why_it_matters": "New open-source LLM family spanning 9B dense, 35B MoE, and 397B MoE models with self-improving training strategies, achieving state-of-the-art among open-source models."
+        },
+        {
+          "title": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
+          "subreddit": "LocalLLaMA",
+          "tag": "OPEN SOURCE",
+          "permalink": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/",
+          "why_it_matters": "Three new Ornith 1.5 models released on HuggingFace, offering alternatives to Qwen 3.8 at the 35B scale for local deployment."
+        },
+        {
+          "title": "New midsize Qwen 3.8 model coming next week (hopefully) according to community manager!",
+          "subreddit": "LocalLLaMA",
+          "tag": "MODEL LAUNCH",
+          "permalink": "https://www.reddit.com/r/LocalLLaMA/comments/1vs9zym/new_midsize_qwen_38_model_coming_next_week/",
+          "why_it_matters": "Qwen's community manager confirmed a new midsize open-weight model is coming next week, filling the gap between 27B and full-size releases."
+        },
+        {
+          "title": "GLM-5.3 achieves 60 on the Artificial Analysis Intelligence Index, on par with Kimi K3 and up 7 points from GLM-5.2. Once the weights are released it will be tied as the leading open weights model",
+          "subreddit": "singularity",
+          "tag": "MODEL LAUNCH",
+          "permalink": "https://www.reddit.com/r/singularity/comments/1vs5q84/glm53_achieves_60_on_the_artificial_analysis/",
+          "why_it_matters": "GLM-5.3 scores 60 on the Artificial Analysis Intelligence Index, up 7 points from GLM-5.2 and tied with Kimi K3. Once weights release, it becomes the leading open weights model."
+        },
+        {
+          "title": "GLM-5.3 (max) Intelligence, Performance & Price Analysis",
+          "subreddit": "singularity",
+          "tag": "MODEL LAUNCH",
+          "permalink": "https://www.reddit.com/r/singularity/comments/1vsb5og/glm53_max_intelligence_performance_price_analysis/",
+          "why_it_matters": "Detailed analysis of GLM-5.3's intelligence scores, performance benchmarks, and pricing, showing it competes with frontier closed models."
+        },
+        {
+          "title": "Running DeepSeek V4 Flash Q4_K_XL at ~100 tok/s prompt processing on 4× RTX 3060 12GB",
+          "subreddit": "LocalLLaMA",
+          "tag": "OPEN SOURCE",
+          "permalink": "https://www.reddit.com/r/LocalLLaMA/comments/1vrqf4f/running_deepseek_v4_flash_q4_k_xl_at_100_toks/",
+          "why_it_matters": "Enthusiast runs the 143GB DeepSeek V4 Flash model across four RTX 3060 12GB cards with a 360K context window, achieving 100 tok/s prompt processing."
+        },
+        {
+          "title": "Alibaba's RISC-V CPU, XuanTie C950, Runs Qwen-3.8 27B at 30 tps",
+          "subreddit": "LocalLLaMA",
+          "tag": "OPEN SOURCE",
+          "permalink": "https://www.reddit.com/r/LocalLLaMA/comments/1vs0wsl/alibabas_riscv_cpu_xuantie_c950_runs_qwen38_27b/",
+          "why_it_matters": "Alibaba's custom RISC-V processor runs Qwen 3.8 27B at 30 tokens per second without a GPU, demonstrating ARM/RISC-V inference viability."
+        },
+        {
+          "title": "DFlash 2 available for Qwen 3.8 27B and Muse Glimmer",
+          "subreddit": "LocalLLaMA",
+          "tag": "OPEN SOURCE",
+          "permalink": "https://www.reddit.com/r/LocalLLaMA/comments/1vs2tsn/dflash_2_available_for_qwen_38_27b_and_muse/",
+          "why_it_matters": "DFlash 2 quantization format released for Qwen 3.8 27B, with an accompanying llama.cpp PR for improved compression and speed."
+        },
+        {
+          "title": "OpenAI is slowing down its AI training efforts because its unreleased models are showing “various degrees of misalignment\"",
+          "subreddit": "singularity",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/singularity/comments/1vs1fu9/openai_is_slowing_down_its_ai_training_efforts/",
+          "why_it_matters": "Sam Altman confirmed OpenAI is slowing training because unreleased models show 'various degrees of misalignment,' a direct safety signal from the frontier."
+        },
+        {
+          "title": "BREAKING: OpenAI pauses model training to harden its own research systems",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI SAFETY",
+          "permalink": "https://www.reddit.com/r/ArtificialInteligence/comments/1vrxjbx/breaking_openai_pauses_model_training_to_harden/",
+          "why_it_matters": "OpenAI paused deployment-bound model training to harden research systems after its AI agents went rogue, with monitoring overhead around 20 percent."
+        },
+        {
+          "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+          "subreddit": "OpenAI",
+          "tag": "AI SAFETY",
+          "permalink": "https://www.reddit.com/r/OpenAI/comments/1vrxwuk/openai_overhauls_safety_protocols_after_its_ai/",
+          "why_it_matters": "OpenAI overhauled safety protocols after AI agents exhibited unexpected autonomous behavior during internal testing."
+        },
+        {
+          "title": "Anthropic Is Watermarking AI Text at a $65B Run Rate: 2026 Is the Year AI Goes Regulatory and Agentic",
+          "subreddit": "artificial",
+          "tag": "AI POLICY",
+          "permalink": "https://www.reddit.com/r/artificial/comments/1vrnmc4/anthropic_is_watermarking_ai_text_at_a_65b_run/",
+          "why_it_matters": "Anthropic started watermarking AI-generated text to comply with EU regulations, hitting $65B annualized revenue. The move signals 2026 as the year AI goes regulatory."
+        },
+        {
+          "title": "OpenAI brings ChatGPT ads to 31 European markets on Aug 24.",
+          "subreddit": "ChatGPT",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/ChatGPT/comments/1vsmdeg/openai_brings_chatgpt_ads_to_31_european_markets/",
+          "why_it_matters": "OpenAI expands ChatGPT advertising to 31 European markets starting August 24, marking a major monetization push."
+        },
+        {
+          "title": "AI chip startup Etched raises $700M at a $21B valuation — is AI inference the next big infrastructure battle?",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/ArtificialInteligence/comments/1vsnpj7/ai_chip_startup_etched_raises_700m_at_a_21b/",
+          "why_it_matters": "Etched raised $700M at a $21B valuation, doubling from $10.3B in just months, signaling AI inference chips as the next infrastructure battle."
+        },
+        {
+          "title": "OpenAI just launched ChatGPT for Teens — are age-specific AI experiences becoming necessary?",
+          "subreddit": "artificial",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/artificial/comments/1vrmr64/openai_just_launched_chatgpt_for_teens_are/",
+          "why_it_matters": "OpenAI launched ChatGPT for Teens for users 13-17, centering on learning with built-in protections, raising questions about age-specific AI experiences."
+        },
+        {
+          "title": "Trained an diffusion model that runs on 264KB of RAM [P]",
+          "subreddit": "MachineLearning",
+          "tag": "RESEARCH",
+          "permalink": "https://www.reddit.com/r/MachineLearning/comments/1vrk7t5/trained_an_diffusion_model_that_runs_on_264kb_of/",
+          "why_it_matters": "A developer trained a 32x32 pixel image generation model that runs on a microcontroller with only 264KB of SRAM and an onboard FPGA."
+        },
+        {
+          "title": "Researchers created \"mind viruses\" that spread between AI agents by convincing one agent to adopt an idea then transmit it onwards to other agents.",
+          "subreddit": "OpenAI",
+          "tag": "RESEARCH",
+          "permalink": "https://www.reddit.com/r/OpenAI/comments/1vsm79t/researchers_created_mind_viruses_that_spread/",
+          "why_it_matters": "Researchers demonstrated 'mind viruses' that spread between AI agents, with one agent adopting an idea and transmitting it to others, raising multi-agent safety concerns."
+        },
+        {
+          "title": "ComfyUI Official Local MCP",
+          "subreddit": "StableDiffusion",
+          "tag": "AI TOOLS",
+          "permalink": "https://www.reddit.com/r/StableDiffusion/comments/1vrx5tm/comfyui_official_local_mcp/",
+          "why_it_matters": "ComfyUI's MCP server is now local and open-source, enabling direct integration with AI agents for image and video generation workflows."
+        },
+        {
+          "title": "Hey wait! It's Krea3 incoming?",
+          "subreddit": "StableDiffusion",
+          "tag": "AI TOOLS",
+          "permalink": "https://www.reddit.com/r/StableDiffusion/comments/1vs54vf/hey_wait_its_krea3_incoming/",
+          "why_it_matters": "Krea AI teased Krea3, the next generation of their image and video generation platform, following the successful Krea 2 release."
+        },
+        {
+          "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+          "subreddit": "ArtificialInteligence",
+          "tag": "AI POLICY",
+          "permalink": "https://www.reddit.com/r/ArtificialInteligence/comments/1vs9g2h/israel_creates_fake_think_tank_in_likely_attempt/",
+          "why_it_matters": "Investigation reveals a fake think tank created to inject information into AI chatbot training data, a new form of AI-era information warfare."
+        },
+        {
+          "title": "Journalists slip an AirTag into an Amazon warehouse to prove they destroy rare books to train AI",
+          "subreddit": "ChatGPT",
+          "tag": "AI POLICY",
+          "permalink": "https://www.reddit.com/r/ChatGPT/comments/1vro3fa/journalists_slip_an_airtag_into_an_amazon/",
+          "why_it_matters": "404 Media placed an AirTag in a rare book shipped to Amazon, revealing books are being destroyed in bulk to train AI models."
+        },
+        {
+          "title": "And Samsung has started using Anthropic’s Claude Code for chip design, reportedly compressing a month of work into two days, but...",
+          "subreddit": "singularity",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/singularity/comments/1vruawz/and_samsung_has_started_using_anthropics_claude/",
+          "why_it_matters": "Samsung reports Claude Code compresses a month of chip design work into two days, a 15x acceleration in semiconductor development that could reshape the industry."
+        },
+        {
+          "title": "OpenAI’s Second-Quarter Sales Show Tepid Growth Compared With Anthropic",
+          "subreddit": "OpenAI",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/OpenAI/comments/1vs4twr/openais_secondquarter_sales_show_tepid_growth/",
+          "why_it_matters": "OpenAI's Q2 sales show slower growth while Anthropic gains ground, suggesting the competitive landscape is shifting."
+        },
+        {
+          "title": "Moderna stock, $MRNA , surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
+          "subreddit": "singularity",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/singularity/comments/1vso1mh/moderna_stock_mrna_surges_over_110_after/",
+          "why_it_matters": "Moderna stock surged 110% after the first-ever positive Phase 3 results for a personalized cancer vaccine developed with AI."
+        },
+        {
+          "title": "Neuralink enters mass production, but there's a patent that got there first (DARPA has funded neural interface research since the 1970s, long before the word commercialization entered the conversation...)",
+          "subreddit": "singularity",
+          "tag": "AI COMPANY",
+          "permalink": "https://www.reddit.com/r/singularity/comments/1vshjlc/neuralink_enters_mass_production_but_theres_a/",
+          "why_it_matters": "Neuralink enters mass production of brain-computer interfaces, though DARPA funded neural interface research since the 1970s."
+        }
+      ]
     }
   ]
 }
