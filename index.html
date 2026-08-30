@@ -1,569 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>r/Artificial &rarr; AI News picks &middot; August 21, 2026</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #000;
-      color: #e0e0e0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
-    }
-    .container {
-      max-width: 680px;
-      margin: 0 auto;
-      padding: 24px 16px 48px;
-    }
-    header {
-      padding: 8px 0 24px;
-    }
-    header h1 {
-      font-size: 22px;
-      font-weight: 700;
-      color: #fff;
-      letter-spacing: -0.3px;
-    }
-    header h1 .arrow { color: #888; font-weight: 400; }
-    header .date {
-      font-size: 13px;
-      color: #888;
-      margin-top: 4px;
-    }
-    .section-label {
-      text-transform: uppercase;
-      font-size: 12px;
-      color: #888;
-      letter-spacing: 0.8px;
-      font-weight: 600;
-      padding: 16px 0 12px;
-    }
-    .card {
-      background: #151515;
-      border: 1px solid #1f1f1f;
-      border-radius: 12px;
-      margin-bottom: 14px;
-      overflow: hidden;
-    }
-    .card-inner {
-      padding: 16px;
-    }
-    .tag {
-      display: inline-block;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.6px;
-      text-transform: uppercase;
-      color: #3898ff;
-      background: rgba(56, 152, 255, 0.12);
-      padding: 3px 8px;
-      border-radius: 4px;
-      margin-bottom: 10px;
-    }
-    .card h2 {
-      font-size: 17px;
-      font-weight: 700;
-      color: #fff;
-      line-height: 1.3;
-      margin-bottom: 8px;
-    }
-    .card h2 a {
-      color: #fff;
-      text-decoration: none;
-    }
-    .card h2 a:hover {
-      color: #3898ff;
-    }
-    .meta {
-      font-size: 12px;
-      color: #666;
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-    .meta .sub {
-      color: #ff6b35;
-      font-weight: 600;
-    }
-    .meta .dot {
-      color: #444;
-    }
-    .meta .meta-link {
-      color: #666;
-      text-decoration: none;
-    }
-    .meta .meta-link:hover {
-      color: #3898ff;
-    }
-    .body {
-      font-size: 13.5px;
-      color: #888;
-      margin-bottom: 12px;
-      line-height: 1.55;
-    }
-    .why {
-      background: rgba(66, 196, 120, 0.06);
-      border-left: 3px solid #42c478;
-      padding: 10px 12px;
-      border-radius: 0 6px 6px 0;
-      font-size: 13px;
-      color: #d0d0d0;
-      line-height: 1.5;
-      margin-bottom: 12px;
-    }
-    .why strong {
-      color: #42c478;
-      font-weight: 600;
-    }
-    .card-img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      display: block;
-      margin-top: 4px;
-    }
-    .divider {
-      height: 1px;
-      background: #1a1a1a;
-      margin: 8px 0;
-    }
-    footer {
-      text-align: center;
-      padding: 32px 0 8px;
-      font-size: 12px;
-      color: #555;
-    }
-    footer a {
-      color: #666;
-      text-decoration: none;
-    }
-    footer a:hover {
-      color: #888;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI News Picks | August 30, 2026</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #000;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding: 16px;
+}
+.container { max-width: 680px; margin: 0 auto; }
+.header { text-align: left; padding: 24px 0 20px 0; border-bottom: 1px solid #1a1a1a; margin-bottom: 24px; }
+.header h1 { font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+.header .meta { font-size: 13px; color: #888; }
+.section-label {
+  text-transform: uppercase; font-size: 12px; color: #888;
+  font-weight: 600; letter-spacing: 0.08em; margin: 24px 0 10px 0;
+}
+.divider { height: 1px; background: #1a1a1a; margin: 24px 0 0 0; }
+.card {
+  background: #151515; border: 1px solid #1f1f1f;
+  border-radius: 12px; padding: 16px; margin-bottom: 12px; overflow: hidden;
+}
+.tag {
+  display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: 0.09em;
+  padding: 3px 9px; border-radius: 999px; margin-bottom: 10px;
+}
+h2 { font-size: 17px; font-weight: 700; color: #fff; line-height: 1.35; margin-bottom: 8px; }
+h2 a { color: #fff; text-decoration: none; }
+h2 a:hover { color: #3898ff; }
+.meta-row { font-size: 12px; color: #888; display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.meta-row .sub { color: #ff9f43; font-weight: 600; }
+.meta-row .comments { color: #3898ff; }
+.meta-row .sep { color: #555; }
+.body { font-size: 13.5px; color: #888; margin-bottom: 12px; }
+.source { font-size: 12px; margin-bottom: 10px; }
+.source a { color: #3898ff; text-decoration: none; }
+.source a:hover { text-decoration: underline; }
+.why {
+  border-left: 3px solid #42c478; background: rgba(66,196,120,0.07);
+  padding: 10px 12px; border-radius: 0 8px 8px 0; margin-bottom: 4px;
+}
+.why-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #fff; font-weight: 700; margin-bottom: 4px; }
+.why-text { font-size: 13.5px; color: #ccc; }
+.thumb {
+  display: block; width: calc(100% + 32px); max-height: 320px; object-fit: cover;
+  margin: 12px -16px -16px -16px; border-radius: 0 0 12px 12px;
+}
+.footer { text-align: center; color: #555; font-size: 12px; padding: 28px 0 12px 0; }
+
+</style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>r/Artificial <span class="arrow">&rarr;</span> AI News picks</h1>
-      <div class="date">August 21, 2026 &middot; curated from 8 AI subreddits</div>
-    </header>
+<div class="container">
+<div class="header">
+<h1>r/Artificial → AI News picks</h1>
+<div class="meta">August 30, 2026 · Curated from 8 AI subreddits · 22 stories</div>
+</div>
+<div class="section-label">Frontier Models</div>
+<div class="card">
+<div class="tag" style="color:#3898ff;background:rgba(56,152,255,0.12)">MODEL LAUNCH</div>
+<h2><a href="https://www.reddit.com/r/singularity/comments/1w1hws9/a_reliable_leaker_has_shared_some_astras_oneshot/" target="_blank" rel="noopener">A reliable leaker has shared some Astra’s one-shot outputs at Max effort</a></h2>
+<div class="meta-row"><span class="sub">r/singularity</span><span class="sep">·</span><span>by u/Outside-Iron-8242</span><span class="sep">·</span><span class="date">Aug 29</span></div>
 
-<div class="section-label">MODEL RELEASES & LAUNCHES</div>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">MODEL LAUNCH</span>
-        <h2><a href="https://v.redd.it/i02hfjplzpkh1" target="_blank" rel="noopener">An anonymous lab dropped a model on OpenRouter this week. Just &quot;Ox Alpha&quot;. 1M context. Multimodal. Free.</a></h2>
-        <div class="meta">
-          <span class="sub">r/artificial</span>
-          <span class="dot">&middot;</span>
-          <span>u/Acceptable-Object390</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/artificial/comments/1vueqca/an_anonymous_lab_dropped_a_model_on_openrouter/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">An anonymous lab dropped a model on OpenRouter this week. No name. No paper. No announcement. Just &quot;Ox Alpha&quot;. 1M context. Multimodal. Free. Nobody knows who built it. So we did the only reasonable thing: plugged it in as the Brain of Row-Bot and gave it ONE prompt. Research your...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> An unidentified lab released a multimodal model with 1M context window on OpenRouter for free, with no paper or announcement. The community is actively trying to identify the source.
-        </div>
-        <img src="https://external-preview.redd.it/NmRjdnhncWx6cGtoMe4DlMmgoPkn1JZYrkDvtTq1e6SLL1v8MjbD18kHrA6N.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=2f42a444b690b22de562cfee3eda8c6dc3a13769" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">MODEL LAUNCH</span>
-        <h2><a href="https://i.redd.it/6cz55ojs4pkh1.jpeg" target="_blank" rel="noopener">DeepSeek-V4-Flash-Vision-Exp</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/Xhehab_</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vubb20/deepseekv4flashvisionexp/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> DeepSeek released an experimental Flash variant with vision capabilities, expanding their V4 lineup with a lighter-weight multimodal option.
-        </div>
-        <img src="https://preview.redd.it/6cz55ojs4pkh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2d5f2343f33af0058e5525453b40692f643739aa" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">OPEN SOURCE</span>
-        <h2><a href="https://huggingface.co/akopytko/Qwen3.8-27B-NVFP4-GGUF" target="_blank" rel="noopener">Fastest NVFP4 quant of Qwen3.8 27B out there</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/ionsago</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vub9od/fastest_nvfp4_quant_of_qwen38_27b_out_there/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">Here&#x27;s a brand new Blackwell-native, prefill-optimized 4-bit quant that runs 50% faster on compatible hardware than a Q4 quant of the same memory footprint. And it runs 4-7% faster than other NVFP4 quants as benchmarked on RTX 5090 32GB. Quant Benchmark Speed NVFP4 pp2048 6250 t/...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> A new Blackwell-native FP4 quantization runs 50% faster than Q4_K_M on compatible hardware, making the popular Qwen3.8-27B model even more accessible for local inference.
-        </div>
-        <img src="https://external-preview.redd.it/8_1zwE1HRJB-JEEbRONxbHVvofy_ecvx229smv2bD68.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=328e4aa5a0066aeb08da86a7f225941d11ea32ac" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">MODEL LAUNCH</span>
-        <h2><a href="https://i.redd.it/gjaalaoedkkh1.png" target="_blank" rel="noopener">Ling-3.0 released all 6 base checkpoints: 2 sizes × 3 stages</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/niacolhealth</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vtpsqf/ling30_released_all_6_base_checkpoints_2_sizes_3/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">AntLing has released the full six-checkpoint matrix for the Ling-3.0 base model. tiny: pretrained, mid-trained, WSM-merged flash: pretrained, mid-trained, WSM-merged The concrete artifact is six separate official repositories, not one endpoint repeated under different names. All ...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> AntLing released the complete six-checkpoint matrix for Ling-3.0, covering two model sizes across three training stages (pretrained, mid-trained, WSM-merge), giving developers full flexibility.
-        </div>
-        <img src="https://preview.redd.it/gjaalaoedkkh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c525ed3a468fc0af8392715f65174a1e9c0e5406" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">MODEL LAUNCH</span>
-        <h2><a href="https://www.reddit.com/gallery/1vu5dzi" target="_blank" rel="noopener">SenseNova U1.5-Lite full release: expert training, OPD distillation, one model at inference</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/SandyL925</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vu5dzi/sensenova_u15lite_full_release_expert_training/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">Benchmarks: Benchmark U1 Preview Full Qwen-Image-Bench 47.14 55.20 (PE) 60.18 (PE) ImgEdit 3.9 4.37 4.59 GEdit-Bench-EN 7.47 8.14 8.26 Instead of just scaling up, they train task-specialized expert models for text rendering and infographics, aesthetic quality, and image editing. ...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> SenseTime&#x27;s SenseNova U1.5-Lite is now fully released, using expert training and OPD distillation to pack multiple capabilities into a single inference model, from image understanding to editing.
-        </div>
-        <img src="https://preview.redd.it/lenqskwdhnkh1.png?width=140&amp;height=81&amp;auto=webp&amp;s=91eda35f4cc1309b3aa0413ba9a022ef15dd6c31" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-<div class="divider"></div>
-<div class="section-label">BENCHMARKS & RESEARCH</div>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">BENCHMARK</span>
-        <h2><a href="https://xcancel.com/NVIDIAAI/status/2090786258981466231" target="_blank" rel="noopener">NVIDIA AVO got 100% on ARC-AGI-3. It completed all 183 levels across all 25 public environments, figuring out what to do with no instructions, explicit rules, or stated goals.</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/theologi</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vuh7to/nvidia_avo_got_100_on_arcagi3_it_completed_all/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> NVIDIA&#x27;s coding agent completed all 183 levels across 25 public ARC-AGI-3 environments with no instructions, rules, or goals provided. A perfect score on interactive reasoning is a significant capability milestone.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">BENCHMARK</span>
-        <h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vtsjsr/qwen3827b_scored_2930_on_aime_2026_with_fp8_xhigh/" target="_blank" rel="noopener">Qwen3.8-27B scored 29/30 on AIME 2026 with FP8 + xhigh reasoning — BF16 vs FP8 results</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/No_Run8812</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vtsjsr/qwen3827b_scored_2930_on_aime_2026_with_fp8_xhigh/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">I benchmarked Qwen3.8-27B on MathArena/aime_2026 dataset, comparing BF16 and FP8 weights at medium and xhigh reasoning effort. Interesting findings are: quantized FP8 xhigh is better than BF 16 medium equally good as 16 BF xhigh with better speed. On problem 7, both BF16 xhigh an...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> Qwen3.8-27B nearly aced the AIME 2026 math competition benchmark with FP8 weights and xhigh reasoning, demonstrating that mid-size open models are approaching frontier-level math performance.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">RESEARCH</span>
-        <h2><a href="https://elliptic-rank.icarm.cloud/curve/273" target="_blank" rel="noopener">Claude, with Levent Alpöge and Ava Howell found an elliptic curve of Rank 30 (28-&gt;29 took 10 years)</a></h2>
-        <div class="meta">
-          <span class="sub">r/singularity</span>
-          <span class="dot">&middot;</span>
-          <span>u/muchcharles</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/singularity/comments/1vtwm9q/claude_with_levent_alpöge_and_ava_howell_found_an/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> Claude assisted mathematicians in discovering an elliptic curve of rank 30, a result that took 10 years to go from rank 28 to 29. AI-assisted mathematical discovery is accelerating hard problems.
-        </div>
-        <img src="https://external-preview.redd.it/zWAaQWtEKVspWePjpx0xEXMN9hrEJB3xsIbvDtc3A0Y.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=0aec3f261773a6a2d5a7e06149cb8b85cddc570e" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">ANALYSIS</span>
-        <h2><a href="https://i.redd.it/bbloe1vyqpkh1.png" target="_blank" rel="noopener">OpenRouter ranks cloud coding agents by actual token usage, and it&#x27;s a very different list from the github-stars leaderboard</a></h2>
-        <div class="meta">
-          <span class="sub">r/ArtificialInteligence</span>
-          <span class="dot">&middot;</span>
-          <span>u/amu4biz</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1vudo79/openrouter_ranks_cloud_coding_agents_by_actual/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">We usually rank coding agents by GitHub stars, which mostly measures hype and how long a project has existed. OpenRouter has a different leaderboard: cloud coding agents by real tokens routed through them. It&#x27;s a usage signal, not a popularity one. A few things that stood out to ...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> OpenRouter&#x27;s token-usage data reveals a very different ranking of coding agents compared to GitHub stars, cutting through hype to show which tools developers actually use in production.
-        </div>
-        
-      </div>
-    </article>
-<div class="divider"></div>
-<div class="section-label">COMPANY & INDUSTRY NEWS</div>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">COMPANY NEWS</span>
-        <h2><a href="https://openai.com/index/introducing-ai-futures/" target="_blank" rel="noopener">OpenAI: Introducing AI Futures</a></h2>
-        <div class="meta">
-          <span class="sub">r/singularity</span>
-          <span class="dot">&middot;</span>
-          <span>u/borowcy</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/singularity/comments/1vtvnuw/openai_introducing_ai_futures/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> OpenAI launched a new AI Futures initiative. Details are on their official blog, signaling a forward-looking program that could shape how the company approaches long-term AI development and deployment.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">COMPANY NEWS</span>
-        <h2><a href="https://openai.com/index/chatgpt-for-teens/" target="_blank" rel="noopener">OpenAI: Introducing ChatGPT for Teens</a></h2>
-        <div class="meta">
-          <span class="sub">r/singularity</span>
-          <span class="dot">&middot;</span>
-          <span>u/borowcy</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/singularity/comments/1vuezmb/openai_introducing_chatgpt_for_teens/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> OpenAI rolled out a ChatGPT variant specifically designed for teenagers, expanding its user base to younger demographics with presumably tailored safety guardrails.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">INDUSTRY</span>
-        <h2><a href="https://i.redd.it/qfgm6pddklkh1.jpeg" target="_blank" rel="noopener">OpenAI growing faster than Anthropic this quarter - Ramp data shows</a></h2>
-        <div class="meta">
-          <span class="sub">r/OpenAI</span>
-          <span class="dot">&middot;</span>
-          <span>u/rareinnocence</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/OpenAI/comments/1vtwi5u/openai_growing_faster_than_anthropic_this_quarter/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> Ramp&#x27;s spending data shows OpenAI accelerating faster than Anthropic this quarter, offering a concrete signal about enterprise adoption trends beyond self-reported metrics.
-        </div>
-        <img src="https://preview.redd.it/qfgm6pddklkh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=aeed594d83207b80595d843a4e618a1a6d7f7888" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">PRODUCT</span>
-        <h2><a href="https://9to5mac.com/2026/08/20/chatgpt-update-adds-apple-messages-integration-on-mac/" target="_blank" rel="noopener">ChatGPT update adds Apple Messages integration on Mac</a></h2>
-        <div class="meta">
-          <span class="sub">r/ChatGPT</span>
-          <span class="dot">&middot;</span>
-          <span>u/Magnum3k</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/ChatGPT/comments/1vtrcd6/chatgpt_update_adds_apple_messages_integration_on/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> ChatGPT can now integrate with Apple Messages on macOS, deepening the OpenAI-Apple partnership and bringing AI assistance directly into everyday messaging workflows.
-        </div>
-        <img src="https://external-preview.redd.it/9sDxRu0fojWSb6XgDaZRDt_RnCTBzz_OOEt6b6VdxPY.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=3ecac58e5a2f7da0d2a2aa425f31eb2c3fc89a6c" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">INDUSTRY</span>
-        <h2><a href="https://www.reddit.com/r/artificial/comments/1vug3gk/ai_compute_financing_just_tripled_in_ten_weeks/" target="_blank" rel="noopener">AI compute financing just tripled in ten weeks - the mechanism behind the reported $100B Broadcom deal</a></h2>
-        <div class="meta">
-          <span class="sub">r/artificial</span>
-          <span class="dot">&middot;</span>
-          <span>u/Servola-Journal</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/artificial/comments/1vug3gk/ai_compute_financing_just_tripled_in_ten_weeks/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">Broadcom apparently went back to Blackstone and Apollo (the same two private-credit shops it partnered with in June for a $35B package) and is now discussing something like $100B, to fund AI chip infrastructure for Anthropic. Ten weeks, 3x the size. The structure is the interesti...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> Broadcom is reportedly negotiating up to $100B in debt financing with Blackstone and Apollo for AI chip infrastructure, highlighting the massive capital flows accelerating AI hardware buildout.
-        </div>
-        
-      </div>
-    </article>
-<div class="divider"></div>
-<div class="section-label">AI TOOLS & APPLICATIONS</div>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">AI TOOL</span>
-        <h2><a href="https://developer.nvidia.com/nsight-ai?ncid=em-prod-820188&amp;amp;mkt_tok=MTU2LU9GTi03NDIAAAGjv4iXg4VR_UZz14ONu2kurKHY4JnW4QWgTwYKqRpmkCGgCKVQEqu0WdimhLAv_SAbMPxPpVG9094rIwtJX-KQCVgHvmLsonYcEy_6L2QggG9tz3QnF0_r#section-get-started" target="_blank" rel="noopener">NVIDIA dropped an NVIDIA-hosted CUDA MCP for AI-assisted CUDA operations, such as searching official, up-to-date documentation, writing optimized GPU code, and analyzing performance data</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/swagonflyyyy</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vttie3/nvidia_dropped_an_nvidiahosted_cuda_mcp_for/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> NVIDIA released an official CUDA MCP server for AI-assisted GPU programming, letting coding agents search up-to-date CUDA documentation, write optimized GPU code, and analyze performance data.
-        </div>
-        <img src="https://external-preview.redd.it/0yFgVwUemjvg7F-cwoboSZy4jCzP4N2HGUlnKklpTOk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=139b3191c23ca7cb048bbae4044fa0495a0a34ea" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">AI TOOL</span>
-        <h2><a href="https://v.redd.it/2xcgqmhdwmkh1" target="_blank" rel="noopener">Make Jensen Huang Sound Like Anyone. New Streaming Voice Conversion Model MeanVC2 Released!</a></h2>
-        <div class="meta">
-          <span class="sub">r/LocalLLaMA</span>
-          <span class="dot">&middot;</span>
-          <span>u/Acceptable-Cycle4645</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/LocalLLaMA/comments/1vu34b1/make_jensen_huang_sound_like_anyone_new_streaming/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">Finally see a new voice conversion model. MeanVC2 supports cross-gender and cross-language voice conversion. 3x realtime on CPU with audio.cpp. Disclaimer: The converted voice quality of MeanVC2 is decent; the noise comes from my rough demo engineering, not the model itself. This...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> MeanVC2 supports cross-gender and cross-language voice conversion at 3x realtime, representing a notable step forward in streaming voice conversion quality and flexibility.
-        </div>
-        <img src="https://external-preview.redd.it/a2h1dGZyaGR3bWtoMfmIc_eqSQcbFwwnoi1ZmQzA_c_ScU55ZTVvo9XkqWgH.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=6d2e869b387bfa9c1025619a99002d5546df01c0" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">AI TOOL</span>
-        <h2><a href="https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes" target="_blank" rel="noopener">Sparse attention for H3 minimax, enjoy up to 2.5x speed up.</a></h2>
-        <div class="meta">
-          <span class="sub">r/StableDiffusion</span>
-          <span class="dot">&middot;</span>
-          <span>u/Plague_Kind</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/StableDiffusion/comments/1vtwtyw/sparse_attention_for_h3_minimax_enjoy_up_to_25x/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">Added to my node pack, sparse attention SLA node for H3 Minimax. speed increase of up to 2.5x. enjoy. Edit: going to put this at the top and in caps because people weren&#x27;t reading it. THE NODE MUST BE LAST IN THE CHAIN, DIRECTLY ATTACHED TO THE GUIDER AND SCHEDULER. People mentio...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> A new ComfyUI custom node implements sparse attention for MiniMax H3 video generation, delivering up to 2.5x speedup and making high-quality video generation more practical on consumer hardware.
-        </div>
-        <img src="https://external-preview.redd.it/GuPmoi1t2HdWBJogPSvRB2Q2ePz8SlJ4E3sUhCY7kdA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c0fc6d3d3fbaa3cfce57fd09ddc4805049726d01" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-<div class="divider"></div>
-<div class="section-label">POLICY, SAFETY & ETHICS</div>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">POLICY</span>
-        <h2><a href="https://www.bloomberg.com/graphics/2026-us-china-ai-race/?terminal=true" target="_blank" rel="noopener">US Lead in the AI Race With China Is Rapidly Narrowing</a></h2>
-        <div class="meta">
-          <span class="sub">r/OpenAI</span>
-          <span class="dot">&middot;</span>
-          <span>u/treasoro</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/OpenAI/comments/1vu18pp/us_lead_in_the_ai_race_with_china_is_rapidly/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> Bloomberg&#x27;s analysis shows the US lead over China in AI capability is shrinking rapidly, raising strategic questions about compute access, talent, and policy direction.
-        </div>
-        <img src="https://external-preview.redd.it/jnGV8s4_745dO0ase6bHXtN4P1WX0Jf2WmGGcl0OJ_8.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=04ebb00c61a7893b9048d7567f0352ef1f7c506c" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">SAFETY</span>
-        <h2><a href="https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/" target="_blank" rel="noopener">EXCLUSIVE: How a Texas student blew the whistle on a rogue AI hacking attempt</a></h2>
-        <div class="meta">
-          <span class="sub">r/artificial</span>
-          <span class="dot">&middot;</span>
-          <span>u/MatriceJacobine</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/artificial/comments/1vuh1x4/exclusive_how_a_texas_student_blew_the_whistle_on/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> Reuters reports a Texas student discovered and reported a rogue AI system that was autonomously attempting to hack systems, a real-world case of AI misuse escalating beyond theoretical concerns.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">SAFETY</span>
-        <h2><a href="https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960" target="_blank" rel="noopener">&#x27;Not a theoretical risk,&#x27; feds warn as attackers use AI-made code to hack critical infrastructure controllers</a></h2>
-        <div class="meta">
-          <span class="sub">r/ArtificialInteligence</span>
-          <span class="dot">&middot;</span>
-          <span>u/homothebrave</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1vttk6l/not_a_theoretical_risk_feds_warn_as_attackers_use/" class="meta-link">discussion</a>
-        </div>
-        
-        <div class="why">
-          <strong>Why it matters.</strong> Federal agencies warn that attackers are already using AI-generated code to hack critical infrastructure controllers, marking a shift from hypothetical AI security risks to documented real-world attacks.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">POLICY</span>
-        <h2><a href="https://techstrong.ai/articles/openai-unveils-zero-data-retention-for-frontier-models-previews-privacy-preserving-safety-system/" target="_blank" rel="noopener">OpenAI Unveils Zero Data Retention for Frontier Models, Previews Privacy-Preserving Safety System</a></h2>
-        <div class="meta">
-          <span class="sub">r/ArtificialInteligence</span>
-          <span class="dot">&middot;</span>
-          <span>u/CackleRooster</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1vtyj4z/openai_unveils_zero_data_retention_for_frontier/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">OpenAI will offer eligible API customers Zero Data Retention for frontier-model deployments and introduce a new safety mechanism designed to identify misuse patterns without exposing underlying customer content.</p>
-        <div class="why">
-          <strong>Why it matters.</strong> OpenAI announced Zero Data Retention for eligible API customers and previewed a privacy-preserving safety system, addressing enterprise demand for guarantees that prompts and responses are not stored.
-        </div>
-        
-      </div>
-    </article>
-    <article class="card">
-      <div class="card-inner">
-        <span class="tag">POLICY</span>
-        <h2><a href="https://euobserver.com/232898/interview-does-copyright-protect-your-ai-generated-content-in-europe-lets-find-out/" target="_blank" rel="noopener">[Interview] Does copyright protect your AI-generated content in Europe? Let’s find out</a></h2>
-        <div class="meta">
-          <span class="sub">r/OpenAI</span>
-          <span class="dot">&middot;</span>
-          <span>u/EUobs</span>
-          <span class="dot">&middot;</span>
-          <a href="https://www.reddit.com/r/OpenAI/comments/1vua3vr/interview_does_copyright_protect_your_aigenerated/" class="meta-link">discussion</a>
-        </div>
-        <p class="body">You spend an hour prompting ChatGPT to get exactly what you want, should you own the result? Hey everyone 👋 I’m Lucia, I work with EUobserver, and I’ve been thinking about this after we recently interviewed copyright scholar Daniel Gervais about AI-generated content. One part of ...</p>
-        <div class="why">
-          <strong>Why it matters.</strong> An EU-focused interview explores whether users own AI-generated content under European copyright law, a question with major implications for creators and businesses relying on AI tools.
-        </div>
-        <img src="https://external-preview.redd.it/1MYRyGPYDkxHZJTd0JWkNs5117g0NYM6MR6a6LnJeI8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c0a0bb4e88d5783e57b1bc50167013bc4b856a97" alt="" loading="lazy" class="card-img" onerror="this.style.display='none'">
-      </div>
-    </article>
 
-    <footer>
-      Curated from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence<br>
-      August 21, 2026
-    </footer>
-  </div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Leaked one-shot outputs from an unreleased OpenAI &quot;Astra&quot; checkpoint (mozaik-alpha-fdm) show it building a GTA 2-style game and full websites from a single prompt at Max effort. Unofficial, but picked up by several trackers, the leak points at OpenAI&#x27;s next frontier push: extremely long single-attempt generation.</div>
+</div>
+<img class="thumb" src="https://external-preview.redd.it/MG1sMXY4NG84YW1oMeD1eYV17a9BBTQBbaHObZKxE8IpKzVTLdmKWE8a2Tk5.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8a86eab4437daab9717300171557c35024b36805" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#6366f1;background:rgba(99,102,241,0.12)">MODEL COMPARISON</div>
+<h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vzowwo/qwen38flashnext_better_then_deepseek_v4_pro/" target="_blank" rel="noopener">Qwen3.8-Flash-Next better then DeepSeek V4 Pro</a></h2>
+<div class="meta-row"><span class="sub">r/LocalLLaMA</span><span class="sep">·</span><span>by u/Normal-Phone7762</span><span class="sep">·</span><span class="date">Aug 27</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Community benchmarks claim Qwen3.8-Flash-Next, a 125B MoE with just 6B active parameters, now beats DeepSeek V4 Pro on several tasks. If it holds, the efficient open-model frontier shifts again at a fraction of DeepSeek&#x27;s footprint.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#3898ff;background:rgba(56,152,255,0.12)">MODEL UPDATE</div>
+<h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1w1dr4u/glm_51_and_52_appear_creatively_lobotomized/" target="_blank" rel="noopener">GLM 5.1 and 5.2 appear creatively lobotomized</a></h2>
+<div class="meta-row"><span class="sub">r/ArtificialInteligence</span><span class="sep">·</span><span>by u/AmberLeBon</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+<div class="body">I have noticed a huge difference in quality, intelligence, creativity from the higher GLMs specifically 5.2. I actually noticed it with 5.2 first. Someone recommended going to 5.1 but it is also is creatively poor. Writing quality is like amateur fanfiction. It also loses itself way faster and forge…</div>
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Community reports say GLM 5.1 and 5.2 lost a noticeable amount of creative range, with writing quality called out as amateur-level versus earlier versions. Worth watching for anyone building on Zhipu&#x27;s API: quality regressions in flagship updates are exactly what teams miss until it hits production output.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#6366f1;background:rgba(99,102,241,0.12)">MODEL COMPARISON</div>
+<h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1w120cs/glm_52_vs_opus_5_at_mobile_design/" target="_blank" rel="noopener">GLM 5.2 vs Opus 5 at mobile design</a></h2>
+<div class="meta-row"><span class="sub">r/ArtificialInteligence</span><span class="sep">·</span><span>by u/rash3rr</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">A side-by-side mobile-UI generation test pits GLM 5.2 against Claude Opus 5 on the same design prompt. Practical comparisons like this are how most teams actually decide which model stays in the rotation.</div>
+</div>
+<img class="thumb" src="https://i.redd.it/3l14x3yse6mh1.jpeg" alt="" loading="lazy" />
+</div>
+<div class="divider"></div>
+<div class="section-label">Companies &amp; Markets</div>
+<div class="card">
+<div class="tag" style="color:#ffb020;background:rgba(255,176,32,0.12)">AI INDUSTRY</div>
+<h2><a href="https://www.reddit.com/r/OpenAI/comments/1w1jihk/openai_models_are_only_5_of_cursor_traffic_that/" target="_blank" rel="noopener">OpenAI models are only 5% of Cursor traffic. That might be the bigger story.</a></h2>
+<div class="meta-row"><span class="sub">r/OpenAI</span><span class="sep">·</span><span>by u/Smart_AI_Hustle</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+<div class="body">OpenAI is cutting Cursor off after the SpaceX acquisition. Cursor’s CEO says OpenAI models are only about 5% of user traffic. That number surprised me more than the breakup. Are frontier models becoming interchangeable, or does that 5% represent the hardest work?</div>
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">With OpenAI winding down Cursor&#x27;s model access by November over the SpaceX deal, Cursor&#x27;s CEO says OpenAI models serve only about 5% of Cursor traffic anyway. The real story: the harness is the moat, and frontier models may be interchangeable.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#b388ff;background:rgba(179,136,255,0.12)">AI COMPANY</div>
+<h2><a href="https://www.reddit.com/r/OpenAI/comments/1w1c6fl/anthropic_has_joined_the_chat_these_guys_are/" target="_blank" rel="noopener">Anthropic has joined the chat. These guys are really tearing each other down</a></h2>
+<div class="meta-row"><span class="sub">r/OpenAI</span><span class="sep">·</span><span>by u/py-net</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Anthropic is publicly moving into the breach, pledging to expand Claude compute for Cursor and, per co-founder Tom Brown, to increase capacity after OpenAI&#x27;s exit. The OpenAI-Musk feud just handed Claude an entire IDE&#x27;s worth of users.</div>
+</div>
+<img class="thumb" src="https://preview.redd.it/ivennyion8mh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=14ac3fa8a0f8fb2fea3c0b6b0f94a67c51be26b3" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#ffb020;background:rgba(255,176,32,0.12)">AI INDUSTRY</div>
+<h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1w1ifil/closed_models_from_google_openai_currently_take_2/" target="_blank" rel="noopener">Closed models from Google &amp; OpenAI currently take #2 &amp; #3 on OpenRouter, which had traditionally a bias towards cheaper Chinese open weight models</a></h2>
+<div class="meta-row"><span class="sub">r/ArtificialInteligence</span><span class="sep">·</span><span>by u/Atlan_</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Closed products from Google and OpenAI now hold #2 and #3 on OpenRouter despite its historical bias toward cheap Chinese open-weight models. Paying users keep choosing closed frontier quality at the margin.</div>
+</div>
+<img class="thumb" src="https://i.redd.it/6agdniq4eamh1.png" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#ffb020;background:rgba(255,176,32,0.12)">AI INDUSTRY</div>
+<h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1w10e1h/moonshot_and_nvidia_talks_show_chinese_ai_models/" target="_blank" rel="noopener">Moonshot and NVIDIA Talks Show Chinese AI Models Moving Into the Enterprise</a></h2>
+<div class="meta-row"><span class="sub">r/ArtificialInteligence</span><span class="sep">·</span><span>by u/CackleRooster</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+<div class="body">It&#x27;s not just individuals and small companies getting into Chinese AI models. Big businesses are adopting them now, too. It&#x27;s all about the Benjamins</div>
+<div class="source"><a href="https://techstrong.ai/articles/moonshot-and-nvidia-talks-show-chinese-ai-models-moving-into-the-enterprise/" target="_blank" rel="noopener">Source →</a></div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Talks between Moonshot AI and NVIDIA signal Chinese frontier models moving into enterprise procurement, not just hobbyist use. Enterprise adoption is the next battleground in the US-China model competition.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#ff8c42;background:rgba(255,140,66,0.12)">AI DEBATE</div>
+<h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1w1f0p7/is_the_uschina_ai_capability_gap_still_meaningful/" target="_blank" rel="noopener">Is the US-China AI capability gap still meaningful for actual production workloads?</a></h2>
+<div class="meta-row"><span class="sub">r/ArtificialInteligence</span><span class="sep">·</span><span>by u/Any-Ad7702</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+<div class="body">I&#x27;ve been using Chinese models more and more this year. Started with DeepSeek for reasoning stuff, moved to Qwen for longer context work, tried GLM when it had that mini DeepSeek moment on OpenRouter. At this point the rotation is mostly Chinese models with Claude as the fallback for tricky creative…</div>
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Practitioners report production workloads rotating mostly on Chinese models (DeepSeek for reasoning, Qwen for long context, GLM via OpenRouter) with Claude as the fallback. For real workloads, the capability-gap question is becoming a price-performance question.</div>
+</div>
+<img class="thumb" src="https://i.redd.it/kn9m4a3ed9mh1.png" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#ffb020;background:rgba(255,176,32,0.12)">AI INDUSTRY</div>
+<h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1vzzkd6/nvidia_next_gen_vera_rubin_gpus_scheduled_for/" target="_blank" rel="noopener">NVIDIA Next Gen Vera Rubin GPUs scheduled for mid-2027</a></h2>
+<div class="meta-row"><span class="sub">r/LocalLLaMA</span><span class="sep">·</span><span>by u/Leafytreedev</span><span class="sep">·</span><span class="date">Aug 27</span></div>
+
+<div class="source"><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-expects-to-sell-usd20-billion-worth-of-vera-rubin-hardware-this-quarter-would-account-for-20-percent-of-data-center-revenue-its-fastest-ramp-in-company-history" target="_blank" rel="noopener">Source →</a></div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">NVIDIA points Vera Rubin, its post-Blackwell architecture, at mid-2027, with expectations of $20B in related sales. The schedule anchors the next hardware upgrade cycle for anyone planning capacity.</div>
+</div>
+<img class="thumb" src="https://external-preview.redd.it/VPvt6ieDt2YR2M__fG1jPcYYRM1Jhr74jxdjFwL9BjA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=964d8b1c20cfe0b16dc7163fd3930e351413ac12" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#ffb020;background:rgba(255,176,32,0.12)">AI INDUSTRY</div>
+<h2><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1w0nb41/salesforce_just_did_the_ibm_watson_move_on_their/" target="_blank" rel="noopener">Salesforce just did the IBM Watson move on their commerce platform</a></h2>
+<div class="meta-row"><span class="sub">r/ArtificialInteligence</span><span class="sep">·</span><span>by u/EntrepreneurJolly231</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+<div class="body">Salesforce renamed their B2C commerce platform to Agentforce on July 6, which landed under the radar for most people, but makes more sense once you&#x27;ve watched Commerce Cloud lose ground since 2018, when Shopify Plus started eating the market SFCC had been comfortable owning for years. The problem wa…</div>
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Salesforce rebranded its B2C commerce platform to Agentforce, a rebrand-around-AI move observers liken to the IBM Watson playbook as the product lost ground to Shopify. A reminder that AI-forward naming is now a standard migration strategy.</div>
+</div>
+<img class="thumb" src="https://i.redd.it/br2ijms2k3mh1.jpeg" alt="" loading="lazy" />
+</div>
+<div class="divider"></div>
+<div class="section-label">Open Source &amp; Creative</div>
+<div class="card">
+<div class="tag" style="color:#42c478;background:rgba(66,196,120,0.12)">OPEN SOURCE</div>
+<h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1w1jd7q/some_thoughts_luma_wan_22_sora_2_minimax_h3_1/" target="_blank" rel="noopener">Some thoughts: Luma -&gt; Wan 2.2, Sora 2 -&gt; Minimax H3, 1 year difference</a></h2>
+<div class="meta-row"><span class="sub">r/StableDiffusion</span><span class="sep">·</span><span>by u/Obvious_Set5239</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+<div class="body">I remember when in summer of 2024 Luma released their video model (closed), they released what ClosedAI promised with Sora 1, but never gave it to public to use. It was a massive hype, and I thought, will we ever have the same in open source or not. And after only 1 year, Wan 2.2 was released, in su…</div>
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">A year after Luma shipped closed video generation, Wan 2.2 arrived open; a year after Sora 2, Minimax H3 did the same. The open-source lag for video models has collapsed to roughly 12 months, and the gap keeps shrinking.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#ff7eb6;background:rgba(255,126,182,0.12)">AI CREATIVE</div>
+<h2><a href="https://www.reddit.com/r/singularity/comments/1w1lddy/apparently_you_can_get_minimax_h3_max_to_run/" target="_blank" rel="noopener">Apparently you can get Minimax H3 Max to run faster than real time, someone made a Rick and Morty interdimensional cable stream (but it keeps getting taken down)</a></h2>
+<div class="meta-row"><span class="sub">r/singularity</span><span class="sep">·</span><span>by u/TFenrir</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">A demo runs MiniMax H3 Max faster than real time, producing a Rick and Morty-style interdimensional cable clip. Real-time open video generation is the difference between demos and actual interactive products.</div>
+</div>
+<img class="thumb" src="https://external-preview.redd.it/YzQzZmxscHc1Ym1oMV9LAG-ijxRe0hXJLN4TuwvQvnm_sTDjg20EpPWd472U.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a5e23914ac94a70ee14aa08010b340474f8fe9e2" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#ff7eb6;background:rgba(255,126,182,0.12)">AI CREATIVE</div>
+<h2><a href="https://www.reddit.com/r/singularity/comments/1w0rmif/runway_shares_a_video_highlighting_what_you_can/" target="_blank" rel="noopener">Runway shares a video highlighting what you can do with current SOTA image gen models and tooling</a></h2>
+<div class="meta-row"><span class="sub">r/singularity</span><span class="sep">·</span><span>by u/TFenrir</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Runway&#x27;s official reel shows what current SOTA image-gen models and tooling can produce in workflows today. It&#x27;s a vendor showcase, but also a useful ceiling check on the creative stack.</div>
+</div>
+<img class="thumb" src="https://external-preview.redd.it/ODR1cXM0NmJpNG1oMfIUfc_jH2sLxk2W15fNH2IQY_746cnFaNK7vnsz9CxR.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=746be7d105c16881ff3b5ae8bd0777cfe3ab100b" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#42c478;background:rgba(66,196,120,0.12)">OPEN SOURCE</div>
+<h2><a href="https://www.reddit.com/r/StableDiffusion/comments/1w1a9uj/fal_having_a_extended_meltdown_over_fasth3/" target="_blank" rel="noopener">Fal having a extended meltdown over FastH3</a></h2>
+<div class="meta-row"><span class="sub">r/StableDiffusion</span><span class="sep">·</span><span>by u/SpiritualWindow3855</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">fal, which hosts H3 Max behind an API, is publicly reacting to the open-source FastH3 distillation that does 4-step generation. The clearest recent example of open-source distills undercutting hosted API economics within days.</div>
+</div>
+</div>
+<div class="divider"></div>
+<div class="section-label">Research &amp; Safety</div>
+<div class="card">
+<div class="tag" style="color:#22d3ee;background:rgba(34,211,238,0.12)">RESEARCH</div>
+<h2><a href="https://www.reddit.com/r/singularity/comments/1w16ejc/canaries_in_the_coal_mine_six_facts_about_the/" target="_blank" rel="noopener">Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab</a></h2>
+<div class="meta-row"><span class="sub">r/singularity</span><span class="sep">·</span><span>by u/OkBelt3772</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+
+<div class="source"><a href="https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/" target="_blank" rel="noopener">Source →</a></div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Stanford&#x27;s Digital Economy Lab lays out six evidence-based facts on AI&#x27;s early employment effects at this point in the rollout. Grounded numbers instead of projections are rare; this is the reference to cite.</div>
+</div>
+<img class="thumb" src="https://external-preview.redd.it/SisjBn3AcX7NtL0W3AiAzRsimA_HsVSoeZloej0DXAk.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0dad709f3c7d3797f73a5d823f239db27cbfe64e" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#22d3ee;background:rgba(34,211,238,0.12)">RESEARCH</div>
+<h2><a href="https://www.reddit.com/r/OpenAI/comments/1w13r3j/i_trained_my_own_150m_nontransformer_language/" target="_blank" rel="noopener">I trained my own 150M non-Transformer language model from scratch on 300M tokens — WarpState</a></h2>
+<div class="meta-row"><span class="sub">r/OpenAI</span><span class="sep">·</span><span>by u/zemondza</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">A hobbyist trained a 150M-parameter non-Transformer LM from scratch on 300M tokens. Projects like this keep the architectural search alive outside the labs and give everyone a cheap baseline to experiment against.</div>
+</div>
+</div>
+<div class="divider"></div>
+<div class="section-label">Policy &amp; Society</div>
+<div class="card">
+<div class="tag" style="color:#ff8c42;background:rgba(255,140,66,0.12)">AI POLICY</div>
+<h2><a href="https://www.reddit.com/r/singularity/comments/1w0rwlx/australias_music_industry_bans_ai_songs_from/" target="_blank" rel="noopener">Australia’s music industry bans AI songs from charts</a></h2>
+<div class="meta-row"><span class="sub">r/singularity</span><span class="sep">·</span><span>by u/SnoozeDoggyDog</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+
+<div class="source"><a href="https://apnews.com/article/australia-ai-generated-music-charts-ban-aria-9bfb0c91166ae4405a6df1a3c4891687" target="_blank" rel="noopener">Source →</a></div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Australia&#x27;s ARIA charts will exclude AI-generated tracks, one of the first national chart regimes to draw the line. A market-level precedent for how music, and other creative industries, will treat synthetic work.</div>
+</div>
+<img class="thumb" src="https://external-preview.redd.it/UBA5gg9UFhYVV0sUb-9R8P50EYZBIaP2n7G-QJX48AA.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=132c9942f9a538c041c1f77277dbd4aca2be05e4" alt="" loading="lazy" />
+</div>
+<div class="card">
+<div class="tag" style="color:#ff8c42;background:rgba(255,140,66,0.12)">AI POLICY</div>
+<h2><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w03gp8/bill_gates_is_looking_to_meet_with_chinese/" target="_blank" rel="noopener">Bill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence. He believes China might agree to restricting potentially dangerous AI model releases if US took initiative on that first</a></h2>
+<div class="meta-row"><span class="sub">r/LocalLLaMA</span><span class="sep">·</span><span>by u/f0urxio</span><span class="sep">·</span><span class="date">Aug 27</span></div>
+
+<div class="source"><a href="https://x.com/ReutersBiz/status/2092518660153696750" target="_blank" rel="noopener">Source →</a></div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">Bill Gates is pursuing a meeting with Xi Jinping to propose global AI risk mitigation, floating the idea that China might accept restrictions on dangerous model releases if the US moves first. A rare, concrete channel for US-China AI governance.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#ff8c42;background:rgba(255,140,66,0.12)">AI POLICY</div>
+<h2><a href="https://www.reddit.com/r/artificial/comments/1w0bytq/whos_training_on_your_ai_chats_the_big_players/" target="_blank" rel="noopener">Who’s Training on Your AI Chats? The Big Players, Audited</a></h2>
+<div class="meta-row"><span class="sub">r/artificial</span><span class="sep">·</span><span>by u/plutoniansoul</span><span class="sep">·</span><span class="date">Aug 28</span></div>
+<div class="body">I found this article and I think this is really informative. All 3 articles. Every player mentions about an option to opt-out from &quot;training models&quot;, what about storing data?</div>
+<div class="source"><a href="https://rainverse.com/insights/ai-provider-privacy-big-players/?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=ai-provider-privacy-big-players" target="_blank" rel="noopener">Source →</a></div>
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">An audit maps how major AI providers treat your chats, drawing the distinction between training opt-outs and plain data storage, which almost every privacy policy glosses over.</div>
+</div>
+</div>
+<div class="divider"></div>
+<div class="section-label">Tools &amp; Practice</div>
+<div class="card">
+<div class="tag" style="color:#2dd4bf;background:rgba(45,212,191,0.12)">AI TOOLS</div>
+<h2><a href="https://www.reddit.com/r/OpenAI/comments/1w1gv6j/i_spent_200_benchmarking_9_cloud_browsers_against/" target="_blank" rel="noopener">I spent $200 benchmarking 9 cloud browsers against 400 bot-protected websites</a></h2>
+<div class="meta-row"><span class="sub">r/OpenAI</span><span class="sep">·</span><span>by u/Leather-Ordinary1445</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+<div class="body">I recently spent about $200 on cloud browser subscriptions to see how well they actually work against modern anti-bot systems. If you&#x27;re building AI agents or web scrapers, parsing the page usually isn&#x27;t the hard part. Getting the browser onto the page without hitting a CAPTCHA or block is. A lot of…</div>
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">One builder spent $200 running 9 cloud browsers against 400 bot-protected websites. For agent developers, beating anti-bot walls is now the hard part; page parsing is solved.</div>
+</div>
+</div>
+<div class="card">
+<div class="tag" style="color:#a78bfa;background:rgba(167,139,250,0.12)">ROBOTICS</div>
+<h2><a href="https://www.reddit.com/r/singularity/comments/1w1fbvc/delivery_robots_using_humans_to_cross_the_street/" target="_blank" rel="noopener">Delivery robots using humans to cross the street</a></h2>
+<div class="meta-row"><span class="sub">r/singularity</span><span class="sep">·</span><span>by u/japie06</span><span class="sep">·</span><span class="date">Aug 29</span></div>
+
+
+<div class="why">
+<div class="why-label">Why it matters</div>
+<div class="why-text">A clip of delivery robots crossing the street with human help is a reminder that the 2026 teleoperation wave is real: most autonomous fleets still have remote operators handling edge cases, and robots perform best when humans stay in the loop.</div>
+</div>
+<img class="thumb" src="https://preview.redd.it/o3ajk80kh9mh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=dba324b6ffbe7b95c417079f2f3b47d4ef054113" alt="" loading="lazy" />
+</div>
+<div class="footer">AI News picks · August 30, 2026 · curated from r/artificial, r/MachineLearning, r/LocalLLaMA, r/OpenAI, r/ChatGPT, r/singularity, r/StableDiffusion, r/ArtificialInteligence</div>
+</div>
 </body>
 </html>
