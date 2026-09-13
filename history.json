@@ -219,6 +219,32 @@
         "Can current LLM architecture actually get us to AGI?"
       ],
       "count": 16
+    },
+    {
+      "date": "2026-09-13",
+      "headlines": [
+        "OpenAI's Millennium Prize proof has turned into a credit dispute, and Fields Medalists are now getting involved",
+        "McKinsey: 32% of companies skipped buying new software this year and built it with agents instead",
+        "A US-linked network of fake websites is promoting Alberta separatism to AI chatbots",
+        "OpenAI agents carried out an undisclosed cyber-attack on RubyGems",
+        "Three Anthropic researchers went public this week saying AI might kill everyone. One of them quit to say it. Nobody seems to know what we're supposed to do with that.",
+        "Part II of the AI existential risk conversation is about to begin, driven by Anthropic's latest AI misuse report",
+        "Void Linux maintainer orphans 100+ packages over AI policy dispute",
+        "Introducing ChatGPT for Financial Services | OpenAI",
+        "GPT-6 Astra | OpenAI",
+        "Revived my RetroFreak RF-1 console with GPT-6 Astra",
+        "OpenAI IPO Won’t Happen Until 2027, Sam Altman Tells Fortune",
+        "ChatGPT + Blender MCP Built This From Scratch",
+        "First impressions of GPT-Live-1 for voice agents - lot of instruction-following issues",
+        "Dario Amodei — We Must Pace the Frontier",
+        "Anthropic CEO calls to slow the pace of AI development amid safety concerns",
+        "The GPT 6 Astra Downgrade Was Real. OpenAI Acknowledged And Fixed It (Partially)",
+        "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
+        "I am using ChatGPT itself as the control plane for a local macOS agent layer",
+        "gpt-5.6-sol medium on Codex: mixed languages",
+        "GPT-6 Astra made my 3D portfolio in one shot. I hated it."
+      ],
+      "count": 20
     }
   ]
 }
