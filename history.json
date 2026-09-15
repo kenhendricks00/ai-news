@@ -272,6 +272,32 @@
         "Artificial(2026)"
       ],
       "count": 20
+    },
+    {
+      "date": "2026-09-15",
+      "headlines": [
+        "Anthropic researcher quits over AI fears",
+        "I built this while looking into how much AI could affect different jobs",
+        "Why won't a self-learning AI model ruin itself?",
+        "If an AI searches with Google, and reads the AI summary",
+        "How do I *use* AI?",
+        "OpenAI researcher responds to scrutiny around its latest math breakthrough",
+        "Anthropic researcher says AI has 10% chance of 'killing all humans'",
+        "AI Burnout Hits the People Charged With Defending Hospitals and Banks From Hackers",
+        "OpenAI says AI solved a Millennium Prize math problem, but experts haven’t signed off",
+        "Study: Generative AI succumbs to conversational misinformed pressure and argument",
+        "Can current LLM architecture actually get us to AGI?",
+        "Sam Altman talks to GPT-7",
+        "As backlash to AI data centers grows in California, one company is pitching smaller facilities at up to 70 fairgrounds",
+        "The AI cybersecurity arms race is on",
+        "Have software jobs shown us what most jobs will probably be like?",
+        "Most people won't have the attention span to read this, and that's the problem",
+        "AIPass Update #20 - v2.8.2 + v2.8.3: the checker that manufactured tests, and the red cross that returned 0",
+        "Running an ecology survival simulation experiment as my desktop background.",
+        "Introducing AstraBlender! Real Blender that ChatGPT can use from a simple prompt sent from your phone on the ChatGPT website ;)",
+        "OpenAI solved the Navier-Stokes problem in 88 hours, my celebratory wallpaper"
+      ],
+      "count": 20
     }
   ]
 }
