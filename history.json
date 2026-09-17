@@ -327,6 +327,34 @@
         "Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-09-17",
+      "headlines": [
+        "OpenAI is working with Anthropic and Google DeepMind on AI safety, Bloomberg reports",
+        "AI researcher whose apocalypse warning went viral outlines his disagreements with Anthropic leadership",
+        "British workers spending nearly £1bn a year of their own money on AI tools they use for work.",
+        "Why entry-level tech hiring didn't just drop, it structurally changed",
+        "Testing Qwen 3.8 27B running locally on a single 5090",
+        "Models are commoditizing fast — the edge is shifting to context and workflow, not the model itself",
+        "Mozilla Report: China-U.S. AI Model Capability Gap Narrows to 4.4 Months",
+        "Apple May Return to Server Market With Nvidia Technology",
+        "You can offload most of Qwen3.8-Flash-Next's KV cache to RAM with little decode slowdown",
+        "[Release] SOTA GGUFs for Qwen3.8-Flash-Next: GSQ-RCO Providing Near Baseline Performance",
+        "qwen4exp: add hc ops by am17an · Pull Request #28901 · ggml-org/llama.cpp",
+        "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
+        "Apple Foundation Models: local AI natively on MacOS 27",
+        "Koboldcpp v1.121 released",
+        "GPT-6 Astra | OpenAI",
+        "A big “ship” week has been declared, teasing new models from GPT-6 family.",
+        "Investors initiated discussions to give OpenAI more money at a $1.2 trillion valuation",
+        "OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+        "Open Weight FastVideo FastH3 V2!",
+        "New ComfyUI release is out, with YuE2 now merged into stable",
+        "SenseNova-U1.5 Technical Report: VAE-free Native 4K Generation with Spatial Patch Reconstruction",
+        "Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3"
+      ],
+      "count": 22
     }
   ]
 }
