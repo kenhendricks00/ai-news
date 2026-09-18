@@ -355,6 +355,35 @@
         "Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3"
       ],
       "count": 22
+    },
+    {
+      "date": "2026-09-18",
+      "headlines": [
+        "A big “ship” week has been declared, teasing new models from GPT-6 family.",
+        "Introducing ChatGPT for Financial Services | OpenAI",
+        "Investors initiated discussions to give OpenAI more money at a $1.2 trillion valuation",
+        "OpenAI is working with Anthropic and Google DeepMind on AI safety, Bloomberg reports",
+        "Another Google AI safety researcher has quit, warning we might all be about to die",
+        "AI researcher whose apocalypse warning went viral outlines his disagreements with Anthropic leadership",
+        "British workers spending nearly £1bn a year of their own money on AI tools they use for work.",
+        "Models are commoditizing fast — the edge is shifting to context and workflow, not the model itself",
+        "Apple May Return to Server Market With Nvidia Technology",
+        "Mozilla Report: China-U.S. AI Model Capability Gap Narrows to 4.4 Months",
+        "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
+        "Apple Foundation Models: local AI natively on MacOS 27",
+        "Koboldcpp v1.121 released",
+        "[Release] SOTA GGUFs for Qwen3.8-Flash-Next: GSQ-RCO Providing Near Baseline Performance",
+        "Cut Qwen3.8-27B Reasoning Tokens by 40% -- 3.8 'ThinkingCap' benchmarked!",
+        "Ministral 3 3B on a Galaxy S21 relayed a conversation between Gemini and Z.ai across Chrome and Firefox",
+        "Open Weight FastVideo FastH3 V2!",
+        "New ComfyUI release is out, with YuE2 now merged into stable",
+        "Yue2 Studio - Music Creation and LoRa training for Yue2 in a clean user interface.",
+        "Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3",
+        "Testing minimax h3 singularity + TaoMate Lora 3 steps - good for 3d animation",
+        "Fine Tuned and Niche Ai Models vs Ai Detectors",
+        "Top3: Tool that asks ten AI models for recommendations and mashes the answers into a single list"
+      ],
+      "count": 23
     }
   ]
 }
