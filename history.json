@@ -384,6 +384,33 @@
         "Top3: Tool that asks ten AI models for recommendations and mashes the answers into a single list"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-09-19",
+      "display_date": "September 19, 2026",
+      "headlines": [
+        "Google’s Gemini AI hacked into other companies, adding to ‘rogue’ AI incidents. The incursions came during tests of its cybersecurity skills — similar to other incidents disclosed by OpenAI, Anthropic and Meta.",
+        "California Gov. Gavin Newsom inks AI oversight executive order to improve safety 'before it's too late'",
+        "Anthropic, OpenAI, SpaceXAI, Google sued over call to ‘pace’ AI development, alleging illegal coordination between competitors",
+        "OpenAI's Sam Altman to brief UN Security Council next week",
+        "Alibaba open-sources medical AI model that can detect cancer and nearly 150 conditions",
+        "Qwen3.8-27B at 144 tok/s on an M5 Max MacBook Pro",
+        "Built a home server from an old PC with GPU upgrade. Qwen3.8 27B runs at ~30 tokens per second.",
+        "Stepfun new model \"Step 5 Preview\" just leaked",
+        "References to MiniMax M3.1 appear in test files in a recent commit to the MiniMax-Code Repo",
+        "Steer LLMs and Agents at the Token Level: An interactive tool for token visualization & control, model inspection and data annotation.",
+        "Training a Neural Network on AMD MI50s Using Vulkan: Proof of ConceptOr: Why I Stopped Listening and Just Did It",
+        "Qwen Image 2.1 - Pre-release comparison by Sandlers.",
+        "Qwen Image 2.1 PR to ComfyUI",
+        "H3 HyperFlow",
+        "ComfyUI-NodeSnapshots: 2-3x your frontend FPS with caching",
+        "YuE2 BF16 works on 12GB VRAM and sounds better in my tests",
+        "DiffusionGemma: How It Generates Text in Parallel (From Scratch in PyTorch) [P]",
+        "GoBench: Evaluating LLMs on the game of Go [R]",
+        "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
+        "TIL GPT6 can watch short videos the user uploads. FINALLY"
+      ],
+      "count": 20
     }
   ]
 }
