@@ -411,6 +411,34 @@
         "TIL GPT6 can watch short videos the user uploads. FINALLY"
       ],
       "count": 20
+    },
+    {
+      "date": "2026-09-20",
+      "headlines": [
+        "[Release] SOTA GGUFs for Qwen3.8-Flash-Next: GSQ-RCO Providing Near Baseline Performance",
+        "OpenAI is working with Anthropic and Google DeepMind on AI safety, Bloomberg reports",
+        "OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+        "GPT-6 Astra | OpenAI",
+        "Another Google AI safety researcher has quit, warning we might all be about to die",
+        "Open Weight FastVideo FastH3 V2!",
+        "Apple Foundation Models: local AI natively on MacOS 27",
+        "Cut Qwen3.8-27B Reasoning Tokens by 40% -- 3.8 'ThinkingCap' benchmarked!",
+        "OpenAI employee roon says everyone will have post Astra-level capabilities in a month or two",
+        "Astra landed a serious punch on Anthropic",
+        "GPT-6 Astra remakes Game of Thrones in low poly with Blender.",
+        "Using GPT Astra to improve the Anthropic 2/3rds Zeta Zeroes result",
+        "Koboldcpp v1.121 released",
+        "AI researcher whose apocalypse warning went viral outlines his disagreements with Anthropic leadership",
+        "New ComfyUI release is out, with YuE2 now merged into stable",
+        "Apple May Return to Server Market With Nvidia Technology",
+        "You can offload most of Qwen3.8-Flash-Next's KV cache to RAM with little decode slowdown",
+        "qwen4exp: add hc ops by am17an · Pull Request #28901 · ggml-org/llama.cpp",
+        "Testing Qwen 3.8 27B running locally on a single 5090",
+        "I Think All the Current Pessimism is Just an Attempt by XAI, Anthropic, and Open AI to Get Local Models Criminalized",
+        "SenseNova-U1.5 Technical Report: VAE-free Native 4K Generation with Spatial Patch Reconstruction",
+        "yue2 - epic instrumental comfyui"
+      ],
+      "count": 22
     }
   ]
 }
