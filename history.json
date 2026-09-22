@@ -439,6 +439,34 @@
         "yue2 - epic instrumental comfyui"
       ],
       "count": 22
+    },
+    {
+      "date": "2026-09-21",
+      "headlines": [
+        "Introducing ChatGPT for Financial Services | OpenAI",
+        "GPT-6 Astra | OpenAI",
+        "A big “ship” week has been declared, teasing new models from GPT-6 family.",
+        "Investors initiated discussions to give OpenAI more money at a $1.2 trillion valuation",
+        "OpenAI is working with Anthropic and Google DeepMind on AI safety, Bloomberg reports",
+        "OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+        "British workers spending nearly £1bn a year of their own money on AI tools they use for work.",
+        "Why entry-level tech hiring didn't just drop, it structurally changed",
+        "AI Voice Cloning: Think Twice Before Sending That Voice Sample",
+        "AI researcher whose apocalypse warning went viral outlines his disagreements with Anthropic leadership",
+        "Mozilla Report: China-U.S. AI Model Capability Gap Narrows to 4.4 Months",
+        "Apple May Return to Server Market With Nvidia Technology",
+        "Apple Foundation Models: local AI natively on MacOS 27",
+        "[Release] SOTA GGUFs for Qwen3.8-Flash-Next: GSQ-RCO Providing Near Baseline Performance",
+        "You can offload most of Qwen3.8-Flash-Next's KV cache to RAM with little decode slowdown",
+        "qwen4exp: add hc ops by am17an · Pull Request #28901 · ggml-org/llama.cpp",
+        "Koboldcpp v1.121 released",
+        "MiniCPM5-2B vs. Spark-X2.5-4B / -64% thinking, x1.5 speed while keeping the accuracy of xhigh",
+        "SenseNova-U1.5 Technical Report: VAE-free Native 4K Generation with Spatial Patch Reconstruction",
+        "Open Weight FastVideo FastH3 V2!",
+        "New ComfyUI release is out, with YuE2 now merged into stable",
+        "Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3"
+      ],
+      "count": 22
     }
   ]
 }
