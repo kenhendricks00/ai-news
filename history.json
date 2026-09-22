@@ -467,6 +467,36 @@
         "Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3"
       ],
       "count": 22
+    },
+    {
+      "date": "2026-09-22",
+      "display_date": "September 22, 2026",
+      "headlines": [
+        "Amazon Blocks Meta’s Muse AI Agent From Amazon.com Shopping After Meta Rejects Removal Request",
+        "The US government opens the door to working with voice AI platforms",
+        "Cognition's Engineers Don't Write Code By Hand Anymore — And They're the Only Ones Grading Whether That's Working",
+        "Microsoft AI chief warns against teaching AI systems to act humanlike | Artificial Intelligence News",
+        "Fruit fly-inspired AI learns smells quickly with far less memory",
+        "Benchmarks Grok 4.7, GPT 6 Astra Fable 4.1 and DeepSeek V4.1 Flash",
+        "Hi3D launches an AI agent for 3D creation",
+        "Xiaomi releases MiMo-V2.6: \"Frontier intelligence, all the modalities, built in public.\" [N]",
+        "Understanding and Enhancing Kimi Delta Attention [R]",
+        "QontoFAQ: A better Information Retrieval Benchmark [R]",
+        "I built a framework-free prototype learner that lets local LLMs learn and correct facts instantly (1.6x–4x faster than backprop)[R]",
+        "ProgramAsWeights: compile English function descriptions into neural programs that run locally [R]",
+        "Inside sanoTTS — a 294,279-parameter TTS system [P]",
+        "OpenTrainDNN: An interactive, zero-dependency browser tool for visualizing backpropagation in neural networks. [P]",
+        "World Models From Scratch 2: Model Training and Dreaming [P]",
+        "Qwen 4 Announced at Apsara Conference",
+        "Alibaba plans AI model with 5 trillion to 10 trillion parameters, unveils new chip",
+        "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B · Hugging Face",
+        "Qwen3.8-27B: >70 tok/s (>160 tok/s concurrent), 10k tok/s prefill, full context on 2x3090 (or and 48GB or larger on ampere or higher), vanilla vllm",
+        "[MASSIVE RELEASE] Supra2-IMG - a tiny 100M text-to-image model - SOTA quality and open release!",
+        "NVIDIA CEO Claims '0% Chance' AI Will End the World by 2030",
+        "Introducing ChatGPT for Financial Services | OpenAI",
+        "Qwen 2.1 Detail Enhancer LoRA"
+      ],
+      "count": 23
     }
   ]
 }
