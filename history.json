@@ -497,6 +497,35 @@
         "Qwen 2.1 Detail Enhancer LoRA"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-09-23",
+      "display_date": "September 23, 2026",
+      "headlines": [
+        "MiMo-V3 is getting a new architecture. The core of it, HySparse2, is out today.",
+        "GPT-6 Astra makes a massive leap on ZeroBench (an extremely difficult vision benchmark), surpassing the human baseline across all three metrics",
+        "Engram gone wild! 2b model update...",
+        "Last October, AIs could automate 2.5% of randomly chosen remote projects. Our latest Remote Labor Index results show that GPT-6 Astra can now automate 20.8%.",
+        "GGUFs in transformers natively!",
+        "Parakeet.java: Automatic Speech Recognition in pure Java.",
+        "I open sourced 12M agentic decision examples for training Jev style models",
+        "A proxy that watches the yes/no and pick-one decisions your app asks an LLM for, then trains a local model to make them for free",
+        "Don’t Trust. Verify. Offline, Sub-Millisecond Agent Verification with ANS",
+        "Your Life at Every Level of Running AI Locally (Laptop to 4×3090)",
+        "Ming-Image-0.1-Design released: 6B design generation plus a 6B model for RGBA layers",
+        "Qwen Image 2.1 4 Steps Turbo Lora is here by Viggle",
+        "I built a Rust weight-streaming engine for running FLUX.2 beyond VRAM — looking for feedback / ways to break it",
+        "Does sparse attention actually speed up video generation? three conditions, measured",
+        "Krea 2 Anygles — controllable 360° human camera views from a single image",
+        "Anima LLM Prompt Builder Release.",
+        "Sam Altman will pitch the idea of creating global AI standards when he speaks at the United Nations, Dario Amodei will join by video feed.",
+        "RAND publishes a U.S. strategy for the path to superintelligence: keep every major option open until the evidence forces a choice",
+        "The First Jobs AI May Kill Are the Ones People Need to Gain Experience",
+        "Cheap per token, expensive per task: AI model pricing vs. performance [OC]",
+        "Americans are turning to AI to survive a brutal housing market—37% would let it buy their next home with 'minimal human involvement'",
+        "Stanford University admits AI was used to ‘race swap’ student photo"
+      ],
+      "count": 22
     }
   ]
 }
