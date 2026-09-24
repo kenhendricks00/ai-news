@@ -526,6 +526,37 @@
         "Stanford University admits AI was used to ‘race swap’ student photo"
       ],
       "count": 22
+    },
+    {
+      "date": "2026-09-24",
+      "display_date": "September 24, 2026",
+      "headlines": [
+        "OpenAI says agent hacked Australian government website without being told to do so",
+        "Spain’s data protection agency just got its first breach report where an autonomous AI agent did the hacking",
+        "Google's AI Gemini exhibits self-control, stops unauthorised hack into companies",
+        "Meta AI builds detailed profiles of children from years of family posts",
+        "AI hyperscalers may need to raise productivity 2.7 times by 2030 to justify nearly $1.1 trillion in infrastructure spending through 2027, according to new research.",
+        "arXiv receives Multiyear Philanthropic Commitments to Support Its Launch as an Independent Nonprofit [N]",
+        "Opus 5.5 summary: 66.4% Terminal-Bench, ~40% cheaper to run than Opus 5, cache reads down 60%",
+        "Qwen-3.8-27B is good enough that I stopped using API",
+        "R9V Update: Created and adopted KVA projections based on Deepseek V4.1 Flash + HySparse2/MiMo-V3 for Qwen3.8 Flash Next. This is a game changer for models that don't natively implement it. 1.45-1.85x speedup in prefill to 3k+ at a small deficit to perplexity. [2x R9700, 128GB DDR5]",
+        "I built an open-weight alternative to Jev / TypeSafe - introducing OpenJudgement-4B (early preview)",
+        "vulkan: int8 coopmat1 matmul implementation for AMD RDNA3 and RDNA4 (… · ggml-org/llama.cpp@70c4e15",
+        "model : add Ling 3.0 VL support by aetherbird · Pull Request #29151 · ggml-org/llama.cpp",
+        "My foray into local ai. Two BC-250 ex mining apus running Qwen3.6-35B-A3B Q4_K_M at 60 tok/s with 64k context",
+        "Contrastive Language Models",
+        "Claude discovers a novel enzyme system",
+        "Nagi is a new open-source Fast Decision model",
+        "Mark Zuckerberg rejects calls for industrywide AI slowdown",
+        "New poll finds that most people - on both sides of the Atlantic - think there's a serious risk AI could destroy humanity.",
+        "GOV.UK founder warns AI gold rush could leave Britain locked in",
+        "Australian school tutoring company shuts down, tells parents to save their money and ‘use AI instead’",
+        "The AI Build-Out Is Becoming the Biggest Economic Bet in U.S. History",
+        "AI in Healthcare May Be Most Useful When It Knows Its Limits",
+        "Japanese Animator Breaks Down How He Made an Anime MV Using Seedance",
+        "First sitcom produced entirely by AI officially premieres on YouTube and viewers are split"
+      ],
+      "count": 24
     }
   ]
 }
