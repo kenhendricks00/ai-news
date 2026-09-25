@@ -557,6 +557,35 @@
         "First sitcom produced entirely by AI officially premieres on YouTube and viewers are split"
       ],
       "count": 24
+    },
+    {
+      "date": "2026-09-25",
+      "display_date": "September 25, 2026",
+      "headlines": [
+        "Qwengram-0.8B: I transferred Qwen3.8 Flash-Next’s n-gram memory into Qwen3.5-0.8B — 5.05% lower validation perplexity",
+        "Splash on a 40-core M5 Max: +20% decode by tuning the kernels for your own chip",
+        "PSA for M5Ultra owners running LLMs: set your prefill step to 8192",
+        "M5 Ultra 80Core GLM-5.3-Flash on DwarfStar Speeds",
+        "Ephemeris: access multiple open-source time series foundation models with a low barrier to entry",
+        "Gemma 4 Developer Agent Competition",
+        "ChatGPT Voice can use connected apps now, and it’s kind of a game changer",
+        "MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s",
+        "ComfyUI-Fizgig-H3-Tweaks",
+        "Update: my free Krea 2 character LoRA library went from 18 → 70 models. Here’s the full workflow I’m using to train them.",
+        "I made an easier way to use MiniMax H3 references in ComfyUI - Sonder Editor",
+        "You are going to love this one, working on a 3D pose editor tool for qwen image edit. Amazing Qwen-Image 2.1 🤩!",
+        "NeurIPS Accepted Papers are now visible [R]",
+        "Applying multirate DSP principles to LLMs: A hierarchical \"Semantic Vocoder\" architecture [P]",
+        "AI Agents Have Some Interesting Collaborative Survival Techniques",
+        "AI models were given $500 and a vending machine to run a business for a simulated year (Vending Bench): GPT-6 Sol turned it into $14,428, nearly matching Astra at 1/8 the cost",
+        "Meta's Muse checking on a training run and locking the Mac remotely. What agents can do once they can reach your actual computer",
+        "Can AI detect a data problem before it causes a production failure?",
+        "OpenAI prepares new $500 per month Pro Max plan for ChatGPT",
+        "Bill Gates says AI companies self-regulating isn’t enough and governments should be involved in monitoring",
+        "China and the US are racing ahead on AI. Can they manage risks together?",
+        "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs — that's why it wins."
+      ],
+      "count": 22
     }
   ]
 }
