@@ -586,6 +586,37 @@
         "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs — that's why it wins."
       ],
       "count": 22
+    },
+    {
+      "date": "2026-09-26",
+      "display_date": "September 26, 2026",
+      "headlines": [
+        "An agent used DNS to reach an external chatbot · OpenAI Alignment",
+        "OpenAI investigating 'dozens' of instances of agents acting improperly",
+        "Trump admin using AI to deny medical care for seniors in disastrous experiment. Vendors rolling out AI have an “incentive to deny as many claims as possible.”",
+        "Japanese used bookstores see 5x sales surge as books are being bought by the ton, one 50-ton order sent to the US for AI scanning and destruction — multitude of suspicious bulk buys thought to end up in foreign AI scan and shred facilities",
+        "Amazon is blocking Meta's shopping AI agent, and plans to block Google and OpenAI's too",
+        "PSA: ChatGPT's data export can take days to arrive, and the download link dies 24 hours after it does",
+        "Swift 1.5 27b: Swift Qwen just got faster",
+        "Ling Tiny 3.0 is a glimpse of the future",
+        "Introducing KoboldCpp Agent (and a plea for help)",
+        "internlm/Intern-Decision 4B and 0.8B",
+        "ggml-cpu: tiled mul_mat for k-quants by jbooth · Pull Request #27851 · ggml-org/llama.cpp",
+        "I built a tiny (332MB) CPU-friendly model for document sorting that actually knows when to say \"none fits\" (BeeNara)",
+        "Custom Models in Oh My Pi: vLLM, llama.cpp, SGLang and More",
+        "Mica v0.1 4B got an iron pickaxe in real Minecraft without generating a single token",
+        "Claude Fable 5.1 completed a frontier nine-loop particle-physics calculation experts had worked toward for years, with researchers mostly just telling it “keep going” while it built, debugged and ran the entire workflow",
+        "SciUniverse Part 2: GPT-6 Astra can run an end-to-end medicinal chemistry experiment in a real lab and use LC-MS measurements to verify that the molecule actually exists",
+        "A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference [D]",
+        "I checked the logs behind \"AI agents invent their own language.\" It looks more like jargon drift than a secret language.",
+        "New uncensored image model! Nanosaur 2 full release!",
+        "I trained a Krea 2 LoRA on 356 real portraits with a multi-parameter face vocabulary - you can prompt face features directly",
+        "Atelier Prompt Studio: Free Offline Prompt Builder and Library for Qwen Image/Edit 2.1",
+        "Benchmarked FLUX.2 klein 4B, FLUX.1 dev and Z-Image-Turbo on five GPUs from 12 GB to 96 GB, and wrote up who makes FLUX",
+        "[NEW RELEASE] Agate-001-preview, 260M parameter (including text encoder), pareto frontier model with close to SD 1.5 performance. MIT licensed & open weight. Novel thinker-renderer architecture.",
+        "Image Generation On Browser With Your Hardware: It's Possible"
+      ],
+      "count": 24
     }
   ]
 }
