@@ -617,6 +617,36 @@
         "Image Generation On Browser With Your Hardware: It's Possible"
       ],
       "count": 24
+    },
+    {
+      "date": "2026-09-27",
+      "display_date": "September 27, 2026",
+      "headlines": [
+        "The first real AI worms have arrived. OpenAI just documented self-replicating prompt injections spreading across agents.",
+        "OpenAI Agents Used Aggressive Techniques to Access U.N. Website",
+        "US and Russia cut human review of AI targets from UN draft",
+        "The Surprising Reasons China Is Skeptical of A.I. Safety Calls",
+        "Scotland's hidden pipeline of 'phantom' AI data centres",
+        "RTX 5090, once a consumer gaming card, is now on smugglers’ menu alongside cigarettes - VideoCardz.com",
+        "Finnish Study of 2,000+ Workers Found No Clear Link Between Frequent AI Use and Exhaustion — Social Comparison Was More Consistently Associated",
+        "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+        "ClashRoyaleAi: an open-source, deterministic Clash Royale simulator for RL, with recurrent PPO, lookahead search and expert iteration [P]",
+        "Apéry irrationality marked solved on FrontierMath",
+        "Nonobench v1.2: 43 LLMs on nonogram puzzles. Open-weight DeepSeek V4 Pro ties for 4th, and no open model solves the new 20×20 Hard mode",
+        "42x Faster Prompt Lookup Drafting in llama.cpp",
+        "Splash fork optimised for M5 Max: ~1.5× faster (1.25× single request)",
+        "SupersonicLabs/Julia-1 · Hugging Face",
+        "Zer0Fit - Zero-shot predictions, classifications, and regressions using Google ML research models running locally as a dockerized MCP",
+        "TensorSharp Jev requests can now combine documents, images, video, and audio",
+        "GLM-5.3-Flash works as a Jev-like decision model with the same accuracy and speed",
+        "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That",
+        "Blender camera motion + MiniMax H3 ref2vid in ComfyUI (workflow + prompts)",
+        "Ming Image is truly great at generating text and deserves more attention.",
+        "Pruna Qwen-Image 2.1 (8 steps) is now available in ZPix",
+        "Claude Opus 5.5 controlled a robot arm to copy Michelangelo, noticed it had left a broken line, and went back to fix the mistake on its own",
+        "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark"
+      ],
+      "count": 23
     }
   ]
 }
