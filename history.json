@@ -647,6 +647,35 @@
         "Claude Opus 5.5 designed a processor faster and smaller than the human-made one on the HWE benchmark"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-09-28",
+      "display_date": "September 28, 2026",
+      "headlines": [
+        "Nvidia launches new tool to keep AI agents from going rogue",
+        "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+        "Humans Are Reading Copilot Prompts - And They're Horrified",
+        "FT: Corporate America rejects overpriced frontier, embraces open models",
+        "You can just merge Qwen3.6 & 3.8 27B to get decent performance with much fewer token generation",
+        "Liked Muse, so I cut the 30B model in half by width, distilled it back, and it does 57 of 60 tool tasks its parent does 60 of",
+        "vulkan: fuse qwen4exp's SCALE -> SIGMOID -> SCALE -> hc_post chain by fxgsell · Pull Request #29520 · ggml-org/llama.cpp",
+        "Mica v0.1 4B got diamonds in survival Minecraft on its first run. 26 decisions from an empty inventory.",
+        "If you are running Qwen 3.8 Flash Next on Strix Halo, use this software for inference. It's so much faster than llama.cpp especially at high context.",
+        "macOS 27 ships a free local LLM on Apple Silicon Macs. I made it easy to use from Node and Python",
+        "Qwen3.8-Flash-Next 177B NVFP4(119GiB): SSD streaming at 9-10 tok/s on one 16 GB RTX 5060 Ti + 32 GB RAM",
+        "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
+        "Functional Gradient Descent with Adaptive Representations [R]",
+        "Qwen3-VL 8B on a laptop vs Opus 5.5 / Sonnet 5 / GPT-5.6 on 137 messy documents: beat GPT-5.6 on tax forms, lost badly on Indian date formats[R]",
+        "Browser demo of our Clash Royale RL environment: a 5.6k-parameter REINFORCE policy learns defensive placement against a brute-force optimum [P]",
+        "Cybergym bench : How a tiny team is beating a unicorn security LLM at actual crash reproduction",
+        "MiniMax H3 REF + Fizgig Nodes: As SOTA (Ref2Img \\ Img2Img) True Image Editing Model, Native 4096x1536 in 1 Minute, WF + Prompt for Every Example.",
+        "A LoRA I made: AnyAngle LoRA for Qwen Image 2.1. Style-Aligned Arbitrary Camera Angles",
+        "Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included",
+        "Two nodes to fix Qwen 2.1 pixel drift during edit operations",
+        "Yeufonic - a YuE2-based music creation/management app with local LoRA training",
+        "Fizgig 6.5.0 - Qwen Image 2.1 and a new Qwen Image 2.1 Training Adapter"
+      ],
+      "count": 22
     }
   ]
 }
