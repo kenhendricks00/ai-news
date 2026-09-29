@@ -676,6 +676,36 @@
         "Fizgig 6.5.0 - Qwen Image 2.1 and a new Qwen Image 2.1 Training Adapter"
       ],
       "count": 22
+    },
+    {
+      "date": "2026-09-29",
+      "display_date": "September 29, 2026",
+      "headlines": [
+        "Claude Sonnet 5.5 Released",
+        "IQuestLab/IQuest-Q1 · Hugging Face",
+        "[Release] GSQ-RCO GGUFs for Qwen3.8-Flash-Next, plus a 50% expert-pruned Coder build at ~1.89 bpw",
+        "Ornith-1.5 DFlash",
+        "[RELEASE UPDATE] Agate-003-preview / better than SD 1.5 performance at 3x less parameters (<300M param including text encoder & VAE) with only 5000 EUR GPU cost.",
+        "A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is genuinely unsettling.",
+        "CoWindow and MassAlloc Attention: collective causal coverage and distribution-adaptive compute [R]",
+        "I wrote a free, open-source book on making ML models actually fast, from silicon to agents [P]",
+        "Qwen 3.8 27B Q4 with 100K context on a 16 GB RX 7800 XT guide",
+        "AMD's new 256 core EPYC has 16-channel DDR5-12800, 91% memory bandwidth of an RTX 5090",
+        "As agents move from conversational prompts to persistent VMs with 100M free tokens, how should we rethink agent prompt boundaries?",
+        "Reuters: Anthropic files for $2T IPO with $42B net loss in 2025, expects to spend half a trillion in 2027",
+        "OpenAI Scraps Release of New AI Model Over Safety Concerns (WSJ Exclusive)",
+        "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
+        "OpenAI rogue agents leaked 53 images from ChatGPT users and reportedly created nearly 1 million links packing encoded bits of info",
+        "Contradicting Trump, Pope Leo says artificial intelligence safety concerns aren’t ‘fake news’",
+        "AI could force 11 million US workers into new careers by 2035",
+        "OpenAI now says its AI shouldn’t be trained until someone can prove it’s safe to",
+        "Anthropic warns AI may pose 'existential risks to humanity' in IPO filing - Reuters",
+        "Vlo 0.3 - An open source, extensible video editor and generator designed for AI compositing.",
+        "Open Edit: An open source, video editor editing agent.",
+        "Qwen 2.1: Easy way to create a consistent face character. No lora. Only prompt and reference image.",
+        "A Summer of Discontent Around ChatGPT’s Upload Deletion Function"
+      ],
+      "count": 23
     }
   ]
 }
