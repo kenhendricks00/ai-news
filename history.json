@@ -706,6 +706,38 @@
         "A Summer of Discontent Around ChatGPT’s Upload Deletion Function"
       ],
       "count": 23
+    },
+    {
+      "date": "2026-09-30",
+      "display_date": "September 30, 2026",
+      "headlines": [
+        "OpenAI launches GPT-6.1 Sol",
+        "add GLM-5.3-Flash (GLM5-Next) support by timkhronos · Pull Request #27773 · ggml-org/llama.cpp",
+        "BAAI/AREX-2 - 27B - Agent model based on Qwen3.8 27B",
+        "Oído: speech recognition that beats Whisper-tiny, running on a $5 microcontroller (open source)",
+        "Deepseek Harness app is out now!!!",
+        "LessThink-Qwen3-4B: the same model, with far less thinking [P]",
+        "Follow-up: my native Rust + Vulkan Transformer training backend — 14 days later, now 14 parity-verified architectures and full PEFT",
+        "Five local models, 6.8 GB of weights: my open-source Mac meeting notetaker",
+        "AMD boosting AI/LLM performance for Radeon iGPUs as much as 18~23% with Linux 7.4",
+        "PSA: ModelScope CLI is now moved to \"modelscope-hub\"",
+        "Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes [R]",
+        "Open-sourcing RightWayUp - a 360-degree image rotation model, and a JPEG shortcut we found in a common benchmark [P]",
+        "I've been measuring 34 LLM APIs every day since August to see when they quietly change. One did.",
+        "Consumer AI spending tripled to $40B, but the user base only grew from 1.8B to 2B",
+        "Anthropic is opening AI interviews to public release. How should we account for the missing voices?",
+        "What ChatGPT Thinks It Knows About You Is Affecting Its Answers. Here’s How to Change That",
+        "Dyna Robotics demos their humanoid robot performing laundry tasks, loading/unloading washers and dryers, as well as folding and stacking towels",
+        "BBC: OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+        "Trump's meeting with tech leaders leaves AI safety more unsettled than ever",
+        "Trump says AI companies agree to 'self-police'",
+        "Cruz blocks push by Democrats to unanimously pass AI safety bill",
+        "GLM-5.3 and the Spread of Advanced Cyber Capabilities \\ Anthropic",
+        "OpenAI Ignored Employees Who Warned It Wasn’t Doing Enough About Security",
+        "Robinhood just rolled out trading agents to millions—and investing may never be the same"
+      ],
+      "post_count": 24,
+      "count": 24
     }
   ]
 }
