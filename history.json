@@ -738,6 +738,36 @@
       ],
       "post_count": 24,
       "count": 24
+    },
+    {
+      "date": "2026-10-01",
+      "headlines": [
+        "Introducing Gemini 4 Argon",
+        "OpenAI halved its own pricing from GPT-6 Astra to match Google gemini argon",
+        "New Model Ideogram 4.5 (with edit) (open source soon)",
+        "Two open-weights releases: Victoria (Qwen3.8-Flash-Next with 44% of experts cut, 70% Terminal-Bench 2.1, GGUF included) and Maple (a Canada-first fine-tune)",
+        "PewDiePie has just launched a new uncensored AI model (based on Qwen 3.5 9B)",
+        "Qwen4Exp: add MTP by am17an · Pull Request #29761 · ggml-org/llama.cpp",
+        "We just open-sourced the world's fastest WebGPU kernels for local AI on Hugging Face",
+        "Open source inference engine (like LM Studio or Unsloth Desktop) that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD or nothing but a CPU.",
+        "Oído: speech recognition that beats Whisper-tiny, running on a $5 microcontroller (open source)",
+        "DeepSeek harness 0.2 - Optional Bundle Architecture, Windows Sandbox improvements, Async Question Mode, Desktop release, Web Search without key",
+        "I got tired of node graphs, so I built a one-button local image generator on top of stable-diffusion.cpp",
+        "LLMs that push back on a wrong user still accept the same wrong answer from a \"verified source\" - NeurIPS 2026 [R]",
+        "We benchmarked 18 RAG pipelines against an agent loop on Google's FRAMES. The best pipeline hit 78.9%. The agent loop hit 92.7%.",
+        "Parallel-in-Time Training of Recurrent Neural Networks for Dynamical Systems Reconstruction [R]",
+        "Tokenization: A Survey for Modern NLP [R]",
+        "Qwen-family LLMs are quietly becoming the backbone of modern audio models; One chart for the architectures of 100+ audio models [R]",
+        "LessThink-Qwen3-4B: the same model, with far less thinking [P]",
+        "Anthropic's robot study separates task capability from cost. Which assumptions need the closest scrutiny?",
+        "Viggle turbo v0.3 for Qwen image 2.1: less grain and cleaner surfaces",
+        "Continuity update: screen replacement, image to 3D, Qwen Image 2.1, and a lot more since 3.0",
+        "Local Image to 3D: High quality, Low poly - preserve minute details like text, logos even after retopo, ~900k faces > ~5k (NVIDIA + Mac)",
+        "California Bans Using AI to Monitor Workers’ Brains, Emotions",
+        "Reddit is killing RSS feeds and ending public API access because of AI bots",
+        "Meta responds after Muse AI gave stranger YouTuber’s home address on Facebook Marketplace"
+      ],
+      "count": 24
     }
   ]
 }
