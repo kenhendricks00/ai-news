@@ -768,6 +768,38 @@
         "Meta responds after Muse AI gave stranger YouTuber’s home address on Facebook Marketplace"
       ],
       "count": 24
+    },
+    {
+      "date": "2026-11-05",
+      "display_date": "November 5, 2026",
+      "headlines": [
+        "Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen daily limits cut from $300 to $200, with further reductions to $100 planned. Other teams could see limits fall to $25.",
+        "Anthropic’s FlashProve could prove an AI provider used the model you paid for without exposing its weights",
+        "Cognition launches SWE-2 Flash: a coding agent model 3x faster at one-fifth the price",
+        "Apple put a warning about rogue AI agents in its 10-K. That’s a legal filing, not a blog post.",
+        "When LLMs edit neural weights directly, how do we version-control them? Announcing wpgit & Weight-Space Software Engineering (Paper + Code)",
+        "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+        "Do looped transformers save HBM traffic? Profiling weight reuse in Huginn on a B200 [P]",
+        "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+        "A model that listens to the recording: asking Ming-3.0-audio-flash what it hears",
+        "Dream come true: I trained 48 in-browser 24 kHz TTS specialists for Classical Sanskrit, English & 10 Indic languages (21.7 MB iSTFTNet / 27.9 MB HiFi-GAN, 538ms phone WASM)",
+        "Getting editable layers out of Qwen-Image 2.1, a model that only edits: what works, what still fails (local, open source) Kokon",
+        "An open-source project just ranked #1 on EnterpriseRAG-Bench, ahead of the listed systems from OpenAI, Google, Microsoft and Amazon",
+        "Int8-vllm updated with Nemotron 3.5 Bolt 74B",
+        "baidu/ERNIE-5.5-Flash-Base · Hugging Face",
+        "CCORE GLB-3D-Coder 4B final model and full weights are out",
+        "Krea 2 Turbo - 4 Step LoRA comeback (trained to 133K checkpoint, around 55K more than the 'final' 78K in Sep)",
+        "Viggle Remake: open weights for recasting / editing whole videos.",
+        "Fizgig 9.0.4: Fibo 2.0 training, Z-Image Base, masks from Sam 3.1, Detail crops for styles",
+        "HexAnima: Anima on the Snapdragon 8 Gen 1 NPU, 512x768 in ~7 s, fully offline, no root",
+        "I tested Regenerate 2K with MiniMax H3: 14 runs, same seed. More detail, but for real people it either invents flaws or changes the face",
+        "Kandinsky S2V 1.0 - 2B and 21B models.",
+        "One line of text or a song in, a finished film out — my free, open-source video studio runs it all locally on a 16 GB RTX (Remiqora Video 0.3)",
+        "Singapore lawmaker proposes national digital identity system for AI agents in Parliament",
+        "OpenAI's agent pipeline found 948 Linux root exploits - and 20 early \"successes\" used the wrong bug entirely"
+      ],
+      "post_count": 24,
+      "count": 24
     }
   ]
 }

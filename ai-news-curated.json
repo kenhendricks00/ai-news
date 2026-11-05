@@ -1,231 +1,242 @@
-{
-  "date": "2026-06-28",
-  "date_formatted": "June 28, 2026",
-  "posts": [
-    {
-      "title": "We're probably going to need that soon.",
-      "subreddit": "LocalLLaMA",
-      "score": "1609",
-      "category": "MODEL LAUNCH",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uht2m0/were_probably_going_to_need_that_soon/",
-      "author": "Nunki08",
-      "num_comments": "216"
-    },
-    {
-      "title": "Updates for ChatGPT",
-      "subreddit": "ChatGPT",
-      "score": "3561",
-      "category": "OPENAI",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-      "author": "samaltman",
-      "num_comments": "1412"
-    },
-    {
-      "title": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
-      "subreddit": "singularity",
-      "score": "167",
-      "category": "ANTHROPIC",
-      "url": "https://www.reddit.com/r/singularity/comments/1uhkyg4/china_has_matched_anthropic_in_cybersecurity/",
-      "author": "yogthos",
-      "num_comments": "42"
-    },
-    {
-      "title": "Breaking news! Gemini 3.5 pro so ass the US government intervened to keep it out of the US!",
-      "subreddit": "singularity",
-      "score": "1684",
-      "category": "GOOGLE",
-      "url": "https://www.reddit.com/r/singularity/comments/1uh259r/breaking_news_gemini_35_pro_so_ass_the_us/",
-      "author": "THE--GRINCH",
-      "num_comments": "169"
-    },
-    {
-      "title": "Yann LeCun says xAI is a failure",
-      "subreddit": "singularity",
-      "score": "1460",
-      "category": "XAI",
-      "url": "https://www.reddit.com/r/singularity/comments/1ugfgzu/yann_lecun_says_xai_is_a_failure/",
-      "author": "Formal-Assistance02",
-      "num_comments": "311"
-    },
-    {
-      "title": "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
-      "subreddit": "singularity",
-      "score": "304",
-      "category": "AI AGENTS",
-      "url": "https://www.reddit.com/r/singularity/comments/1uhxshz/meanwhile_in_china_10000_delivery_bots_are/",
-      "author": "Distinct-Question-16",
-      "num_comments": "111"
-    },
-    {
-      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
-      "subreddit": "singularity",
-      "score": "64",
-      "category": "AI CODING",
-      "url": "https://www.reddit.com/r/singularity/comments/1uh4k19/dspark_speculative_decoding_accelerates_llm/",
-      "author": "yogthos",
-      "num_comments": "6"
-    },
-    {
-      "title": "Krea2 style transfer: first release",
-      "subreddit": "StableDiffusion",
-      "score": "144",
-      "category": "RESEARCH",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1uhpiov/krea2_style_transfer_first_release/",
-      "author": "Winter_unmuted",
-      "num_comments": "15"
-    },
-    {
-      "title": "Showcase: geolocating a dashcam video without GPS, only from the footage [P]",
-      "subreddit": "MachineLearning",
-      "score": "18",
-      "category": "VIDEO GEN",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1ufx8nx/showcase_geolocating_a_dashcam_video_without_gps/",
-      "author": "Ok-Apricot956",
-      "num_comments": "16"
-    },
-    {
-      "title": "ComfyUI now natively supports INT8 tested and confirmed",
-      "subreddit": "StableDiffusion",
-      "score": "240",
-      "category": "IMAGE GEN",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1uhcg69/comfyui_now_natively_supports_int8_tested_and/",
-      "author": "Winougan",
-      "num_comments": "220"
-    },
-    {
-      "title": "Ngl, it's gonna be glorious when it happens. AI should be available to all and not only to selected few among the elites.",
-      "subreddit": "singularity",
-      "score": "539",
-      "category": "AI TOOLS",
-      "url": "https://www.reddit.com/r/singularity/comments/1ugnifs/ngl_its_gonna_be_glorious_when_it_happens_ai/",
-      "author": "Boring_Aioli7916",
-      "num_comments": "242"
-    },
-    {
-      "title": "In all the excitement pointing fingers at Dario we forgot to ask how (or why) is the commerce secretary directing national and global AI policy for the US moving forward?",
-      "subreddit": "singularity",
-      "score": "404",
-      "category": "AI POLICY",
-      "url": "https://www.reddit.com/r/singularity/comments/1uhgq6g/in_all_the_excitement_pointing_fingers_at_dario/",
-      "author": "Cagnazzo82",
-      "num_comments": "168"
-    },
-    {
-      "title": "OWNING HARDWARE THAT CAN RUN MODELS LOCALLY MATTERS MORE THAN EVER",
-      "subreddit": "ArtificialInteligence",
-      "score": "262",
-      "category": "HARDWARE",
-      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1uh100j/owning_hardware_that_can_run_models_locally/",
-      "author": "0xMassii",
-      "num_comments": "106"
-    },
-    {
-      "title": "NagaTranslate: Building a translation and voice pipeline for low-resource Nagaland creoles (Whisper, VITS, LLMs) [P]",
-      "subreddit": "MachineLearning",
-      "score": "9",
-      "category": "VOICE AI",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/",
-      "author": "Material_Dinner_1924",
-      "num_comments": "3"
-    },
-    {
-      "title": "Japanese animator using Seedance to render anime from simple 3D models",
-      "subreddit": "singularity",
-      "score": "2723",
-      "category": "AGI",
-      "url": "https://www.reddit.com/r/singularity/comments/1ue6yoh/japanese_animator_using_seedance_to_render_anime/",
-      "author": "PointmanW",
-      "num_comments": "366"
-    },
-    {
-      "title": "A debugger for RL reward functions that detects reward hacking during training [P]",
-      "subreddit": "MachineLearning",
-      "score": "279",
-      "category": "AI NEWS",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
-      "author": "BaniyanChor",
-      "num_comments": "20"
-    },
-    {
-      "title": "Dario has been doing this for years",
-      "subreddit": "OpenAI",
-      "score": "2130",
-      "category": "OPENAI",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1ugbi6w/dario_has_been_doing_this_for_years/",
-      "author": "DigSignificant1419",
-      "num_comments": "166"
-    },
-    {
-      "title": "This might be Sam Altman\u2019s most controversial non-AI tweet.",
-      "subreddit": "ChatGPT",
-      "score": "1149",
-      "category": "OPENAI",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1uhr5l4/this_might_be_sam_altmans_most_controversial/",
-      "author": "imfrom_mars_",
-      "num_comments": "247"
-    },
-    {
-      "title": "96gb+ 4090's and 5090 are literally a scam. I mods these cards myself",
-      "subreddit": "LocalLLaMA",
-      "score": "847",
-      "category": "MODEL LAUNCH",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh1lc7/96gb_4090s_and_5090_are_literally_a_scam_i_mods/",
-      "author": "computune",
-      "num_comments": "195"
-    },
-    {
-      "title": "Gpt 5.6 better than Mythos 5 that's crazy",
-      "subreddit": "OpenAI",
-      "score": "793",
-      "category": "OPENAI",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1ugd1pa/gpt_56_better_than_mythos_5_thats_crazy/",
-      "author": "Independent-Wind4462",
-      "num_comments": "191"
-    },
-    {
-      "title": "KREA 2: Open-Source Release",
-      "subreddit": "StableDiffusion",
-      "score": "689",
-      "category": "MODEL LAUNCH",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1udjzm6/krea_2_opensource_release/",
-      "author": "Angrypenguinpng",
-      "num_comments": "93"
-    },
-    {
-      "title": "US Ban Benchmark Updated: Toe-to-toe Between Two Big Names!",
-      "subreddit": "OpenAI",
-      "score": "626",
-      "category": "OPENAI",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1uh2m8s/us_ban_benchmark_updated_toetotoe_between_two_big/",
-      "author": "Tudragon123456",
-      "num_comments": "61"
-    },
-    {
-      "title": "Remember the creator of Reddit",
-      "subreddit": "OpenAI",
-      "score": "539",
-      "category": "OPENAI",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1uhalo0/remember_the_creator_of_reddit/",
-      "author": "Excellent_Call_5954",
-      "num_comments": "13"
-    },
-    {
-      "title": "The US lifts its block on Mythos 5",
-      "subreddit": "singularity",
-      "score": "535",
-      "category": "AGI",
-      "url": "https://www.reddit.com/r/singularity/comments/1ugme72/the_us_lifts_its_block_on_mythos_5/",
-      "author": "Charuru",
-      "num_comments": "76"
-    },
-    {
-      "title": "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
-      "subreddit": "singularity",
-      "score": "508",
-      "category": "AGI",
-      "url": "https://www.reddit.com/r/singularity/comments/1ugw8t1/demis_hassabis_ai_can_now_reconstruct_what_people/",
-      "author": "TorturedPoet30",
-      "num_comments": "70"
-    }
-  ]
-}
+[
+  {
+    "title": "Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen daily limits cut from $300 to $200, with further reductions to $100 planned. Other teams could see limits fall to $25.",
+    "url": "https://www.reddit.com/r/artificial/comments/1xocwcy/apple_is_cutting_employee_ai_spending_budgets/",
+    "author": "Eliv_nurotic",
+    "subreddit": "artificial",
+    "date": "2026-11-05",
+    "thumbnail": "https://preview.redd.it/o8l9f1ml1rzh1.jpeg?width=640&crop=smart&auto=webp&s=a72592038782c75b8865c0796a8c48e80df7ab1d",
+    "tag": "AI COMPANY",
+    "why": "Apple reportedly tightened employees’ daily AI spending limits. That puts the cost of internal AI use under scrutiny even as adoption rises."
+  },
+  {
+    "title": "Anthropic’s FlashProve could prove an AI provider used the model you paid for without exposing its weights",
+    "url": "https://www.reddit.com/r/artificial/comments/1xnrvak/anthropics_flashprove_could_prove_an_ai_provider/",
+    "author": "Spirited-Sir-3034",
+    "subreddit": "artificial",
+    "date": "2026-11-04",
+    "thumbnail": "https://external-preview.redd.it/6rQaawW7Milkn-GryKuilD6bFqVwi03YevTwq8GDu44.jpeg?width=640&crop=smart&auto=webp&s=ec4c0bf87d2323822ebbaf2eaa89863f4934eb5a",
+    "tag": "RESEARCH",
+    "why": "The post describes a way to verify which model served a request without revealing its weights. Independent details are worth checking before treating the claim as proven."
+  },
+  {
+    "title": "Cognition launches SWE-2 Flash: a coding agent model 3x faster at one-fifth the price",
+    "url": "https://www.reddit.com/r/artificial/comments/1xo27a9/cognition_launches_swe2_flash_a_coding_agent/",
+    "author": "winer666",
+    "subreddit": "artificial",
+    "date": "2026-11-04",
+    "thumbnail": "",
+    "tag": "MODEL LAUNCH",
+    "why": "Cognition claims a faster, cheaper coding agent model. The price and speed comparison need a like-for-like workload test."
+  },
+  {
+    "title": "Apple put a warning about rogue AI agents in its 10-K. That’s a legal filing, not a blog post.",
+    "url": "https://www.reddit.com/r/artificial/comments/1xnudhs/apple_put_a_warning_about_rogue_ai_agents_in_its/",
+    "author": "Dapper-Tale-4021",
+    "subreddit": "artificial",
+    "date": "2026-11-04",
+    "thumbnail": "",
+    "tag": "AI SAFETY",
+    "why": "A claimed 10-K disclosure would put agent-related risks in a formal investor filing. The underlying filing is the important source to inspect."
+  },
+  {
+    "title": "When LLMs edit neural weights directly, how do we version-control them? Announcing wpgit & Weight-Space Software Engineering (Paper + Code)",
+    "url": "https://www.reddit.com/r/artificial/comments/1xo54c3/when_llms_edit_neural_weights_directly_how_do_we/",
+    "author": "bigspin5050",
+    "subreddit": "artificial",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "RESEARCH",
+    "why": "A proposed version-control workflow for edited model weights tackles reproducibility as models begin changing other models."
+  },
+  {
+    "title": "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+    "author": "sergbur",
+    "subreddit": "MachineLearning",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "RESEARCH",
+    "why": "Procedural hallucination tests whether an agent invents steps in a conversation. A benchmark could make that failure easier to measure."
+  },
+  {
+    "title": "Do looped transformers save HBM traffic? Profiling weight reuse in Huginn on a B200 [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+    "author": "2dayyy6",
+    "subreddit": "MachineLearning",
+    "date": "2026-11-04",
+    "thumbnail": "https://preview.redd.it/h7a0hkamgmzh1.jpeg?width=640&crop=smart&auto=webp&s=c3e61dc14d449c0cdb3608683567cdd297af29bb",
+    "tag": "RESEARCH",
+    "why": "Weight reuse may reduce memory traffic, but profiling on a B200 tests whether the theoretical savings show up in practice."
+  },
+  {
+    "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+    "author": "AKAMA199",
+    "subreddit": "MachineLearning",
+    "date": "2026-11-04",
+    "thumbnail": "https://preview.redd.it/ykjgz5i39kzh1.png?width=140&height=105&auto=webp&s=aa9661d9c922aa8d678e519d09f9e1a41bfa221b",
+    "tag": "MODEL LAUNCH",
+    "why": "The project claims a strong scientific-reasoning result at lower estimated output cost. Check the task mix and cost assumptions before comparing models."
+  },
+  {
+    "title": "A model that listens to the recording: asking Ming-3.0-audio-flash what it hears",
+    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1xobrzm/a_model_that_listens_to_the_recording_asking/",
+    "author": "truecakesnake",
+    "subreddit": "ArtificialInteligence",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "MODEL LAUNCH",
+    "why": "An audio model that answers questions about a recording may help with sound-aware assistants. The Reddit demonstration is a first look, not an independent benchmark."
+  },
+  {
+    "title": "Dream come true: I trained 48 in-browser 24 kHz TTS specialists for Classical Sanskrit, English & 10 Indic languages (21.7 MB iSTFTNet / 27.9 MB HiFi-GAN, 538ms phone WASM)",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xolsyu/dream_come_true_i_trained_48_inbrowser_24_khz_tts/",
+    "author": "init0",
+    "subreddit": "LocalLLaMA",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "OPEN SOURCE",
+    "why": "Ninada’s author says its 48 small voice models run in-browser across Indic languages and English. Local speech synthesis can keep audio off a remote server."
+  },
+  {
+    "title": "Getting editable layers out of Qwen-Image 2.1, a model that only edits: what works, what still fails (local, open source) Kokon",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoji3b/getting_editable_layers_out_of_qwenimage_21_a/",
+    "author": "Ok-Director4174",
+    "subreddit": "LocalLLaMA",
+    "date": "2026-11-05",
+    "thumbnail": "https://external-preview.redd.it/ZHZlejMyN213c3poMbhqWEyBmwZ9GRrQJ8AvgN153PrD05k9GMdbWSAhKx0I.png?width=640&crop=smart&auto=webp&s=e85d178e878a33a2f6d9155cbc1a491ab989a9a6",
+    "tag": "AI CREATIVE",
+    "why": "Editable layers are a practical test of whether image-generation output can fit a normal design workflow."
+  },
+  {
+    "title": "An open-source project just ranked #1 on EnterpriseRAG-Bench, ahead of the listed systems from OpenAI, Google, Microsoft and Amazon",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoiaye/an_opensource_project_just_ranked_1_on/",
+    "author": "Effective-Ad2060",
+    "subreddit": "LocalLLaMA",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "OPEN SOURCE",
+    "why": "A community RAG project claims the top spot on this benchmark. The dataset and evaluation setup matter more than the rank alone."
+  },
+  {
+    "title": "Int8-vllm updated with Nemotron 3.5 Bolt 74B",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xod8nb/int8vllm_updated_with_nemotron_35_bolt_74b/",
+    "author": "1ncehost",
+    "subreddit": "LocalLLaMA",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "AI TOOLS",
+    "why": "INT8 support could make a large Nemotron model less costly to serve. Check memory use and quality changes before deploying it."
+  },
+  {
+    "title": "baidu/ERNIE-5.5-Flash-Base · Hugging Face",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xobtwx/baiduernie55flashbase_hugging_face/",
+    "author": "External_Mood4719",
+    "subreddit": "LocalLLaMA",
+    "date": "2026-11-05",
+    "thumbnail": "https://external-preview.redd.it/aBDfPBmHZwva1k8NhSC9HJudRoM3VnxtJCuKuZpoGfw.png?width=140&height=75&auto=webp&s=6cbedb574e1ac54abaaf3ad287235ec17043dd4f",
+    "tag": "MODEL LAUNCH",
+    "why": "A new model listing on Hugging Face may give local-model users another base model to evaluate; inspect the model card and license."
+  },
+  {
+    "title": "CCORE GLB-3D-Coder 4B final model and full weights are out",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xobe4h/ccore_glb3dcoder_4b_final_model_and_full_weights/",
+    "author": "ConfidentDinner6648",
+    "subreddit": "LocalLLaMA",
+    "date": "2026-11-05",
+    "thumbnail": "https://external-preview.redd.it/dDhwdndidjVmcXpoMdATf-8Xp_s2kD-hsn5Tl7S0Um_KuQ6TsHijxPwKMHWz.png?width=640&crop=smart&auto=webp&s=5ca3438ea2112c3b4c6e82d1e4c66f89432ff690",
+    "tag": "OPEN SOURCE",
+    "why": "A small coding model with published weights is a candidate for local experiments, especially where memory is tight."
+  },
+  {
+    "title": "Krea 2 Turbo - 4 Step LoRA comeback (trained to 133K checkpoint, around 55K more than the 'final' 78K in Sep)",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/",
+    "author": "TimeTruth2490",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-05",
+    "thumbnail": "https://preview.redd.it/nboftp2kiszh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=c206490eb7707b3eab2686844a242a1d6dc188fa",
+    "tag": "AI CREATIVE",
+    "why": "The updated four-step LoRA invites fresh image-quality and speed tests against the earlier checkpoint."
+  },
+  {
+    "title": "Viggle Remake: open weights for recasting / editing whole videos.",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnui9u/viggle_remake_open_weights_for_recasting_editing/",
+    "author": "init-5",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-04",
+    "thumbnail": "https://external-preview.redd.it/Mnc3NWpiam50bXpoMeR-0bx4GVOkXiSo5Tbk1yxy2kUDESbcV_kqRQrHvlzI.png?width=640&crop=smart&auto=webp&s=865fce8341f5050bee93d892f8b1a5b3eab0c08b",
+    "tag": "OPEN SOURCE",
+    "why": "Open weights for video recasting could let creators test the workflow locally instead of relying only on a hosted service."
+  },
+  {
+    "title": "Fizgig 9.0.4: Fibo 2.0 training, Z-Image Base, masks from Sam 3.1, Detail crops for styles",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xo18u8/fizgig_904_fibo_20_training_zimage_base_masks/",
+    "author": "shootthesound",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-04",
+    "thumbnail": "",
+    "tag": "AI TOOLS",
+    "why": "This release lists training and masking updates, including SAM 3.1 support. It is relevant to people maintaining local image pipelines."
+  },
+  {
+    "title": "HexAnima: Anima on the Snapdragon 8 Gen 1 NPU, 512x768 in ~7 s, fully offline, no root",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xom1b9/hexanima_anima_on_the_snapdragon_8_gen_1_npu/",
+    "author": "shirosoro",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-05",
+    "thumbnail": "https://preview.redd.it/axoslfxvetzh1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=ae509c1efe6df65e9851b6cd28be7c59aa44acfe",
+    "tag": "AI DEPLOYMENT",
+    "why": "A claimed seven-second, offline image generation run on a phone-class chip shows where on-device workflows may be heading."
+  },
+  {
+    "title": "I tested Regenerate 2K with MiniMax H3: 14 runs, same seed. More detail, but for real people it either invents flaws or changes the face",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xob7nl/i_tested_regenerate_2k_with_minimax_h3_14_runs/",
+    "author": "ReferenceFluffy6159",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-05",
+    "thumbnail": "https://preview.redd.it/eype5dmliqzh1.png?width=140&height=78&auto=webp&s=71b683aec727b20e11cab6e991ea027c3930751d",
+    "tag": "AI CREATIVE",
+    "why": "A repeated-seed test reports more detail but also changed faces. Identity drift matters when using AI for real-person image editing."
+  },
+  {
+    "title": "Kandinsky S2V 1.0 - 2B and 21B models.",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xnvslg/kandinsky_s2v_10_2b_and_21b_models/",
+    "author": "Crazy-Repeat-2006",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-04",
+    "thumbnail": "https://external-preview.redd.it/eTF6Y3U0c3AxbnpoMShj8DyyCzKNDqAc3Boc87ARW7SFIvmHsULpzVKMzcDY.png?width=640&crop=smart&auto=webp&s=6a605269decfa1ed09d6cce8b3880842bb1d0510",
+    "tag": "MODEL LAUNCH",
+    "why": "Two reported model sizes could give local video creators a choice between lower hardware demands and a larger model."
+  },
+  {
+    "title": "One line of text or a song in, a finished film out — my free, open-source video studio runs it all locally on a 16 GB RTX (Remiqora Video 0.3)",
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1xoh39a/one_line_of_text_or_a_song_in_a_finished_film_out/",
+    "author": "inikolax",
+    "subreddit": "StableDiffusion",
+    "date": "2026-11-05",
+    "thumbnail": "https://external-preview.redd.it/MjRtNWl0dDJic3poMXjPs3gOgJpQ1qVNvelf4rTHdNd5MshFudWY6RiDanwt.png?width=640&crop=smart&auto=webp&s=7c08222f566365ee3895274ad4fe72399070bcdc",
+    "tag": "OPEN SOURCE",
+    "why": "The maker claims a local video workflow on a 16 GB RTX card. Reproduction and output quality remain the questions to check."
+  },
+  {
+    "title": "Singapore lawmaker proposes national digital identity system for AI agents in Parliament",
+    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1xnqhbe/singapore_lawmaker_proposes_national_digital/",
+    "author": "LanJiaoDuaKee",
+    "subreddit": "ArtificialInteligence",
+    "date": "2026-11-04",
+    "thumbnail": "",
+    "tag": "AI POLICY",
+    "why": "A proposal to identify AI agents could affect accountability and how automated services authenticate. It is a proposal, not enacted law."
+  },
+  {
+    "title": "OpenAI's agent pipeline found 948 Linux root exploits - and 20 early \"successes\" used the wrong bug entirely",
+    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1xoh384/openais_agent_pipeline_found_948_linux_root/",
+    "author": "shoumikgoswami",
+    "subreddit": "ArtificialInteligence",
+    "date": "2026-11-05",
+    "thumbnail": "",
+    "tag": "AI SAFETY",
+    "why": "The post says some early reported successes targeted the wrong bug. Verification quality matters as much as an agent’s raw exploit count."
+  }
+]
